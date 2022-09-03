@@ -1,0 +1,2677 @@
+eg_var_name,eg_var_label,eg_var_type
+su_id,"ENTER SU_ID TO TEST
+","string(str8)
+"
+idate,"Interview date (Startdate only)
+","numericdailydate(double)
+"
+agecalc,"CALCULATED AGE
+","numeric(byte)
+"
+consent1,"Consent 1, >=18
+","numeric(byte)
+"
+consent2,"Consent 2, R Read Form Himself
+","numeric(byte)
+"
+consent3,"Consent 3, FI Read Form
+","numeric(byte)
+"
+assent1,"Assent 1, >=18
+","numeric(byte)
+"
+assent2,"Assent 2, R Read Form Himself
+","numeric(byte)
+"
+assent3,"Assent 3, FI Read Form
+","numeric(byte)
+"
+starttime,"At what time did this interview start?
+","numericdailydate(long)
+"
+finishtime,"At what time did this interview finish?
+","numericdailydate(long)
+"
+cdphconsent,"TURN TO CONSENT FORM/ASSENT FORM - PART N (CONSENT)/PART P (ASSENT) – CDPH RESU
+","numeric(byte)
+"
+begtime,"BEGINNING DATE/TIME
+","numericdailydate(long)
+"
+wherelive,"8. Where do you live? The closest intersection or cross-streets is OK.
+","numeric(byte)
+"
+cityarea,"Is that the South Side, North Side, West Side, East Side, South Suburbs or so
+","numeric(byte)
+"
+cityarea_othspec,"(unlabeled)
+","string(str26),butlongestisstr10
+"
+sleep7dys,"How many past 7 nights spend outside cityarea?
+","numeric(byte)
+"
+sleepareasside,"SLEEPAREA South Side
+","numeric(byte)
+"
+sleepareanside,"SLEEPAREA North Side
+","numeric(byte)
+"
+sleepareawside,"SLEEPAREA West Side
+","numeric(byte)
+"
+sleepareaeside,"SLEEPAREA East Side
+","numeric(byte)
+"
+sleepareassuburbs,"SLEEPAREA South Suburbs
+","numeric(byte)
+"
+sleepareaoth,"SLEEPAREA Other (SPECIFY)
+","numeric(byte)
+"
+sleepareadk,"SLEEPAREA DON'T KNOW
+","numeric(byte)
+"
+sleeparearef,"SLEEPAREA REFUSED
+","numeric(byte)
+"
+sleeparea_othspec,"SLEEPAREA What other sleeparea specify?
+","string(str29),butlongestisstr15
+"
+sleeparea_upstate_vltrd,"SLEEPAREA Upstate IL (Volunteered)
+","numeric(double)
+"
+sleeparea_downstate_vltrd,"SLEEPAREA Downstate IL (Volunteered)
+","numeric(double)
+"
+sleeparea_nsuburbs_vltrd,"SLEEPAREA North Suburbs (Volunteered)
+","numeric(double)
+"
+sleeparea_wsuburbs_vltrd,"SLEEPAREA West Suburbs (Volunteered)
+","numeric(double)
+"
+sleeparea_outofstate_vltrd,"SLEEPAREA Out of State (Volunteered)
+","numeric(double)
+"
+sleeparea_downtown_vltrd,"SLEEPAREA Downtown (Volunteered)
+","numeric(double)
+"
+healthcov,"Currently have health care coverage?
+","numeric(byte)
+"
+hlthcovtyp,"What type of health care coverage do you have?
+","string(strL)
+"
+hlthcovtyp_cat,"Type of Health Care Coverage (Categorized Open Responses)
+","Whattypeofhealthcarecoveragedoyouhave?RECORD.
+"
+transgend,"Consider self transgender?
+","numeric(long)
+"
+sexorient,"Sexual orientation
+","numeric(byte)
+"
+sexorient_othspec,"What other sexual orientation, specify?
+","numeric(byte)
+"
+evsexfem,"Ever sex with a Female
+","string(str23),butlongestisstr19
+"
+numpars1,"Sex partners last 6 months
+","numeric(byte)
+"
+hivposnodiag,"Why last HIV test was positive and yet don't have HIV?
+","numeric(byte)
+"
+hivnegwhiv,"Why last HIV test was negative and yet you have HIV?
+","string(str1),butlongestisstr0
+"
+havemom,"Have a mother(figure)?
+","string(str1),butlongestisstr0
+"
+whomom,"Who is most like a mother to you?
+","numeric(byte)
+"
+whomom_othspec,"What other person is most like a mother to you, specify?
+","numeric(byte)
+"
+confmom,"59.1.1. Is that someone you mentioned earlier?
+","string(str27),butlongestisstr26
+"
+momsupport,"59.2. How much emotional support does your {WHOMOM} provide to you in your every
+","numeric(byte)
+"
+momknowsex,"59.3. Does your {WHOMOM} know that you have sex with men?
+","numeric(byte)
+"
+momsupsex,"59.4. In general, how supportive is your {WHOMOM} about your having sex with men
+","numeric(byte)
+"
+momknowhiv,"59.5. Does your {WHOMOM} know your HIV status?
+","numeric(byte)
+"
+havedad,"Have a father(figure)?
+","numeric(byte)
+"
+whodad,"Who is most like a father to you?
+","numeric(byte)
+"
+whodad_othspec,"What other person is most like a father to you, specify?
+","numeric(byte)
+"
+confdad,"60.1.1. Is that someone you mentioned earlier?
+","string(str28)
+"
+dadsupport,"60.2. How much emotional support does your {WHODAD} provide to you in your every
+","numeric(byte)
+"
+dadknowsex,"60.3. Does your {WHODAD} know that you have sex with men?
+","numeric(byte)
+"
+dadsupsex,"60.4. In general, how supportive is your {WHODAD} about your having sex with men
+","numeric(byte)
+"
+dadknowhiv,"60.5. Does your {WHODAD} know your HIV status?
+","numeric(byte)
+"
+relstat,"118. What is your current relationship status? Are you...
+","numeric(byte)
+"
+relstat_othspec,"118. What other current relationship status, specify?
+","numeric(byte)
+"
+student,"2. Are you a full time student, part time student or not a student?
+","string(strL)
+"
+empstat,"119. Are you currently working full time, part time, or not employed?
+","numeric(byte)
+"
+incsourceregjob,"1. SOURCE Employment in a regular job (including self-employed)
+","numeric(byte)
+"
+incsourceparsup,"2. SOURCE Support from parents
+","numeric(byte)
+"
+incsourcespsup,"3. SOURCE Support from spouse
+","numeric(byte)
+"
+incsourcepartsup,"4. SOURCE Support from romantic or sexual partner
+","numeric(byte)
+"
+incsourceoddjobs,"5. SOURCE Odd jobs
+","numeric(byte)
+"
+incsourcegovasst,"6. SOURCE Any government or public assistance
+","numeric(byte)
+"
+incsourcefinaid,"7. SOURCE Financial aid from school
+","numeric(byte)
+"
+incsourceexspsup,"8. SOURCE Support from ex-spouse
+","numeric(byte)
+"
+incsourcegambl,"9. SOURCE Gambling
+","numeric(byte)
+"
+incsourcestolmerch,"10. SOURCE Selling stolen merchandise
+","numeric(byte)
+"
+incsourceselldrugs,"11. SOURCE Selling drugs
+","numeric(byte)
+"
+incsourcesexfav,"12. SOURCE Exchanging sexual favors for money
+","numeric(byte)
+"
+incsourceoth,"13. SOURCE Other
+","numeric(byte)
+"
+incsource_othspec,"122a. SOURCE What other income source Specify?
+","numeric(byte)
+"
+incsource_fam_vltrd,"SOURCE Family (Volunteered)
+","string(strL)
+"
+incprimary,"123. Of these sources, which do you consider to be your primary source of income
+","numeric(double)
+"
+numaddr,"127. At how many different places have you lived in the past 12 months?
+","numeric(byte)
+"
+homeless12mo,"128. In the past 12 months, that is since {month} {year}, have you been homeless
+","numeric(byte)
+"
+currhomeless,"129. Are you currently homeless?
+","numeric(byte)
+"
+notenough,"132. In the last 6 months, that is since {month} {year}, how often was there not
+","numeric(byte)
+"
+jailever,"161. Have you ever been detained, arrested, or spent time in jail or prison?
+","numeric(byte)
+"
+jailnum,"163. Jail Number Times On how many separate occasions have you been detained?
+","numeric(byte)
+"
+marijpos,"160a. Were any of these times related to the possession and/or the sale of marij
+","numeric(byte)
+"
+marijposlast_month,"MONTH:
+","numeric(byte)
+"
+marijposlast_year,"YEAR:
+","numeric(byte)
+"
+marijposfirst_month,"MONTH:
+","numeric(byte)
+"
+marijposfirst_year,"YEAR:
+","numeric(int)
+"
+pbrutpart,"164.1. In the past 12 months, have you taken part in any protests, marches, or d
+","numeric(byte)
+"
+pbrutdisc,"164.2. Think about the people with whom you discuss things that are important to
+","numeric(int)
+"
+appdscrbe,"164.4. A person’s appearance, style or dress may affect the way people think of 
+","numeric(byte)
+"
+mandscrbe,"164.5. A person’s mannerisms (such as the way a person walks or talks) may affec
+","numeric(byte)
+"
+seed,"Seed Respondent
+","numeric(byte)
+"
+cigs_mth,"days
+","numeric(byte)
+"
+cigs_perday,"cigarettes
+","numeric(double)
+"
+smoking_age,"YEARS OLDS/OR YEARS STARTED SMOKING/ OR STARTED SMOKING YEARS AGO
+","numeric(byte)
+"
+first_age,"YEARS OLDS/OR YEARS STARTED SMOKING/ OR STARTED SMOKING YEARS AGO
+","numeric(byte)
+"
+mostcigs_day,"CIGARETTES/DAY
+","numeric(byte)
+"
+mostpacks_day,"PACKS/DAY
+","numeric(byte)
+"
+drinkfreq,"How often do you drink alcohol, including wine and beer?
+","numeric(byte)
+"
+drinks,"In the past 30 days, how many times did you have 5 or more alcoholic drinks in o
+","numeric(byte)
+"
+drugsmarij,"Used past 12 months 1. Marijuana (weed, hash, blunt, etc)
+","numeric(byte)
+"
+drugse,"Used past 12 months 2. Ecstasy, E or Molly
+","numeric(byte)
+"
+drugspoppers,"Used past 12 months 3. Poppers (volatile nitrates)
+","numeric(byte)
+"
+drugscoke,"Used past 12 months 4. Cocaine/Crack
+","numeric(byte)
+"
+drugsheroin,"Used past 12 months 5. Heroin
+","numeric(byte)
+"
+drugspsych,"Used past 12 months 6. Psychedelics (acid, LSD, Mushrooms, G or GHB, K or Specia
+","numeric(byte)
+"
+drugsmeth,"Used past 12 months 7. Methamphetamine (Crystal, ""tina"", meth, speed)
+","numeric(byte)
+"
+drugspresc,"Used past 12 months 8. Prescription Pain Killers (oxycodone, vicodin, T3, etc)
+","numeric(byte)
+"
+drugsoth,"Used past 12 months 9. Any other substance (PLEASE SPECIFY)
+","numeric(byte)
+"
+drugsnone,"Used past 12 months NONE OF THESE
+","numeric(byte)
+"
+drugsdk,"Used past 12 months DON'T KNOW
+","numeric(byte)
+"
+drugsref,"Used past 12 months REFUSED
+","numeric(byte)
+"
+drugsoth_1_othspec,"Drug name
+","numeric(byte)
+"
+drugsoth_2_othspec,"Drug name
+","numeric(byte)
+"
+drugsoth_3_othspec,"Drug name
+","numeric(byte)
+"
+drugsoth_4_othspec,"Drug name
+","string(str9),butlongestisstr8
+"
+drugsoth_5_othspec,"Drug name
+","string(str1),butlongestisstr0
+"
+sexdrugs,"99. In the past 12 months, have you ever used any of these substances or alcohol
+","string(str1),butlongestisstr0
+"
+sexdrugsalchl,"Used drug for sex 1. Alcohol
+","string(str1),butlongestisstr0
+"
+sexdrugsmarij,"Used drug for sex 2. Marijuana (weed, hash, blunt, etc)
+","string(str1),butlongestisstr0
+"
+sexdrugse,"Used drug for sex 3. Ecstasy, E or Molly
+","numeric(byte)
+"
+sexdrugspoppers,"Used drug for sex 4. Poppers (volatile nitrates)
+","numeric(byte)
+"
+sexdrugscoke,"Used drug for sex 5. Cocaine/Crack
+","numeric(byte)
+"
+sexdrugsheroin,"Used drug for sex 6. Heroin
+","numeric(byte)
+"
+sexdrugspsych,"Used drug for sex 7. Psychedelics (acid, LSD, Mushrooms, G or GHB, K or Special 
+","numeric(byte)
+"
+sexdrugsmeth,"Used drug for sex 8. Methamphetamine (Crystal, ""tina"", meth, speed)
+","numeric(byte)
+"
+sexdrugspresc,"Used drug for sex 9. Prescription Pain Killers (oxycodone, vicodin, T3, etc)
+","numeric(byte)
+"
+sexdrugsdk,"Used drug for sex DON'T KNOW
+","numeric(byte)
+"
+sexdrugsref,"Used drug for sex REFUSED
+","numeric(byte)
+"
+alcprobs,"During the past 12 months, how often has your drug or alcohol use led to
+","numeric(byte)
+"
+probdrugsalchl,"Problems with 1. Alcohol
+","numeric(byte)
+"
+probdrugsmarij,"Problems with 2. Marijuana (weed, hash, blunt, etc)
+","numeric(byte)
+"
+probdrugse,"Problems with 3. Ecstasy, E or Molly
+","numeric(byte)
+"
+probdrugspoppers,"Problems with 4. Poppers (volatile nitrates)
+","numeric(byte)
+"
+probdrugscoke,"Problems with 5. Cocaine/Crack
+","numeric(byte)
+"
+probdrugsheroin,"Problems with 6. Heroin
+","numeric(byte)
+"
+probdrugspsych,"Problems with 7. Psychedelics (acid, LSD, Mushrooms, G or GHB, K or Special K, P
+","numeric(byte)
+"
+probdrugsmeth,"Problems with 8. Methamphetamine (Crystal, ""tina"", meth, speed)
+","numeric(byte)
+"
+probdrugspresc,"Problems with 9. Prescription Pain Killers (oxycodone, vicodin, T3, etc)
+","numeric(byte)
+"
+probdrugsdk,"Problems with DON'T KNOW
+","numeric(byte)
+"
+probdrugsref,"Problems with REFUSED
+","numeric(byte)
+"
+probdrugs_17,"100.1.1. Since the last interview, using which of the following has caused you h
+","numeric(byte)
+"
+drugstrystop,"Have you ever tried and failed to control, cut down or stop using alcohol or dru
+","numeric(byte)
+"
+drugsstop12mo,"Was that in the past 12 months?
+","numeric(byte)
+"
+notstopdrugsalchl,"Can't stop using drug 1. Alcohol
+","numeric(byte)
+"
+notstopdrugsmarij,"Can't stop using drug 2. Marijuana (weed, hash, blunt, etc)
+","numeric(byte)
+"
+notstopdrugse,"Can't stop using drug 3. Ecstasy, E or Molly
+","numeric(byte)
+"
+notstopdrugspoppers,"Can't stop using drug 4. Poppers (volatile nitrates)
+","numeric(byte)
+"
+notstopdrugscoke,"Can't stop using drug 5. Cocaine/Crack
+","numeric(byte)
+"
+notstopdrugsheroin,"Can't stop using drug 6. Heroin
+","numeric(byte)
+"
+notstopdrugsmeth,"Can't stop using drug 8. Methamphetamine (Crystal, ""tina"", meth, speed)
+","numeric(byte)
+"
+notstopdrugsdk,"Can't stop using drug DON'T KNOW
+","numeric(byte)
+"
+notstopdrugsref,"Can't stop using drug REFUSED
+","numeric(byte)
+"
+usemarij,"Do you use marijuana?
+","numeric(byte)
+"
+marijsix,"102. Have you used any marijuana over the past six months?
+","numeric(byte)
+"
+marijoften,"102.1. Please answer the following questions about your marijuana use. Select th
+","numeric(byte)
+"
+marijstoned,"102.2. How many hours were you “stoned” on a typical day when you had been using
+","numeric(byte)
+"
+marijoftensix,"102.3. How often during the past 6 months did you find that you were not able to
+","numeric(byte)
+"
+marijfail,"102.4. How often during the past 6 months did you fail to do what was normally e
+","numeric(byte)
+"
+marijdevote,"102.5. How often in the past 6 months have you devoted a great deal of your time
+","numeric(byte)
+"
+marijmemory,"102.6. How often in the past 6 months have you had a problem with your memory or
+","numeric(byte)
+"
+marijhazard,"102.7. How often do you use marijuana in situations that could be physically haz
+","numeric(byte)
+"
+marijstop,"102.8. Have you ever thought about cutting down, or stopping, your use of mariju
+","numeric(byte)
+"
+marijalc,"When you use marijuana, how often do you also drink alcohol, including wine and 
+","numeric(byte)
+"
+marijsex,"How often do you use marijuana when you have sex? CARD F
+","numeric(byte)
+"
+haveprimary,"20. Are you currently in a relationship with someone who you consider your main 
+","numeric(byte)
+"
+totalmen,"Please estimate the total number of different men with whom you have ever had se
+","numeric(byte)
+"
+totalwomen,"Please estimate the total number of different women with whom you have ever had 
+","numeric(byte)
+"
+totaltrans,"Please estimate the total number of different transgender persons with whom you 
+","numeric(byte)
+"
+groupsex12mo,"In the past 12 months, that is since [MONTH YEAR] how often have you engaged in 
+","numeric(byte)
+"
+healthprov,"Have you been to a health service provider in the past 24 months?
+","numeric(byte)
+"
+sexmen,"109.5. Does your doctor know if you have sex with men?
+","numeric(int)
+"
+hivcare,"Did you receive HIV care or prevention services from this service provider?
+","numeric(byte)
+"
+rateprov,"Is your impression of this service provider generally positive, neutral or gener
+","numeric(byte)
+"
+primarycare,"Do you have a primary doctor or other medical care provider [for example, a nurs
+","numeric(byte)
+"
+mentalcare,"In the last 6 months, that is since [MONTH YEAR], did you go see a mental health
+","numeric(byte)
+"
+w1_hivresult,"W1 HIV STATUS
+","numeric(byte)
+"
+hivchange,"Has your HIV status changed since last we spoke?
+","numeric(byte)
+"
+hivchangevb,"Please explain.
+","numeric(byte)
+"
+hivstatus2,"What is your HIV status?
+","numeric(byte)
+"
+hivstatus2_othspec,"(unlabeled)
+","numeric(byte)
+"
+hivdiag,"When were you diagnosed with HIV?
+","numeric(byte)
+"
+hivdiagdate_month,"hivdiag MONTH:
+","numeric(byte)
+"
+hivdiagdate_year,"hivdiag YEAR:
+","string(strL)
+"
+hivdiagtime_amt,"hivdiag AMOUNT:
+","numeric(byte)
+"
+hivdiagtime_unit,"UNIT:
+","string(str21)
+"
+hivdiagage,"hivdiag AGE:
+","numeric(byte)
+"
+hivaskpartnerscity,"After you tested positive for HIV, were you asked by someone from the city
+","numeric(byte)
+"
+hivtellpartnerscity,"Did you give the names of any of your partners when asked?
+","numeric(int)
+"
+hivynotellpartners,"What is the main reason you didn’t give any names of your partners to your
+","numeric(byte)
+"
+hivgomdpostpos_amt,"How long was it until you saw an HIV doctor?
+","numeric(byte)
+"
+hivgomdpostpos_unit,"SELECT:
+","numeric(byte)
+"
+hivhavemd,"Do you currently see a doctor, or other healthcare provider, that treats you for
+","numeric(byte)
+"
+hivwheretx,"Where do you go to receive treatment for your HIV?
+","numeric(byte)
+"
+hivappt1_month,"MONTH:
+","numeric(byte)
+"
+hivappt1_year,"YEAR:
+","numeric(byte)
+"
+hivappt2_month,"MONTH:
+","numeric(byte)
+"
+hivappt2_year,"YEAR:
+","numeric(byte)
+"
+hivappt3_month,"MONTH:
+","string(strL)
+"
+hivappt3_year,"YEAR:
+","numeric(byte)
+"
+hivappt4_month,"MONTH:
+","numeric(int)
+"
+hivappt4_year,"YEAR:
+","numeric(byte)
+"
+hivappt5_month,"MONTH:
+","numeric(int)
+"
+hivappt5_year,"YEAR:
+","numeric(byte)
+"
+hivappt6_month,"MONTH:
+","numeric(int)
+"
+hivappt6_year,"YEAR:
+","numeric(byte)
+"
+hivmedever,"Have you ever taken medicine to treat your HIV?
+","numeric(int)
+"
+hivmedstart_amt,"How long after you were diagnosed with HIV did you start taking HIV medication?
+","numeric(byte)
+"
+hivmedstart_unit,"SELECT:
+","numeric(int)
+"
+hivmednow,"Are you currently taking medicine to treat your HIV?
+","numeric(byte)
+"
+hivmedmiss,"In the last 30 days, on how many days did you miss at least one dose of any of y
+","numeric(int)
+"
+viralload,"To the best of your knowledge, is your viral load currently detectable, undetect
+","numeric(byte)
+"
+hivnumtests,"How many tests did you have before being diagnosed?
+","numeric(byte)
+"
+redtransonepart,"Reduce transmitting HIV by, Stayed with one partner
+","numeric(byte)
+"
+redtransfewerpart,"Reduce transmitting HIV by, Reduced your number of partners
+","numeric(byte)
+"
+redtranscondoms,"Reduce transmitting HIV by, Used condoms more often
+","numeric(byte)
+"
+redtransaskstat,"Reduce transmitting HIV by, Asked partners about their HIV status
+","numeric(byte)
+"
+redtransaskprep,"Reduce transmitting HIV by, Asked partner to us PrEP
+","numeric(byte)
+"
+redtransavoidnegpart,"Reduce transmitting HIV by, Avoided sex with people who are HIV negative
+","numeric(byte)
+"
+redtransonlyoral,"Reduce transmitting HIV by, Only had oral sex
+","numeric(byte)
+"
+redtransavoidanal,"Reduce transmitting HIV by, Avoided anal sex
+","numeric(byte)
+"
+redtransavoidtop,"Reduce transmitting HIV by, Avoided being the ""top"" or active in anal sex
+","numeric(byte)
+"
+redtranswhenfeelhlthy,"Reduce transmitting HIV by, Only had sex when I don’t feel sick
+","numeric(byte)
+"
+redtransoth,"Reduce transmitting HIV by, Other (specify)
+","numeric(byte)
+"
+redtransnone,"Reduce transmitting HIV by, None
+","numeric(byte)
+"
+redtransdk,"Reduce transmitting HIV by, DON'T KNOW
+","numeric(byte)
+"
+redtransref,"Reduce transmitting HIV by, REFUSED
+","numeric(byte)
+"
+redtrans_othspec,"Reduce transmitting HIV by, What Other (specify)
+","numeric(byte)
+"
+redriskonepart,"Reduce contracting HIV by, Stayed with one partner
+","numeric(byte)
+"
+redriskfewerpart,"Reduce contracting HIV by, Reduced your number of partners
+","numeric(byte)
+"
+redriskcondoms,"Reduce contracting HIV by, Used condoms more often
+","numeric(byte)
+"
+redriskdrugfreepart,"Reduce contracting HIV by, only had sex with people who don't use drugs
+","numeric(byte)
+"
+redriskaskpartstat,"Reduce contracting HIV by, Asked partners about their HIV status
+","string(strL)
+"
+redriskavoidpospart,"Reduce contracting HIV by, Avoided sex with people who are HIV positive
+","numeric(byte)
+"
+redriskonlyoral,"Reduce contracting HIV by, Only had oral sex
+","numeric(byte)
+"
+redriskavoidanal,"Reduce contracting HIV by, Avoided anal sex
+","numeric(byte)
+"
+redriskavoidbottom,"Reduce contracting HIV by, Avoided being the ""bottom"" or passive in anal sex
+","numeric(byte)
+"
+redrisklookhlthypart,"Reduce contracting HIV by, only have sex with people who look healthy
+","numeric(byte)
+"
+redriskuseprep,"Reduce contracting HIV by, used PrEP (pre-exposure prophylaxis)
+","numeric(byte)
+"
+redriskusepep,"Reduce contracting HIV by, used PEP (post-exposure prophylaxis)
+","numeric(byte)
+"
+redriskoth,"Reduce contracting HIV by, Other (specify)
+","numeric(byte)
+"
+redrisknone,"Reduce contracting HIV by, None
+","numeric(byte)
+"
+redriskdk,"Reduce contracting HIV by, DON'T KNOW
+","numeric(byte)
+"
+redriskref,"Reduce contracting HIV by, REFUSED
+","numeric(byte)
+"
+redrisk_othspec,"Reduce contracting HIV by, What Other (specify)
+","numeric(byte)
+"
+pickpartner,"How important has avoiding getting HIV/AIDS been in terms of choosing your sexua
+","numeric(byte)
+"
+stdclap,"STD Status Gonorrhea (clap or drip)?
+","numeric(byte)
+"
+stdhsv,"STD Status Genital herpes (HSV)?
+","numeric(byte)
+"
+stdhpv,"STD Status Genital warts (HPV)?
+","numeric(byte)
+"
+stdoth,"STD Status Any other STDs?
+","string(strL)
+"
+std_othspec,"STD Status SPECIFY OTHER STDs
+","numeric(byte)
+"
+syphtest,"Have you ever been diagnosed with syphilis?
+","numeric(byte)
+"
+anustest,"STD anus test past 2 years?
+","numeric(byte)
+"
+priorstudy,"Prior to this study, research study consent?
+","numeric(byte)
+"
+numstudies,"Research studies past 12 months
+","numeric(byte)
+"
+prepuse,"Have you ever used PrEP?
+","string(strL)
+"
+prepnumusers,"How many people do you know who have used PrEP?
+","numeric(byte)
+"
+hivprevprep,"PrEP related behavior change in HIV prev program
+","numeric(byte)
+"
+pepknow,"Before today, had you heard of PEP?
+","numeric(byte)
+"
+pepuse,"Have you ever used PEP?
+","numeric(byte)
+"
+pepnumusers,"How many people do you know who have used PEP?
+","numeric(byte)
+"
+hivprevpep,"PEP related behavior change in HIV prev program
+","numeric(int)
+"
+hivvac,"Before today, have you ever heard of an HIV vaccine?
+","numeric(byte)
+"
+hivvacstudy,"Have you ever been in an HIV vaccine research study?
+","numeric(byte)
+"
+rectalmicro,"Research is also being done to develop a gel or lubricant that can be put in the
+","numeric(byte)
+"
+rectalmicrostudy,"Have you ever been in a rectal microbicide study?
+","numeric(byte)
+"
+hivprogever,"Ever participated in other HIV prevention program or research study?
+","numeric(byte)
+"
+programeban,"159. Please look at Card L. What was the other program(s) or study that you part
+","numeric(byte)
+"
+programtwista,"159. Please look at Card L. What was the other program(s) or study that you part
+","numeric(byte)
+"
+programtyra,"159. Please look at Card L. What was the other program(s) or study that you part
+","numeric(byte)
+"
+programovah,"159. Please look at Card L. What was the other program(s) or study that you part
+","numeric(byte)
+"
+programyouth,"159. Please look at Card L. What was the other program(s) or study that you part
+","numeric(byte)
+"
+programmpower,"159. Please look at Card L. What was the other program(s) or study that you part
+","numeric(byte)
+"
+programkeepitup,"159. Please look at Card L. What was the other program(s) or study that you part
+","numeric(byte)
+"
+programstandout,"159. Please look at Card L. What was the other program(s) or study that you part
+","numeric(byte)
+"
+programmypeeps,"159. Please look at Card L. What was the other program(s) or study that you part
+","numeric(byte)
+"
+programprepare,"HIV Program 10. Project PrEPare (HB/CORE)
+","numeric(byte)
+"
+programirpex,"HIV Program 11. IRPEX OLE
+","numeric(byte)
+"
+programwish,"HIV Program 12. Project Wish (Core)
+","numeric(byte)
+"
+programimac,"HIV Program 13. I-MaC Project (CORE)
+","numeric(byte)
+"
+programincare,"HIV Program 14. In-Care (CORE)
+","numeric(byte)
+"
+programpower,"HIV Program 15. Project POWER (CORE/BHC)
+","numeric(byte)
+"
+programlinkage,"HIV Program 16. Linkage to Life (CORE)
+","numeric(byte)
+"
+programconnect,"HIV Program 17. Project Connect (CORE)
+","numeric(byte)
+"
+programforpositives,"HIV Program 18. Prevention for Positives (CORE)
+","numeric(byte)
+"
+programgenl,"HIV Program 19. Generation L (Mpowerment; VIDA/SIDA)
+","numeric(byte)
+"
+programsmartsex,"HIV Program 20. Smart Sex (TPAN)
+","numeric(byte)
+"
+programhotter,"HIV Program 21. Hotter Program (TPAN)
+","numeric(byte)
+"
+programcru,"HIV Program 22. CRU (Project VIDA)
+","numeric(byte)
+"
+program3c,"HIV Program 23. 3C (Project VIDA)
+","numeric(byte)
+"
+programchat,"HIV Program 24. CHAT (CDPH)
+","numeric(byte)
+"
+programcrew,"HIV Program 25. CREW 450
+","numeric(byte)
+"
+programlifestyles,"HIV Program 26. LIFESTYLES (Northwestern)
+","numeric(byte)
+"
+programtext2test,"HIV Program 27. Text2test
+","numeric(byte)
+"
+programmanymen,"HIV Program 28. 3MV Many Men Many Voices
+","numeric(byte)
+"
+programoth,"HIV Program 29. Other (SPECIFY)
+","numeric(byte)
+"
+programdk,"HIV Program DON'T KNOW
+","numeric(byte)
+"
+programref,"HIV Program REFUSED
+","numeric(byte)
+"
+program_othspec,"HIV Program, What other? OTHER SPECIFY
+","numeric(byte)
+"
+hivproghours,"Total time (hours) participated in HIV prevention or research
+","numeric(byte)
+"
+saqintro2,"Now we would like you to complete a brief questionnaire on your own.  Remember t
+","numeric(byte)
+"
+mainpartner,"Has at least one Main Partner
+","numeric(byte)
+"
+mainprimary,"Has Primary Partner or Main Partner
+","numeric(byte)
+"
+hivdiagdt,"HIV Diagnosed Date, Self Report
+","string(str1),butlongestisstr0
+"
+hivdiagyearsago,"Years Since HIV Diagnosis, Self Report
+","numeric(byte)
+"
+hivappt1dt,"HIV Appointment 1 Date in Past Year (Unique)
+","numeric(byte)
+"
+hivappt1dtorig,"HIV Appointment 1 Date (Original)
+","numeric(double)
+"
+hivappt2dt,"HIV Appointment 2 Date in Past Year (Unique)
+","numeric(double)
+"
+hivappt2dtorig,"HIV Appointment 2 Date (Original)
+","numericdailydate(double)
+"
+hivappt3dt,"HIV Appointment 3 Date in Past Year (Unique)
+","numeric(double)
+"
+hivappt3dtorig,"HIV Appointment 3 Date (Original)
+","numericdailydate(double)
+"
+hivappt4dt,"HIV Appointment 4 Date in Past Year (Unique)
+","numericdailydate(double)
+"
+hivappt4dtorig,"HIV Appointment 4 Date (Original)
+","numericdailydate(double)
+"
+hivappt5dt,"HIV Appointment 5 Date in Past Year (Unique)
+","numericdailydate(double)
+"
+hivappt5dtorig,"HIV Appointment 5 Date (Original)
+","numericdailydate(double)
+"
+hivappt6dt,"HIV Appointment 6 Date in Past Year (Unique)
+","numericdailydate(double)
+"
+hivappt6dtorig,"HIV Appointment 6 Date (Original)
+","numericdailydate(double)
+"
+redrisk_abstain_vltrd,"Reduce contracting HIV by, Abstaining from sex (VOLUNTEERED)
+","numericdailydate(double)
+"
+redrisk_lube_vltrd,"Reduce contracting HIV by, Use lube or more lube (VOLUNTEERED)
+","numericdailydate(double)
+"
+redrisk_needle_vltrd,"Reduce contracting HIV by, Avoid using needles (VOLUNTEERED)
+","numericdailydate(double)
+"
+redrisk_nooral_vltrd,"Reduce contracting HIV by, Avoid oral sex (VOLUNTEERED)
+","numericdailydate(double)
+"
+redrisk_test_vltrd,"Reduce contracting HIV by, Getting tested (VOLUNTEERED)
+","numericdailydate(double)
+"
+redtrans_abstain_vltrd,"Reduce transmitting HIV by, Abstaining from sex (VOLUNTEERED)
+","numeric(double)
+"
+redtrans_lube_vltrd,"Reduce transmitting HIV by, Use lube or more lube (VOLUNTEERED)
+","numeric(double)
+"
+redtrans_meds_vltrd,"Reduce transmitting HIV by, Taking medicine (VOLUNTEERED)
+","numeric(double)
+"
+redtrans_nooral_vltrd,"Reduce transmitting HIV by, Avoid avoid oral sex (VOLUNTEERED)
+","numeric(double)
+"
+redtrans_test_vltrd,"Reduce transmitting HIV by, Getting tested (VOLUNTEERED)
+","numeric(double)
+"
+std_syph_vltrd,"STD Status? Syphillis (VOLUNTEERED)
+","numeric(double)
+"
+program_beehive_vltrd,"HIV Program Beehive (VOLUNTEERED)
+","numeric(double)
+"
+program_bme_vltrd,"HIV Program Black Men Evolving (BME) (VOLUNTEERED)
+","numeric(double)
+"
+program_brothers_vltrd,"HIV Program Howard Brown (VOLUNTEERED)
+","numeric(double)
+"
+program_howardbrown_vltrd,"(unlabeled)
+","numeric(double)
+"
+program_lifeskills_vltrd,"HIV Program Life Skills (VOLUNTEERED)
+","numeric(double)
+"
+program_engage_vltrd,"HIV Program Project ENGAGE (VOLUNTEERED)
+","numeric(double)
+"
+program_posse_vltrd,"HIV Program Posse (VOLUNTEERED)
+","numeric(double)
+"
+program_q2_vltrd,"HIV Program Q2 (VOLUNTEERED)
+","numeric(double)
+"
+program_ready_vltrd,"HIV Program Ready (VOLUNTEERED)
+","numeric(double)
+"
+program_taskforce_vltrd,"HIV Program Task Force (VOLUNTEERED)
+","numeric(double)
+"
+program_tpan_vltrd,"HIV Program Testing Positive Aware Network (TPAN) (VOLUNTEERED)
+","numeric(double)
+"
+mouthteststd_cat,"STD mouth test past 2 years (Categorized Open Responses)
+","numeric(double)
+"
+anusteststd_cat,"STD anus test past 2 years (Categorized Open Responses)
+","numeric(double)
+"
+selfdiag,"Positive Diagnosis by Self Report (SR)
+","numeric(double)
+"
+selfnegative,"Negative by Self Report (SR)
+","numeric(double)
+"
+ltcwithin6,"Linked to Care Within 6 Months of Diagnosis, SR
+","numeric(double)
+"
+retained2pds,"RETAINED, >=1 Appt Past 6 Months & (Appt> 6 Months Ago <1 Year Ago), (90 days)
+","numeric(double)
+"
+iomretained,"RETAINED, IOM 2 Appts During Past Year, (90 days apart)
+","numeric(double)
+"
+prescribedart,"Prescribed ART of those Retained, SR
+","numeric(double)
+"
+adheretoart,"Adhere to ART of those Prescribed, SR
+","numeric(double)
+"
+suppressedsr,"Virally Suppressed, Self Reported
+","string(str1),butlongestisstr0
+"
+labsuppressed,"Virally Suppressed (Adherent & Non-Adherent), <2000 or Undetectable (Lab)
+","numeric(long)
+"
+labdata,"Respondent has Lab Data
+","numeric(double)
+"
+labgen4,"HIV Gen4 Ag/Ab Combo Result by Lab
+","numeric(double)
+"
+labrnaorig,"HIV RNA Original Result String copies/mL blood by Lab
+","numeric(double)
+"
+labrna,"HIV RNA Result copies/mL blood by Lab
+","numeric(double)
+"
+labrnabin,"HIV RNA Binary Lab Result, Detected
+","numeric(double)
+"
+labmultispot,"HIV Multispot Antibody Result by Lab
+","numeric(double)
+"
+labchronic,"Chronic Infection, 4thGen(+) or Multispot(+) by Lab
+","numeric(double)
+"
+labrctacute,"Recent/Acute Infection, 4thGen(+) & Multispot(-) by Lab
+","numeric(double)
+"
+labacute,"Acute Infection, 4thGen(-) & RNA(+) by Lab
+","numeric(double)
+"
+labinfected,"HIV Infected, by Lab Results
+","numeric(double)
+"
+cdph_hivdiagwhen,"CDPH Diagnosis Date Before/After Interview(s)
+","numeric(byte)
+"
+w3_labdata,"Respondent has Lab Data
+","string(str50),butlongestisstr49
+"
+w3_labgen4,"HIV Gen4 Ag/Ab Combo Result by Lab
+","numeric(long)
+"
+w3_labrnabin,"HIV RNA Binary Lab Result, Detected
+","numeric(long)
+"
+w3_labmultispot,"HIV Multispot Antibody Result by Lab
+","numeric(byte)
+"
+w3_labinfected,"HIV Infected, by Lab Results
+","numeric(double)
+"
+w3_labinfected_notimputed,"HIV Infected, by Lab Results
+","numeric(double)
+"
+w3_labdata_uconnect,"Respondent has Lab Data UCONNECT
+","numeric(double)
+"
+w3_labinfected_uconnect,"HIV Infected, by Lab Results
+","numeric(double)
+"
+w3_cdph_ltcwithin6,"CDPH: Linked to Care Within 6 Months (N=146)
+","numeric(double)
+"
+w2_labdata,"Respondent has Lab Data
+","numeric(double)
+"
+w2_labgen4,"HIV Gen4 Ag/Ab Combo Result by Lab
+","numeric(byte)
+"
+w2_labrnabin,"HIV RNA Binary Lab Result, Detected
+","numeric(long)
+"
+w2_labmultispot,"HIV Multispot Antibody Result by Lab
+","numeric(byte)
+"
+w2_labinfected,"HIV Infected, by Lab Results
+","numeric(double)
+"
+w2_labinfected_notimputed,"HIV Infected, by Lab Results
+","numeric(double)
+"
+w2_labdata_uconnect,"Respondent has Lab Data UCONNECT
+","numeric(double)
+"
+w2_labinfected_uconnect,"HIV Infected, by Lab Results
+","numeric(double)
+"
+w2_cdph_ltcwithin6,"CDPH: Linked to Care Within 6 Months (N=146)
+","numeric(double)
+"
+w1_labdata,"Respondent has Lab Data
+","numeric(double)
+"
+w1_labgen4,"HIV Gen4 Ag/Ab Combo Result by Lab
+","numeric(byte)
+"
+w1_labrnabin,"HIV RNA Binary Lab Result, Detected
+","numeric(long)
+"
+w1_labmultispot,"HIV Multispot Antibody Result by Lab
+","numeric(byte)
+"
+w1_labinfected,"HIV Infected, by Lab Results
+","numeric(double)
+"
+w1_labinfected_notimputed,"HIV Infected, by Lab Results
+","numeric(double)
+"
+w1_labdata_uconnect,"Respondent has Lab Data UCONNECT
+","numeric(double)
+"
+w1_labinfected_uconnect,"HIV Infected, by Lab Results
+","numeric(double)
+"
+w1_cdph_ltcwithin6,"CDPH: Linked to Care Within 6 Months (N=146)
+","numeric(double)
+"
+labsyphresult,"Syphilis Ab Result by Lab
+","numeric(double)
+"
+labcomments,"Lab Comments
+","numeric(byte)
+"
+labinfected_notimputed,"HIV Infected, by Lab Results
+","numeric(long)
+"
+hivunaware,"Positive by Lab, Negative by Self Report (UNAWARE)
+","numeric(byte)
+"
+labhivaware,"(unlabeled)
+","numeric(double)
+"
+labdata_uconnect,"Respondent has Lab Data UCONNECT
+","numeric(double)
+"
+labretained_uconnect,"RETAINED, IOM 2 Appts During Past Year, (90 days apart) UCONNECT UCONNECT
+","numeric(double)
+"
+labhivaware_uconnect,"UCONNECT
+","numeric(double)
+"
+labrna_uconnect,"HIV RNA Result copies/mL blood by Lab UCONNECT
+","numeric(double)
+"
+labrnabin_uconnect,"HIV RNA Binary Lab Result, Detected UCONNECT
+","numeric(byte)
+"
+labinfected_uconnect,"HIV Infected, by Lab Results
+","numeric(byte)
+"
+labretained,"RETAINED, IOM 2 Appts During Past Year, (90 days apart)
+","numeric(double)
+"
+cdph_hivdiagdate,"HIV disease diagnosis date
+","numeric(double)
+"
+cdph_earliestafterdiag,"CDPH: Earliest Date After CDPH HIV Diagnosis Date (N=146)
+","numeric(double)
+"
+cdph_ltcwithin6,"CDPH: Linked to Care Within 6 Months (N=146)
+","numeric(double)
+"
+cdph_labretained,"CDPH: Retained in Care
+","numeric(double)
+"
+cdphrespondent,"Respondent in CDPH Data Repository (any wave)
+","numeric(double)
+"
+cdphdata,"Has CDPH Data this Wave (W3)
+","numeric(double)
+"
+facebook,"Do you have a profile on Facebook?
+","numeric(long)
+"
+myspace,"Do you have a profile on MySpace?
+","numeric(long)
+"
+twitter,"Do you have a profile on Twitter?
+","numeric(double)
+"
+tumblr,"Do you have a profile on Tumblr?
+","numeric(double)
+"
+instagram,"Have profile
+","numericdailydate(double)
+"
+grinderjackd,"Do you have a profile on Grindr or Jack'd?
+","numericdailydate(double)
+"
+bgc,"Have profile
+","numeric(double)
+"
+othsoc,"Have profile on another social networking site not mentioned (SPECIFY)?
+","numeric(double)
+"
+noprofiles,"Have profile
+","numeric(double)
+"
+othsoc_othspec,"What other social networking site?
+","numeric(double)
+"
+snapchat_vltrd,"Do you have a profile on Snapchat? (Volunteered)
+","numeric(byte)
+"
+adam4adam_vltrd,"Do you have a profile on Adam 4 Adam? (Volunteered)
+","numeric(byte)
+"
+urbanchat_vltrd,"Do you have a profile on Urban Chat? (Volunteered)
+","numeric(byte)
+"
+kik_vltrd,"Do you have a profile on KIK? (Volunteered)
+","numeric(byte)
+"
+tagged_vltrd,"Do you have a profile on Tagged? (Volunteered)
+","numeric(byte)
+"
+freq_fb,"About how often do you use Facebook?
+","numeric(byte)
+"
+freq_grinderjackd,"About how often do you use Grindr or Jack'd?
+","numeric(byte)
+"
+cellchange,"153. Have you changed your cell phone number since the last time you came in for
+","numeric(byte)
+"
+cellchangevol,"153a.  Did you change your cell number by choice?
+","numeric(byte)
+"
+fbprofiles,"Number of Facebook accounts or profiles R has
+","string(strL)
+"
+fbprimuse_comclose,"R uses primary Facebook account to communicate with close friends
+","numeric(double)
+"
+fbprimuse_comfam,"R uses primary Facebook account to communicate with family
+","numeric(double)
+"
+fbprimuse_commsm,"R uses primary Facebook account to communicate with other MSM
+","numeric(double)
+"
+fbprimuse_comsex,"R uses primary Facebook account to meet sex partners
+","numeric(double)
+"
+fbprimuse_comoth,"R uses primary Facebook account to OTHER (SPECIFY)
+","numeric(double)
+"
+fbprimuse_othspec,"R uses primary Facebook account to...
+","numeric(byte)
+"
+fbothuse1_comclose,"R uses first other Facebook account to communicate with close friends
+","numeric(byte)
+"
+fbothuse1_comfam,"R uses first other Facebook account to communicate with family
+","numeric(byte)
+"
+fbothuse1_commsm,"R uses first other Facebook account to communicate with other MSM
+","numeric(byte)
+"
+fbothuse1_comsex,"R uses first other Facebook account to meet sex partners
+","numeric(byte)
+"
+fbothuse1_comoth,"R uses first other Facebook account to OTHER (SPECIFY)
+","numeric(byte)
+"
+fbothuse1_othspec,"R uses first other Facebook account to...
+","numeric(byte)
+"
+fbothuse1_games_vltrd,"R's other uses for Facebook: play online games (Volunteered)
+","numeric(byte)
+"
+fbothuse1_communicate_vltrd,"R's other uses for Facebook: communicate with others (Volunteered)
+","numeric(byte)
+"
+fbothuse1_dk_vltrd,"R's other uses for Facebook: Don't Know (Volunteered)
+","numeric(byte)
+"
+fbothuse1_ref_vltrd,"R's other uses for Facebook: Refused (Volunteered)
+","string(strL)
+"
+fbothuse2_comclose,"R uses second other Facebook account to communicate with close friends
+","numeric(double)
+"
+fbothuse2_comfam,"R uses second other Facebook account to communicate with family
+","numeric(double)
+"
+fbothuse2_commsm,"R uses second other Facebook account to communicate with other MSM
+","numeric(byte)
+"
+fbothuse2_comsex,"R uses second other Facebook account to meet sex partners
+","numeric(byte)
+"
+fbothuse2_comoth,"R uses second other Facebook account to communicate with OTHER (SPECIFY)
+","numeric(byte)
+"
+fbothuse2_othspec,"R uses second other Facebook account to ...
+","numeric(byte)
+"
+fbothuse2_games_vltrd,"R's other uses for Facebook: play online games (Volunteered)
+","numeric(byte)
+"
+fbothuse2_communicate_vltrd,"R's other uses for Facebook: communicate with others (Volunteered)
+","string(strL)
+"
+fbothuse2_dk_vltrd,"R's other uses for Facebook: Don't Know (Volunteered)
+","numeric(double)
+"
+fbothuse2_ref_vltrd,"R's other uses for Facebook: Refused (Volunteered)
+","numeric(double)
+"
+fbothuse3_comclose,"R uses third other Facebook account to communicate with close friends
+","numeric(double)
+"
+fbothuse3_comfam,"R uses third other Facebook account to communicate with family
+","numeric(double)
+"
+fbothuse3_commsm,"R uses third other Facebook account to communicate with other MSM
+","numeric(double)
+"
+fbothuse3_comsex,"R uses third other Facebook account to meet sex partners
+","numeric(double)
+"
+fbothuse3_comoth,"R uses third other Facebook account to communicate with OTHER (SPECIFY)
+","numeric(double)
+"
+fbothuse3_othspec,"R uses third other Facebook account to ...
+","numeric(double)
+"
+fbothuse3_games_vltrd,"R's other uses for Facebook: play online games (Volunteered)
+","numeric(byte)
+"
+fbothuse3_communicate_vltrd,"R's other uses for Facebook: communicate with others (Volunteered)
+","numeric(byte)
+"
+fbothuse3_dk_vltrd,"R's other uses for Facebook: Don't Know (Volunteered)
+","numeric(byte)
+"
+fbothuse3_ref_vltrd,"R's other uses for Facebook: Refused (Volunteered)
+","numeric(byte)
+"
+fbdiffuse_comfam,"R has ever used a different Facebook account to communicate with family
+","numeric(byte)
+"
+fbdiffuse_commsm,"R has ever used a different Facebook account to communicate with other MSM
+","string(strL)
+"
+fbdiffuse_comsex,"R has ever used a different Facebook account to meet sex partners
+","numeric(double)
+"
+fbdiffuse_othspec,"R has ever used a different Facebook account to ... OTHER (SPECIFY)
+","numeric(double)
+"
+fbdiffuse_games_vltrd,"R's other uses for Facebook: play online games (Volunteered)
+","numeric(double)
+"
+fbdiffuse_communicate_vltrd,"R's other uses for Facebook: communicate with others (Volunteered)
+","numeric(double)
+"
+fbdiffuse_dk_vltrd,"R's other uses for Facebook: Don't Know (Volunteered)
+","numeric(double)
+"
+fbdiffuse_ref_vltrd,"R's other uses for Facebook: Refused (Volunteered)
+","numeric(double)
+"
+fbuse,"Frequency R uses or checks Facebook account
+","numeric(double)
+"
+fbgroupmem,"R is a member of any groups on Facebook
+","numeric(double)
+"
+fbgroupmensex,"At least one of these Facebook groups is for gay men or MSM
+","numeric(byte)
+"
+fbstarttime,"START OF FACEBOOK APP/FRIENDS LIST
+","numeric(byte)
+"
+fbconsent,"We will also be using our own app on Facebook for this study. The app will let u
+","numeric(byte)
+"
+fbassent,"We will also be using our own app on Facebook for this study. The app will let u
+","numeric(byte)
+"
+fbprivacy,"Have you changed your Facebook privacy settings since the last time we spoke?
+","numeric(byte)
+"
+fbendtime,"START OF FACEBOOK APP/FRIENDS LIST
+","string(str27),butlongestisstr13
+"
+mencommreg,"#MSM R knows
+","numeric(double)
+"
+menusedrugs,"#MSM R thinks use drugs
+","numeric(double)
+"
+rofferdrugs,"#MSM R invited to share drugs to make sex easier, last longer, feel better
+","numeric(double)
+"
+rtellnodrugs,"#MSM R discouraged from using drugs to make sex easier, last longer, feel better
+","numeric(double)
+"
+menofferdrugs,"#MSM invited R to share drugs to make sex easier, last longer, feel better
+","numeric(double)
+"
+rtellhelp,"Of #MSM using drugs or alcohol R encouraged to get help for drug or alcohol use
+","numeric(double)
+"
+rtellcondom,"#MSM R encouraged to use condoms when they have anal sex
+","numeric(double)
+"
+rtellnocondom,"#MSM R discouraged from using a condom when they have anal sex
+","numeric(double)
+"
+tellrusecondom,"#MSM encouraged R to use condoms when R has anal sex 
+","numeric(byte)
+"
+tellrnocondom,"#MSM discouraged R from using condoms when R has anal sex
+","numeric(byte)
+"
+roffergroupsex,"#MSM invited R to take part in or suggested group sex to
+","numeric(byte)
+"
+tellrnogroupsex,"#MSM discouraged R from taking part in group sex
+","numeric(byte)
+"
+menoffergroupsex,"#MSM invited R to take part in or suggested group sex to R
+","numeric(byte)
+"
+id1_gay,"Identity: Gay
+","string(strL)
+"
+id1_homo,"Identity: Homosexual  
+","numeric(double)
+"
+id1_bi,"Identity: Bisexual
+","numeric(double)
+"
+id1_straight,"Identity: Straight
+","numeric(double)
+"
+id1_hetero,"Identity: Heterosexual
+","numeric(double)
+"
+id1_same,"Identity: Same Gender Loving
+","numeric(double)
+"
+id1_justsexual,"Identity: Just sexual
+","numeric(double)
+"
+id1_queer,"Identity: Queer
+","numeric(double)
+"
+id1_question,"Identity: Questioning
+","numeric(double)
+"
+id1_other,"Identity: Other
+","numeric(byte)
+"
+id1_dk,"Identity: DON'T KNOW 
+","numeric(byte)
+"
+id1_ref,"Identity: REFUSED
+","numeric(byte)
+"
+id1_othspec,"Identity: Other (SPECIFY)
+","numericdailydate(long)
+"
+id2_male,"Identity: Male
+","numeric(byte)
+"
+id2_female,"Identity: Female
+","numeric(byte)
+"
+id2_transgender,"Identity: Transgender
+","numeric(byte)
+"
+id2_transsexual,"Identity: Transexual
+","numericdailydate(long)
+"
+id2_genderqueer,"Identity: Genderqueer
+","numeric(int)
+"
+id2_butchqueen,"Identity: Butch queen
+","numeric(byte)
+"
+id2_femqueen,"Identity: Femme queen
+","numeric(byte)
+"
+id2_trannie,"Identity: Trannie
+","numeric(byte)
+"
+id2_intersex,"Identity: Intersex
+","numeric(byte)
+"
+id2_crossdress,"Identity: Crossdresser
+","numeric(byte)
+"
+id2_homothug,"Identity: Homothug
+","numeric(byte)
+"
+id2_other,"Identity: Other
+","numeric(byte)
+"
+id2_dk,"Identity: DON'T KNOW
+","numeric(byte)
+"
+id2_ref,"Identity: REFUSED
+","numeric(byte)
+"
+id2_othspec,"Identity: Other (SPECIFY)
+","numeric(byte)
+"
+travforpartner,"R feels he has to travel to another part of the city to find male sex partners
+","numeric(byte)
+"
+travforsocial,"R feels he has to travel to another part of the city to socialize with other MSM
+","numeric(byte)
+"
+opptomeet,"R feels his neighborhood has opportunities for MSM to socialize and meet
+","numeric(byte)
+"
+everboystown,"R socialized or met sex partners in the Boystown neighborhood in the past 12 mos
+","numeric(byte)
+"
+clubbar,"Frequency R went to clubs or bars to meet or socialize with other men
+","numeric(byte)
+"
+clubbarsside,"Clubs and bars located in South Side
+","numeric(byte)
+"
+clubbarnside,"Clubs and bars located in North Side
+","numeric(byte)
+"
+clubbarwside,"Clubs and bars located in West Side
+","numeric(byte)
+"
+clubbareside,"Clubs and bars located in East Side
+","numeric(byte)
+"
+clubbarssuburb,"Clubs and bars located in South Suburb
+","numeric(byte)
+"
+clubbarother,"Clubs and bars located in Other
+","numeric(byte)
+"
+clubbardk,"Clubs and bars located in DON'T KNOW
+","numeric(byte)
+"
+clubbarref,"Clubs and bars located in REFUSED
+","numeric(byte)
+"
+clubbar_othspec,"(unlabeled)
+","numeric(byte)
+"
+clubbar_downtown_vltrd,"Clubs and bars located Downtown (Volunteered)
+","string(str26)
+"
+gym,"Frequency R went to gyms to meet or socialize with other men
+","numeric(byte)
+"
+gymsside,"Gyms located in South Side
+","numeric(byte)
+"
+gymnside,"Gyms located in North Side
+","numeric(byte)
+"
+gymwside,"Gyms located in West Side
+","numeric(byte)
+"
+gymeside,"Gyms located in East Side
+","numeric(byte)
+"
+gymssuburb,"Gyms located in South Suburbs
+","numeric(byte)
+"
+gymother,"Gyms located in Other
+","numeric(byte)
+"
+gymdk,"Gyms located in DON'T KNOW
+","numeric(byte)
+"
+gymref,"Gyms located in REFUSED
+","numeric(byte)
+"
+gym_othspec,"(unlabeled)
+","numeric(byte)
+"
+pubspc,"Frequency R went to public spaces to meet or socialize with men
+","numeric(byte)
+"
+pubspcsside,"Public spaces located in South Side
+","numeric(byte)
+"
+pubspcnside,"Public spaces located in North Side
+","numeric(byte)
+"
+pubspcwside,"Public spaces located in West Side
+","numeric(byte)
+"
+pubspceside,"Public spaces located in East Side
+","string(str19)
+"
+pubspcssuburb,"Public spaces located in South Suburbs
+","numeric(byte)
+"
+pubspcother,"Public spaces located in Other
+","numeric(byte)
+"
+pubspcdk,"Public spaces located in DON'T KNOW
+","numeric(byte)
+"
+pubspcref,"Public spaces located in REFUSED
+","numeric(byte)
+"
+pubspc_othspec,"(unlabeled)
+","numeric(byte)
+"
+pubspc_downtown_vltrd,"Public spaces located downtown (Volunteered)
+","numeric(byte)
+"
+bathbook,"During the past 12 months how often have you gone to adult bookstores or bathhou
+","numeric(byte)
+"
+bathbksside,"Adult bookstores or bathhouses located in South Side
+","numeric(byte)
+"
+bathbknside,"Adult bookstores or bathhouses located in North Side
+","numeric(byte)
+"
+bathbkwside,"Adult bookstores or bathhouses located in West Side
+","numeric(byte)
+"
+bathbkeside,"Adult bookstores or bathhouses located in East Side
+","numeric(byte)
+"
+bathbkssuburb,"Adult bookstores or bathhouses located in South Suburbs
+","numeric(byte)
+"
+bathbkother,"Adult bookstores or bathhouses located in Other
+","numeric(byte)
+"
+bathbkdk,"Adult bookstores or bathhouses located in DON'T KNOW
+","string(strL)
+"
+bathbkref,"Adult bookstores or bathhouses located in REFUSED
+","numeric(double)
+"
+bathbk_othspec,"(unlabeled)
+","numeric(byte)
+"
+websitessoc,"Since your last interview, how often have you used websites, apps, or phone line
+","numeric(byte)
+"
+ball,"Frequency R went to to ball scenes to meet or socialize with other men
+","numeric(byte)
+"
+ballsside,"Balls located in South Side
+","numeric(byte)
+"
+ballnside,"Balls located in North Side
+","numeric(byte)
+"
+ballwside,"Balls located in West Side
+","numeric(byte)
+"
+balleside,"Balls located in East Side
+","numeric(byte)
+"
+ballssuburb,"Balls located in South Suburbs
+","numeric(byte)
+"
+ballother,"Balls located in Other
+","numeric(byte)
+"
+balldk,"Balls located in DON'T KNOW
+","string(str18)
+"
+ballref,"Balls located in REFUSED
+","numeric(byte)
+"
+ball_othspec,"(unlabeled)
+","numeric(byte)
+"
+ball_outofstate_vltrd,"Balls located out of state (Volunteered)
+","numeric(byte)
+"
+walkball,"R ever ever walked in a Ball, Kiki Ball, or Family Ball
+","numeric(byte)
+"
+lastballmo,"Time of last ball: Month
+","numeric(byte)
+"
+lastballyr,"Time of last ball: Year
+","numeric(byte)
+"
+memballroom,"R is member of a House in a Ballroom Community
+","numeric(byte)
+"
+memfamily,"R is a member of a Gay Family
+","numeric(byte)
+"
+gayfamily_cat,"Name of Gay Family of which R is a member (Categorized Open Responses)
+","numeric(byte)
+"
+memfraternity,"R is a member of a fraternity
+","string(strL)
+"
+fraternity_cat,"Name of fraternity of which R is a member (Categorized Open Responses)
+","numeric(double)
+"
+frat_kpk,"R is member of Kappa Psi Kappa
+","numeric(byte)
+"
+frat_dpu,"R is member of Delta Phi Upsilon
+","numeric(byte)
+"
+saq1_hivtalk,"Frequency talk to friends about HIV/AIDS
+","numeric(byte)
+"
+saq1_hivinfo,"Amount information offered to friends
+","numeric(byte)
+"
+saq1_hivprevent,"Number of friends talked with about preventing HIV/AIDS
+","numeric(byte)
+"
+saq1_hivasked,"Likeliness to be asked about HIV/AIDS
+","numeric(byte)
+"
+saq1_hivgivegetinfo,"Give/get information about HIV/AIDS
+","numeric(byte)
+"
+saq1_hivadvise,"Source of advice
+","numeric(byte)
+"
+viol_die,"Had a close relative or friend die violently
+","numeric(byte)
+"
+viol_injure,"Had a close relative or friend seriously injured because of violence
+","string(str8)
+"
+viol_robbed,"Had a close relative or friend robbed or attacked
+","numeric(byte)
+"
+viol_beaten,"Seen someone being beaten
+","numeric(byte)
+"
+viol_violence,"Been a victim of violence
+","numeric(byte)
+"
+viol_dead,"Seen a dead body not at a funeral
+","numeric(byte)
+"
+viol_gun,"Witnessed a gun related incident
+","numeric(byte)
+"
+cog_angryoutbursts,"I have angry outbursts
+","numeric(byte)
+"
+cog_makecarelesserrors,"I make careless errors when completing tasks
+","numeric(byte)
+"
+cog_amdisorganized,"I am disorganized
+","numeric(byte)
+"
+cog_troubleconcentrate,"I have trouble concentrating on tasks (such as chores, reading, or work)
+","numeric(byte)
+"
+cog_tapmyfingers,"I tap my fingers or bounce my legs
+","numeric(byte)
+"
+cog_needreminding,"I need to be reminded to begin a task even when I am willing
+","string(strL)
+"
+cog_messycloset,"I have a messy closet
+","numeric(double)
+"
+cog_troubletransition,"I have trouble changing from one activity or task to another
+","numeric(byte)
+"
+cog_getoverwhelmed,"I get overwhelmed by large tasks
+","numeric(byte)
+"
+cog_forgetmyname,"I forget my name
+","numeric(int)
+"
+cog_troublewtasks,"I have trouble with jobs or tasks that have more than one step
+","numeric(byte)
+"
+cog_overreactemo,"I overreact emotionally
+","numeric(long)
+"
+cog_troublegetready,"I have trouble getting ready for the day
+","numeric(byte)
+"
+cog_troubleprioritize,"I have trouble prioritizing activities
+","numeric(long)
+"
+cog_troublesitstill,"I have trouble sitting still
+","numeric(byte)
+"
+cog_forgetwhatimdoing,"I forget what I am doing in the middle of things
+","numeric(long)
+"
+cog_dontcheckmywork,"I don’t check my work for mistakes
+","numeric(byte)
+"
+cog_emotionoutbursts,"I have emotional outbursts for little reason
+","numeric(byte)
+"
+cog_liearoundhouse,"I lie around the house a lot
+","numeric(byte)
+"
+cog_starttaskswo,"I start tasks (such as cooking, projects) without the right materials
+","numeric(byte)
+"
+cog_talkwrongtime,"I talk at the wrong time
+","numeric(byte)
+"
+cog_misjudgedifficulty,"I misjudge how difficult or easy tasks will be
+","numeric(byte)
+"
+cog_problemsgetstartown,"I have problems getting started on my own
+","numeric(byte)
+"
+cog_troublestaytopic,"I have trouble staying on the same topic when talking
+","numeric(byte)
+"
+cog_gettired,"I get tired
+","numeric(byte)
+"
+cog_reactmoreemo,"I react more emotionally to situations than my friends
+","numeric(byte)
+"
+cog_problemswaitturn,"I have problems waiting my turn
+","numeric(byte)
+"
+cog_peoplesayimdisorg,"People say that I am disorganized
+","numeric(byte)
+"
+cog_losethings,"I lose things (such as keys, money, wallet, homework, etc.)
+","numeric(byte)
+"
+cog_troubleprobsolve,"I have trouble thinking of a different way to solve a problem when stuck
+","numeric(byte)
+"
+cog_overreactsmallprob,"I overreact to small problems
+","numeric(byte)
+"
+cog_dontplanaheadfuture,"I don’t plan ahead for future activities
+","numeric(byte)
+"
+cog_shortattspan,"I have a short attention span
+","numeric(byte)
+"
+cog_inappropsexcomment,"I make inappropriate sexual comments
+","numeric(byte)
+"
+cog_confusedwhenpeopleupset,"When people seem upset with me, I don’t understand why
+","numeric(byte)
+"
+cog_troublecount3,"I have trouble counting to three
+","numeric(byte)
+"
+cog_unrealisticgoal,"I have unrealistic goals
+","numeric(byte)
+"
+cog_leavebathrmmessy,"I leave the bathroom a mess
+","numeric(byte)
+"
+cog_carelessmistakes,"I make careless mistakes
+","numeric(byte)
+"
+cog_emoupseteasy,"I get emotionally upset easily
+","numeric(byte)
+"
+cog_botheredbychanges,"I am bothered by having to deal with changes
+","numeric(byte)
+"
+cog_difficultygetexcited,"I have difficulties getting excited about things
+","numeric(byte)
+"
+cog_forgetinstructions,"I forget instructions easily
+","numeric(byte)
+"
+cog_goodideas,"I have good ideas but cannot get them on paper
+","numeric(byte)
+"
+cog_makemistakes,"I make mistakes
+","numeric(byte)
+"
+cog_troublegetstart,"I have trouble getting started on tasks
+","numeric(byte)
+"
+cog_saythingswothink,"I say things without thinking
+","numeric(byte)
+"
+cog_angerintensequicklyend,"My anger is intense but ends quickly
+","numeric(byte)
+"
+cog_troublefinsh,"I have trouble finishing tasks (such as chores, work)
+","numeric(byte)
+"
+cog_startlastmin,"I start things at the last minute (such as assignments, chores, tasks)
+","numeric(byte)
+"
+cog_difficultyfinishown,"I have difficulty finishing a task on my own
+","numeric(byte)
+"
+cog_peoplesaydistracted,"People say that I am easily distracted
+","numeric(byte)
+"
+cog_peoplesaytooemo,"People say that I am too emotional
+","numeric(byte)
+"
+cog_rushthroughthings,"I rush through things
+","numeric(byte)
+"
+cog_getannoyed,"I get annoyed
+","numeric(byte)
+"
+cog_leavehomemessy,"I leave my room or home a mess
+","numeric(byte)
+"
+cog_getdisturbed,"I get disturbed by unexpected changes in my daily routine
+","numeric(byte)
+"
+cog_troubleideasfreetime,"I have trouble coming up with ideas for what to do with my free time
+","numeric(byte)
+"
+cog_dontplanaheadtasks,"I don’t plan ahead for tasks
+","numeric(byte)
+"
+cog_peoplesayactfirst,"People say that I don’t think before acting
+","numeric(byte)
+"
+cog_troublefind,"I have trouble finding things in my room, closet, or desk
+","numeric(byte)
+"
+cog_problemsorgactivities,"I have problems organizing activities
+","numeric(byte)
+"
+cog_dontgetoverproblem,"After having a problem, I don’t get over it easily
+","numeric(byte)
+"
+cog_troublemultitask,"I have trouble doing more than one thing at a time
+","numeric(byte)
+"
+cog_moodchanges,"My mood changes frequently
+","numeric(byte)
+"
+cog_dontthinkaboutconsq,"I don’t think about consequences before doing something
+","numeric(byte)
+"
+cog_troubleorgwork,"I have trouble organizing work
+","numeric(byte)
+"
+cog_getupsetquickly,"I get upset quickly or easily over little things
+","numeric(byte)
+"
+cog_impulsive,"I am impulsive
+","numeric(byte)
+"
+cog_dontpickup,"I don’t pick up after myself
+","numeric(byte)
+"
+cog_problemscompletework,"I have problems completing my work
+","numeric(byte)
+"
+saq4_longlife,"I don’t expect to live a very long life
+","numeric(byte)
+"
+depress_dizzy,"Faintness or dizziness
+","numeric(byte)
+"
+depress_nointerest,"Feeling no interest in things
+","numeric(byte)
+"
+depress_shaky,"Nervousness or shakiness inside
+","numeric(byte)
+"
+depress_chestpain,"Pains in heart or chest
+","numeric(byte)
+"
+depress_lonely,"Feeling lonely
+","numeric(byte)
+"
+depress_tense,"Feeling tense or keyed up
+","numeric(byte)
+"
+depress_nausea,"Nausea or upset stomach
+","numeric(byte)
+"
+depress_blue,"Feeling blue
+","numeric(byte)
+"
+depress_scared,"Suddenly scared for no reason
+","numeric(byte)
+"
+depress_hardtobreathe,"Trouble getting your breath
+","numeric(byte)
+"
+depress_worthless,"Feelings of worthlessness
+","numeric(byte)
+"
+depress_panic,"Spells of terror or panic
+","numeric(byte)
+"
+depress_numb,"Numbness or tingling in parts of your body
+","numeric(byte)
+"
+depress_hopeless,"Feeling hopeless about the future
+","numeric(byte)
+"
+depress_restless,"Feeling so restless you couldn’t sit still
+","numeric(byte)
+"
+depress_weak,"Feeling weak in parts of your body
+","numeric(byte)
+"
+depress_suicidal,"Thoughts of ending your life
+","numeric(byte)
+"
+depress_fearful,"Feeling fearful
+","numeric(byte)
+"
+spdata,"Respondent has Sex Partner Network Data
+","numeric(byte)
+"
+nspartners,"Num Sex Network Partners (Only With Last Sex Date in Past 6 Months)
+","numeric(byte)
+"
+nspartnonmgend,"Num Sex Network Partners Past 6mo NONMISSING GENDER (nmalesp+ntranssp+nfemalesp)
+","numeric(byte)
+"
+nmalesp,"Num Male Partners
+","numeric(byte)
+"
+ntranssp,"Num Trans Partners
+","numeric(byte)
+"
+nmentranssp,"Num Male &/or Trans Partners
+","numeric(byte)
+"
+nfemalesp,"Num Female Partners
+","numeric(byte)
+"
+nsporal_mentrans,"Num Male & Trans Partners Oral Sex
+","numeric(byte)
+"
+nsporal_women,"Num Female Partners Oral Sex
+","numeric(byte)
+"
+nsporal_men,"Num Male Partners Oral Sex
+","numeric(byte)
+"
+nsporal_trans,"Num Trans Partners Oral Sex
+","numeric(byte)
+"
+nspanal_mentrans,"Num Male & Trans Partners Anal Sex
+","numeric(byte)
+"
+nspanal_women,"Num Female Partners Anal Sex
+","numeric(byte)
+"
+nspanal_men,"Num Male Partners Anal Sex
+","numeric(byte)
+"
+nspanal_trans,"Num Trans Partners Anal Sex
+","numeric(byte)
+"
+nsppen_women,"Num Female Partners Vaginal or Anal Sex
+","numeric(byte)
+"
+nspnocond_mentrans,"Num Male & Trans Partners Condomless Sex
+","numeric(byte)
+"
+nspnocond_women,"Num Female Partners Condomless Sex
+","numeric(byte)
+"
+nspnocond_men,"Num Male Partners Condomless Sex
+","numeric(byte)
+"
+nspnocond_trans,"Num Trans Partners Condomless Sex
+","numeric(byte)
+"
+nsphivneg_mentrans,"Num Male & Trans Partners HIV-
+","numeric(byte)
+"
+nsphivpos_mentrans,"Num Male & Trans Partners HIV+
+","numeric(byte)
+"
+nsphivdk_mentrans,"Num Male & Trans Partners HIV Status Unknown
+","numeric(byte)
+"
+nsphivneg_women,"Num Female Partners HIV-
+","numeric(byte)
+"
+nsphivpos_women,"Num Female Partners HIV+
+","numeric(byte)
+"
+nsphivdk_women,"Num Female Partners HIV Status Unknown
+","numeric(byte)
+"
+nsphivneg_men,"Num Male Partners HIV-
+","numeric(byte)
+"
+nsphivpos_men,"Num Male Partners HIV+
+","numeric(byte)
+"
+nsphivdk_men,"Num Male Partners HIV Status Unknown
+","numeric(byte)
+"
+nsphivneg_trans,"Num Trans Partners HIV-
+","numeric(byte)
+"
+nsphivpos_trans,"Num Trans Partners HIV+
+","numeric(byte)
+"
+nsphivdk_trans,"Num Trans Partners HIV Status Unknown
+","numeric(byte)
+"
+nspwhite_mentrans,"Num Male & Trans Partners White
+","numeric(byte)
+"
+nspwhite_women,"Num Female Partners White
+","numeric(byte)
+"
+nspwhite_men,"Num Male Partners White
+","numeric(byte)
+"
+nspwhite_trans,"Num Trans Partners White
+","numeric(double)
+"
+nspdrugsex_mentrans,"Num Male & Trans Partners Used Drugs During Sex
+","numeric(double)
+"
+nspdrugsex_women,"Num Female Partners Used Drugs During Sex
+","numeric(double)
+"
+nspdrugsex_men,"Num Male Partners Used Drugs During Sex
+","numeric(double)
+"
+nspdrugsex_trans,"Num Trans Partners Used Drugs During Sex
+","numeric(double)
+"
+nspsexothers_women,"Num Female Partners Prob/Def. Did Have Sex w/ Others During Relationship
+","numeric(double)
+"
+nspsexothers_men,"Num Male Partners Prob/Def. Did Have Sex w/ Others During Relationship
+","numeric(double)
+"
+nspsexothers_trans,"Num Trans Partners Prob/Def. Did Have Sex w/ Others During Relationship
+","numeric(double)
+"
+nspgivesexpay_mentrans,"Num Male & Trans Partners R Paid for Sex
+","numeric(double)
+"
+nspgivesexpay_women,"Num Female Partners R Paid for Sex
+","numeric(double)
+"
+nspgivesexpay_men,"Num Male Partners R Paid for Sex
+","numeric(double)
+"
+nspgivesexpay_trans,"Num Trans Partners R Paid for Sex
+","numeric(double)
+"
+nspgetsexpay_mentrans,"Num Male & Trans Partners That Paid R for Sex
+","numeric(double)
+"
+nspgetsexpay_women,"Num Female Partners That Paid R for Sex
+","numeric(double)
+"
+nspgetsexpay_men,"Num Male Partners That Paid R for Sex
+","numeric(double)
+"
+nspgetsexpay_trans,"Num Trans Partners That Paid R for Sex
+","numeric(double)
+"
+nspexchangepay_mentrans,"Num Male & Trans Partners Exchanged Sex-for-Pay / Pay-for-Sex
+","numeric(double)
+"
+nspexchangepay_women,"Num Female Partners Exchanged Sex-for-Pay / Pay-for-Sex
+","numeric(double)
+"
+nspexchangepay_men,"Num Male Partners Exchanged Sex-for-Pay / Pay-for-Sex
+","numeric(double)
+"
+nspexchangepay_trans,"Num Trans Partners Exchanged Sex-for-Pay / Pay-for-Sex
+","numeric(double)
+"
+nspprefersmen_mentrans,"Num Male & Trans Partners That Prefer Men
+","numeric(double)
+"
+nspprefersmen_women,"Num Female Partners That Prefer Men
+","numeric(double)
+"
+nspprefersmen_men,"Num Male Partners That Prefer Men
+","numeric(double)
+"
+nspprefersmen_trans,"Num Trans Partners That Prefer Men
+","numeric(double)
+"
+nsppreferswomen_mentrans,"Num Male & Trans Partners That Prefer Women
+","numeric(double)
+"
+nsppreferswomen_women,"Num Female Partners That Prefer Women
+","numeric(double)
+"
+nsppreferswomen_men,"Num Male Partners That Prefer Women
+","numeric(double)
+"
+nsppreferswomen_trans,"Num Trans Partners That Prefer Women
+","numeric(double)
+"
+nspyn_mentrans,"Num Male & Trans Partners That Are Current Confidants (yn)
+","numeric(double)
+"
+nspyn_women,"Num Female Partners That Are Current Confidants (yn)
+","numeric(double)
+"
+nspyn_men,"Num Male Partners That Are Current Confidants (yn)
+","numeric(double)
+"
+nspyn_trans,"Num Trans Partners That Are Current Confidants (yn)
+","numeric(double)
+"
+cfdata,"Respondent has Confidant Network Data
+","numeric(double)
+"
+cf_density,"Confident Network Density Score
+","numeric(double)
+"
+ncfalters,"Num Network Confidants
+","numeric(double)
+"
+cf_potentional_ties,"Confidant Network Total Potentional Ties
+","numeric(double)
+"
+nmalecf,"Num Male Confidants
+","numeric(double)
+"
+ntranscf,"Num Trans Confidants
+","numeric(double)
+"
+nmentranscf,"Num Male &/or Trans Confidants
+","numeric(double)
+"
+nfemalecf,"Num Female Confidants
+","numeric(double)
+"
+ncfromantic_men,"Num Romantic Of Men Confidants
+","numeric(double)
+"
+ncfromantic_w,"Num Romantic Of Women Confidants
+","numeric(double)
+"
+ncfromantic_trans,"Num Romantic Of Trans Confidants
+","numeric(double)
+"
+ncfromantic_mt,"Num Romantic Of Men & Trans Confidants
+","numeric(double)
+"
+ncffriend_men,"Num Friend Of Men Confidants
+","numeric(double)
+"
+ncffriend_w,"Num Friend Of Women Confidants
+","numeric(double)
+"
+ncffriend_trans,"Num Friend Of Trans Confidants
+","numeric(double)
+"
+ncffriend_mt,"Num Friend Of Men & Trans Confidants
+","numeric(double)
+"
+ncfhouse_men,"Num House Of Men Confidants
+","numeric(double)
+"
+ncfhouse_w,"Num House Of Women Confidants
+","numeric(double)
+"
+ncfhouse_trans,"Num House Of Trans Confidants
+","numeric(double)
+"
+ncfhouse_mt,"Num House Of Men & Trans Confidants
+","numeric(double)
+"
+ncfcowork_men,"Num Cowork Of Men Confidants
+","numeric(double)
+"
+ncfcowork_w,"Num Cowork Of Women Confidants
+","numeric(double)
+"
+ncfcowork_trans,"Num Cowork Of Trans Confidants
+","numeric(double)
+"
+ncfcowork_mt,"Num Cowork Of Men & Trans Confidants
+","numeric(double)
+"
+ncffamily_men,"Num Family Of Men Confidants
+","numeric(double)
+"
+ncffamily_w,"Num Family Of Women Confidants
+","numeric(double)
+"
+ncffamily_trans,"Num Family Of Trans Confidants
+","numeric(double)
+"
+ncffamily_mt,"Num Family Of Men & Trans Confidants
+","numeric(double)
+"
+ncfplayfam_men,"Num Playfam Of Men Confidants
+","numeric(double)
+"
+ncfplayfam_w,"Num Playfam Of Women Confidants
+","numeric(double)
+"
+ncfplayfam_trans,"Num Playfam Of Trans Confidants
+","numeric(double)
+"
+ncfplayfam_mt,"Num Playfam Of Men & Trans Confidants
+","numeric(double)
+"
+ncfothrel_men,"Num Othrel Of Men Confidants
+","numeric(double)
+"
+ncfothrel_w,"Num Othrel Of Women Confidants
+","numeric(double)
+"
+ncfothrel_trans,"Num Othrel Of Trans Confidants
+","numeric(double)
+"
+ncfothrel_mt,"Num Othrel Of Men & Trans Confidants
+","numeric(double)
+"
+ncfsexwithmen_men,"Num Has Sex with Men Of Men Confidants
+","numeric(double)
+"
+ncfsexwithmen_w,"Num Has Sex with Men Of Women Confidants
+","numeric(double)
+"
+ncfsexwithmen_trans,"Num Has Sex with Men Of Trans Confidants
+","numeric(double)
+"
+ncfsexwithmen_mt,"Num Has Sex with Men Of Men & Trans Confidants
+","numeric(double)
+"
+ncfsexwithtrans_men,"Num Has Sex with Trans Of Men Confidants
+","numeric(double)
+"
+ncfsexwithtrans_w,"Num Has Sex with Trans Of Women Confidants
+","numeric(double)
+"
+ncfsexwithtrans_trans,"Num Has Sex with Trans Of Trans Confidants
+","numeric(double)
+"
+ncfsexwithtrans_mt,"Num Has Sex with Trans Of Men & Trans Confidants
+","numeric(double)
+"
+ncfsexwithwomen_men,"Num Has Sex with Women Of Men Confidants
+","numeric(double)
+"
+ncfsexwithwomen_w,"Num Has Sex with Women Of Women Confidants
+","numeric(double)
+"
+ncfsexwithwomen_trans,"Num Has Sex with Women Of Trans Confidants
+","numeric(double)
+"
+ncfsexwithwomen_mt,"Num Has Sex with Women Of Men & Trans Confidants
+","numeric(double)
+"
+ncfsexwithoth_men,"Num Has Sex with Other Of Men Confidants
+","numeric(double)
+"
+ncfsexwithoth_w,"Num Has Sex with Other Of Women Confidants
+","numeric(double)
+"
+ncfsexwithoth_trans,"Num Has Sex with Other Of Trans Confidants
+","numeric(double)
+"
+ncfsexwithoth_mt,"Num Has Sex with Other Of Men & Trans Confidants
+","numeric(double)
+"
+ncfsexwithinactive_men,"Num Has Sex with inactive Of Men Confidants
+","numeric(double)
+"
+ncfsexwithinactive_w,"Num Has Sex with inactive Of Women Confidants
+","numeric(double)
+"
+ncfsexwithinactive_trans,"Num Has Sex with inactive Of Trans Confidants
+","numeric(double)
+"
+ncfsexwithinactive_mt,"Num Has Sex with inactive Of Men & Trans Confidants
+","numeric(double)
+"
+ncfsexwithdk_men,"Num Has Sex with DK Of Men Confidants
+","numeric(double)
+"
+ncfsexwithdk_w,"Num Has Sex with DK Of Women Confidants
+","numeric(double)
+"
+ncfsexwithdk_trans,"Num Has Sex with DK Of Trans Confidants
+","numeric(double)
+"
+ncfsexwithdk_mt,"Num Has Sex with DK Of Men & Trans Confidants
+","numeric(double)
+"
+ncfsexwithref_men,"Num Has Sex with REF Of Men Confidants
+","numeric(double)
+"
+ncfsexwithref_w,"Num Has Sex with REF Of Women Confidants
+","numeric(double)
+"
+ncfsexwithref_trans,"Num Has Sex with REF Of Trans Confidants
+","numeric(double)
+"
+ncfsexwithref_mt,"Num Has Sex with REF Of Men & Trans Confidants
+","numeric(double)
+"
+ncfsexprefmen_men,"Num Prefers Men Of Men Confidants
+","numeric(double)
+"
+ncfsexprefmen_w,"Num Prefers Men Of Women Confidants
+","numeric(double)
+"
+ncfsexprefmen_trans,"Num Prefers Men Of Trans Confidants
+","numeric(double)
+"
+ncfsexprefmen_mt,"Num Prefers Men Of Men & Trans Confidants
+","numeric(double)
+"
+ncfsexpreftrans_men,"Num Prefers Trans Of Men Confidants
+","numeric(double)
+"
+ncfsexpreftrans_w,"Num Prefers Trans Of Women Confidants
+","numeric(double)
+"
+ncfsexpreftrans_trans,"Num Prefers Trans Of Trans Confidants
+","numeric(double)
+"
+ncfsexpreftrans_mt,"Num Prefers Trans Of Men & Trans Confidants
+","numeric(double)
+"
+ncfsexprefwomen_men,"Num Prefers Women Of Men Confidants
+","numeric(double)
+"
+ncfsexprefwomen_w,"Num Prefers Women Of Women Confidants
+","numeric(double)
+"
+ncfsexprefwomen_trans,"Num Prefers Women Of Trans Confidants
+","numeric(double)
+"
+ncfsexprefwomen_mt,"Num Prefers Women Of Men & Trans Confidants
+","numeric(double)
+"
+ncfsexprefoth_men,"Num Prefers Other Of Men Confidants
+","numeric(double)
+"
+ncfsexprefoth_w,"Num Prefers Other Of Women Confidants
+","numeric(double)
+"
+ncfsexprefoth_trans,"Num Prefers Other Of Trans Confidants
+","numeric(double)
+"
+ncfsexprefoth_mt,"Num Prefers Other Of Men & Trans Confidants
+","numeric(double)
+"
+ncfsexprefdk_men,"Num Prefers DK Of Men Confidants
+","numeric(double)
+"
+ncfsexprefdk_w,"Num Prefers DK Of Women Confidants
+","numeric(double)
+"
+ncfsexprefdk_trans,"Num Prefers DK Of Trans Confidants
+","numeric(double)
+"
+ncfsexprefdk_mt,"Num Prefers DK Of Men & Trans Confidants
+","numeric(double)
+"
+ncfsexprefref_men,"Num Prefers REF Of Men Confidants
+","numeric(double)
+"
+ncfsexprefref_w,"Num Prefers REF Of Women Confidants
+","numeric(double)
+"
+ncfsexprefref_trans,"Num Prefers REF Of Trans Confidants
+","numeric(double)
+"
+ncfsexprefref_mt,"Num Prefers REF Of Men & Trans Confidants
+","numeric(double)
+"
+ncfknowrsex_men,"Num Knowrsex Of Men Confidants
+","numeric(double)
+"
+ncfknowrsex_w,"Num Knowrsex Of Women Confidants
+","numeric(double)
+"
+ncfknowrsex_trans,"Num Knowrsex Of Trans Confidants
+","numeric(double)
+"
+ncfknowrsex_mt,"Num Knowrsex Of Men & Trans Confidants
+","numeric(double)
+"
+ncfnumsex_men,"Median Num Sex Partners Of Men Confidants
+","numeric(double)
+"
+ncfnumsex_w,"Median Num Sex Partners Of Women Confidants
+","numeric(double)
+"
+ncfnumsex_trans,"Median Num Sex Partners Of Trans Confidants
+","numeric(double)
+"
+ncfnumsex_mt,"Median Num Sex Partners Of Men & Trans Confidants
+","numeric(double)
+"
+ncfgrpsex_men,"Num Grpsex Of Men Confidants
+","numeric(double)
+"
+ncfgrpsex_w,"Num Grpsex Of Women Confidants
+","numeric(double)
+"
+ncfgrpsex_trans,"Num Grpsex Of Trans Confidants
+","numeric(double)
+"
+ncfgrpsex_mt,"Num Grpsex Of Men & Trans Confidants
+","numeric(double)
+"
+ncfsupport_men,"Num Support Of Men Confidants
+","numeric(double)
+"
+ncfsupport_w,"Num Support Of Women Confidants
+","numeric(double)
+"
+ncfsupport_trans,"Num Support Of Trans Confidants
+","numeric(double)
+"
+ncfsupport_mt,"Num Support Of Men & Trans Confidants
+","numeric(double)
+"
+ncfunsupport_men,"Num Unsupport Of Men Confidants
+","numeric(double)
+"
+ncfunsupport_w,"Num Unsupport Of Women Confidants
+","numeric(double)
+"
+ncfunsupport_trans,"Num Unsupport Of Trans Confidants
+","numeric(double)
+"
+ncfunsupport_mt,"Num Unsupport Of Men & Trans Confidants
+","numeric(double)
+"
+fbdata,"Respondent has Facebook Network Data
+","numeric(double)
+"
+,,"numeric(double)
+"
+,,"numeric(double)
+"
+,,"numeric(double)
+"
+,,"numeric(double)
+"
+,,"numeric(double)
+"
+,,"numeric(double)
+"
+,,"numeric(double)
+"
+,,"numeric(double)
+"
+,,"numeric(double)
+"
+,,"numeric(double)
+"
+,,"numeric(double)
+"
+,,"numeric(double)
+"
+,,"numeric(double)
+"
+,,"numeric(double)
+"
+,,"numeric(double)
+"
+,,"numeric(double)
+"
+,,"numeric(double)
+"
+,,"numeric(double)
+"
+,,"numeric(double)
+"
+,,"numeric(double)
+"
+,,"numeric(double)
+"
+,,"numeric(double)
+"
+,,"numeric(double)
+"
+,,"numeric(double)
+"
+,,"numeric(double)
+"
+,,"numeric(double)
+"
+,,"numeric(double)
+"
+,,"numeric(double)
+"
+,,"numeric(double)
+"
+,,"numeric(double)
+"
+,,"numeric(double)
+"
+,,"numeric(double)
+"
+,,"numeric(double)
+"
+,,"numeric(double)
+"
+,,"numeric(double)
+"
+,,"numeric(double)
+"

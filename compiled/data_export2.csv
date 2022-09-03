@@ -1,0 +1,406 @@
+cf_var_name,cf_var_label,cf_var_type
+su_id,"ENTER SU_ID TO TEST
+","string(str8)
+"
+numgiven,"NUMBER OF NAMES ENTERED
+","numeric(byte)
+"
+hasdata,"Respondent reports >=1 Confidant
+","numeric(double)
+"
+cfalter,"CONFIDANT ALTER LINE NUMBER
+","numeric(byte)
+"
+cf_pastcfyn,"Was this confidant a confidant in a previous wave?
+","numeric(double)
+"
+cf_pastspyn,"Was this confidant a sex partner in a previous wave?
+","numeric(double)
+"
+cf_pastsp,"(unlabeled)
+","numeric(double)
+"
+cf_pastcf,"On which line number does [NAME] first appear?
+","numeric(double)
+"
+confknow,"(unlabeled)
+","numeric(double)
+"
+confrel,"What is your relationship to [NAME]?
+","numeric(double)
+"
+confrel_othsex,"Other sex relationship to [NAME][SPECIFY]?
+","string(str34)
+"
+confrel_othfr,"Other friend relationship to [NAME][SPECIFY]?
+","string(str1),butlongestisstr0
+"
+confrel_othnei,"Other neither relationship to [NAME][SPECIFY]?
+","string(str1),butlongestisstr0
+"
+confrel_othwork,"Other work relationship to [NAME][SPECIFY]?
+","string(str6)
+"
+confrel_othfam,"Other family relationship to [NAME][SPECIFY]?
+","string(str18),butlongestisstr0
+"
+confrel_othplay,"Other play family relationship to [NAME][SPECIFY]?
+","string(str16)
+"
+confrel_othreloth,"OTHER relationship to [NAME][SPECIFY]?
+","string(str13)
+"
+confsex,"Is [NAME] male, female or transgender?
+","numeric(double)
+"
+conftrans,"[IF TRANGENDER,] Are they Male-to-Female, or Female-to-Male?
+","numeric(double)
+"
+cfcommfreq,"How often do you communicate with [NAME]?
+","numeric(double)
+"
+cfhowclose,"How close do you feel to [NAME]?
+","numeric(double)
+"
+talkto1_conf,"How frequently does [NAME] talk to CONF1?
+","numeric(double)
+"
+talkto2_conf,"How frequently does [NAME] talk to CONF2?
+","numeric(double)
+"
+talkto3_conf,"How frequently does [NAME] talk to CONF3?
+","numeric(double)
+"
+talkto4_conf,"How frequently does [NAME] talk to CONF4?
+","numeric(double)
+"
+talkto5_conf,"How frequently does [NAME] talk to CONF5?
+","numeric(double)
+"
+confmarstat,"Is [NAME] married, committed to one person, single, or something else?
+","numeric(double)
+"
+confmarstat_othmar,"Marital status of name, OTHER [SPECIFY]?
+","string(str88),butlongestisstr47
+"
+cfsexwithmen,"Does [NAME] have sex with MEN?
+","numeric(double)
+"
+cfsexwithtranswn,"Does [NAME] have sex with TRANSGENDER WOMEN?
+","numeric(double)
+"
+cfsexwithwomen,"Does [NAME] have sex with WOMEN?
+","numeric(double)
+"
+cfsexwithoth,"IF VOLUNTEERED: Does [NAME] have sex with, OTHER (SPECIFY)?
+","numeric(double)
+"
+cfsexwithinactive,"IF VOLUNTEERED: [NAME] NOT CURRENTLY SEXUALLY
+","numeric(double)
+"
+cfsexwithdk,"Does [NAME] have sex with, DON'T
+","numeric(double)
+"
+cfsexwithref,"Does [NAME] have sex with, REFUSED?
+","numeric(double)
+"
+cfsexwith_othspec,"IF VOLUNTEERED: Who does [NAME] have sex with, OTHER (SPECIFY)?
+","string(str8)
+"
+cfsexprefmen,"Does [NAME] prefer sex with MEN?
+","numeric(double)
+"
+cfsexpreftranswn,"Does [NAME] prefer sex with TRANSGENDER WOMEN?
+","numeric(double)
+"
+cfsexprefwomen,"Does [NAME] prefer sex with WOMEN?
+","numeric(double)
+"
+cfsexprefoth,"IF VOLUNTEERED: Does [NAME] prefer sex with, OTHER (SPECIFY)?
+","numeric(double)
+"
+cfsexprefdk,"Does [NAME] prefer sex with, DON'T
+","numeric(double)
+"
+cfsexprefref,"Does [NAME] prefer sex with, REFUSED?
+","numeric(double)
+"
+cfsexpref_othspec,"IF VOLUNTEERED: Who does [NAME] prefer sex with, OTHER (SPECIFY)?
+","string(str1),butlongestisstr0
+"
+confnumsex,"How many people [NAME] has had sex with in the last 12 months?
+","numeric(double)
+"
+confgrpsex,"How often would you estimate that [NAME] engages in group sex?
+","numeric(double)
+"
+confknowrsex,"Does [NAME] know that you have sex with men? 
+","numeric(double)
+"
+confsupport,"How supportive is [NAME] about your having sex with men?
+","numeric(double)
+"
+conftalksex,"How often do you talk with [NAME] about your sex life?
+","numeric(double)
+"
+conftalkhiv,"How often does [NAME] talk with you about avoiding getting infected?
+","numeric(double)
+"
+confunprot,"How often do you think [NAME] has unprotected sex?
+","numeric(double)
+"
+confdrink,"How often does [NAME] drink alcohol, including wine and beer?
+","numeric(double)
+"
+confinvdrink,"Has [NAME] ever invited or encouraged you to drink alcohol?
+","numeric(double)
+"
+cfdrugsuse,"How often does [NAME] use drugs?
+","numeric(double)
+"
+cfdrugsmarij,"Which drugs does [NAME] use, Marijuana (weed, hash, blunt, etc)?
+","numeric(double)
+"
+cfdrugse,"Which drugs does [NAME] use, Ecstasy, E or Molly?
+","numeric(double)
+"
+cfdrugspoppers,"Which drugs does [NAME] use, Poppers (volatile nitrates)?
+","numeric(double)
+"
+cfdrugscoke,"Which drugs does [NAME] use, Cocaine/Crack?
+","numeric(double)
+"
+cfdrugsheroin,"Which drugs does [NAME] use, Heroin?
+","numeric(double)
+"
+cfdrugspsych,"Which drugs does [NAME] use, Psychedelics?
+","numeric(double)
+"
+cfdrugsmeth,"Which drugs does [NAME] use, Methamphetamine (Crystal, “tina”, meth, speed)?
+","numeric(double)
+"
+cfdrugspresc,"Which drugs does [NAME] use, Prescription Pain Killers?
+","numeric(double)
+"
+cfdrugsoth,"Which drugs does [NAME] use, Any other substance (PLEASE SPECIFY)?
+","numeric(double)
+"
+cfdrugsdk,"Which drugs does [NAME] use, DON'T KNOW?
+","numeric(double)
+"
+cfdrugsref,"Which drugs does [NAME] use, REFUSED?
+","numeric(double)
+"
+cfdrugs_othspec,"Which other drugs does [NAME] use, SPECIFY?
+","string(str8)
+"
+cfoffdrugs,"Has [NAME] ever offered to share or encouraged you to use drugs?
+","numeric(double)
+"
+cfoffdrugsmarij,"Which drugs has [NAME] encouraged, Marijuana (weed, hash, blunt, etc)?
+","numeric(double)
+"
+cfoffdrugse,"Which drugs has [NAME] encouraged, Ecstasy, E or Molly?
+","numeric(double)
+"
+cfoffdrugspoppers,"Which drugs has [NAME] encouraged, Poppers (volatile nitrates)?
+","numeric(double)
+"
+cfoffdrugscoke,"Which drugs has [NAME] encouraged, Cocaine/Crack?
+","numeric(double)
+"
+cfoffdrugsheroin,"Which drugs has [NAME] encouraged, Heroin?
+","numeric(double)
+"
+cfoffdrugspsych,"Which drugs has [NAME] encouraged, Psychedelics?
+","numeric(double)
+"
+cfoffdrugsmeth,"Which drugs has [NAME] encouraged, Methamphetamine(Crystal,“tina”,meth,speed)?
+","numeric(double)
+"
+cfoffdrugspresc,"Which drugs has [NAME] encouraged, Prescription Pain Killers?
+","numeric(double)
+"
+cfoffdrugsoth,"Which drugs has [NAME] encouraged, Any other substance (PLEASE SPECIFY)?
+","numeric(double)
+"
+cfoffdrugsdk,"Which drugs has [NAME] encouraged, DON'T KNOW?
+","numeric(double)
+"
+cfoffdrugsref,"Which drugs has [NAME] encouraged, REFUSED?
+","numeric(double)
+"
+cfsexdrugs,"How often [NAME] uses drugs/alcohol to make sex easier, longer, feel better?
+","numeric(double)
+"
+cfsexdrugsalchl,"Which drugs does [NAME] use to make sex easier, Alcohol?
+","numeric(double)
+"
+cfsexdrugsmarij,"Which drugs does [NAME] use to make sex easier, Marijuana?
+","numeric(double)
+"
+cfsexdrugse,"Which drugs does [NAME] use to make sex easier, Ecstasy, E or Molly?
+","numeric(double)
+"
+cfsexdrugspoppers,"Which drugs does [NAME] use to make sex easier, Poppers (volatile nitrates)?
+","numeric(double)
+"
+cfsexdrugscoke,"Which drugs does [NAME] use to make sex easier, Cocaine/Crack?
+","numeric(double)
+"
+cfsexdrugsheroin,"Which drugs does [NAME] use to make sex easier, Heroin?
+","numeric(double)
+"
+cfsexdrugspsych,"Which drugs does [NAME] use to make sex easier, Psychedelics?
+","numeric(double)
+"
+cfsexdrugsmeth,"Which drugs does [NAME] use to make sex easier, Methamphetamine?
+","numeric(double)
+"
+cfsexdrugspresc,"Which drugs does [NAME] use to make sex easier, Prescription Pain Killers?
+","numeric(double)
+"
+cfsexdrugsoth,"Which drugs does [NAME] use to make sex easier, Any other substance (SPECIFY)?
+","numeric(double)
+"
+cfsexdrugsdk,"Which drugs does [NAME] use to make sex easier, DON'T KNOW?
+","numeric(double)
+"
+cfsexdrugsref,"Which drugs does [NAME] use to make sex easier, REFUSED?
+","numeric(double)
+"
+confapprovsex,"Would [NAME] likely (dis)approve of you having anal sex without a condom?
+","numeric(double)
+"
+confapprovdrugs,"Would [NAME] (dis)approve of you using drugs while having sex?
+","numeric(double)
+"
+confapprovgrp,"Would [NAME] likely (dis)approve of you engaging in group sex?
+","numeric(double)
+"
+confhivstat,"Is [NAME] HIV-positive or negative?
+","numeric(double)
+"
+confhivstat_othspec,"Is [NAME] HIV-positive or negative, OTHER [SPECIFY]?
+","string(str12)
+"
+confhivpos,"Did [NAME] actually tell you he/she was HIV+?
+","numeric(double)
+"
+confhivneg,"Did [NAME] actually tell you he/she was HIV-?
+","numeric(double)
+"
+confknowrhiv,"Does [NAME] know your HIV status?
+","numeric(double)
+"
+confhelp,"How likely [NAME] to help you with a personal favor that for 1 to 2 hours?
+","numeric(double)
+"
+confmoney,"How likely would you be to ask [NAME] for $25 if you needed it? 
+","numeric(double)
+"
+confageolder,"(unlabeled)
+","numeric(double)
+"
+confage,"How old is [NAME]?
+","numeric(double)
+"
+confstudent,"Is [NAME] a full time student, part time student or not a student?
+","numeric(double)
+"
+confhigrade,"What is the highest level of education that [NAME] completed?
+","numeric(double)
+"
+confhigrade_g0_12,"What is the highest level of education [NAME] completed, SPECIFY Grade 0-12?
+","string(str10)
+"
+cfdegreegrade,"Is [NAME] working toward Grade 0-12, Specify?
+","numeric(double)
+"
+cfdegreehs,"Is [NAME] working toward High School Degree or GE?
+","numeric(double)
+"
+cfdegree2yrcoll,"Is [NAME] working toward Associate’s degree or technical/vocational license?
+","numeric(double)
+"
+cfdegreeba,"Is [NAME] working toward Bachelor’s degree (4-yr college degree, BA or BS)?
+","numeric(double)
+"
+cfdegreema,"Is [NAME] working toward Master’s degree?
+","numeric(double)
+"
+cfdegreedoc,"Is [NAME] working toward Doctoral or graduate professional degree (MD, Law)?
+","numeric(double)
+"
+cfdegreedk,"Is [NAME] working toward DON'T KNOW?
+","numeric(double)
+"
+cfdegreeref,"Is [NAME] working toward REFUSED?
+","numeric(double)
+"
+confemployed,"Is [NAME] employed full time, part time, or not employed?
+","numeric(double)
+"
+confhisp,"Is [NAME] Hispanic?
+","numeric(double)
+"
+cfraceblk,"[NAME’S] race BLACK?
+","numeric(double)
+"
+cfracewht,"[NAME’S] race WHITE?
+","numeric(double)
+"
+cfraceamerindn,"[NAME’S] race AMERICAN INDIAN?
+","numeric(double)
+"
+cfraceasian,"[NAME’S] race ASIAN OR PACIFIC ISLANDER?
+","numeric(double)
+"
+cfraceoth,"[NAME’S] race OTHER(PLEASE SPECIFY)?
+","numeric(double)
+"
+cfracedk,"[NAME’S] race DON'T KNOW?
+","numeric(double)
+"
+cfraceref,"[NAME’S] race REFUSED?
+","numeric(double)
+"
+cfrace_othspec,"[NAME’S] other race [SPECIFY]?
+","string(str28),butlongestisstr22
+"
+conflive,"Where does [NAME] live?
+","numeric(double)
+"
+confjail,"Has [NAME] ever been detained, arrested, or spent time in jail or prison?
+","numeric(double)
+"
+fbconf,"Is [NAME] on your Facebook Friends List?
+","numeric(double)
+"
+cfcommfreq_mod,"MODIFIED
+","numeric(double)
+"
+cfdata,"Respondent has Confidant Network Data
+","numeric(double)
+"
+confdad_conf,"Is [NAME] most like a Father to you?
+","numeric(double)
+"
+confmom_conf,"Is [NAME] most like a Mother to you?
+","numeric(double)
+"
+whomom_conf,"Mother/Mother Figure to you?
+","numeric(double)
+"
+momsupport_conf,"How much emotional support from Mother/Mother Figure?
+","numeric(double)
+"
+whodad_conf,"Father/Father Figure to you?
+","numeric(double)
+"
+dadsupport_conf,"How much emotional support from Father/Father Figure?
+","numeric(double)
+"
+cfcommseveralxday,"Communicates Several Times a Day
+","numeric(double)
+"

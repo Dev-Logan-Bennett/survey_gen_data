@@ -1,0 +1,2980 @@
+      
+                                              "SEXUAL" CODEBOOK: 
+      
+      
+      
+      ----------------------------------------------------------------------------------------------------
+      su_id                                                                            ENTER SU_ID TO TEST
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  string (str8)
+      
+               unique values:  485                      missing "":  0/1242
+      
+                    examples:  "22222304"
+                               "22222999"
+                               "22223462"
+                               "22226923"
+      
+      su_id:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      numpars1            11.1 Thinking back to the last time you were here for an interview, that is sinc
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (byte)
+                       label:  numpars1, but 22 nonmissing values are not labeled
+      
+                       range:  [0,100]                      units:  1
+               unique values:  22                       missing .:  0/1242
+      
+                    examples:  2     
+                               3     
+                               4     
+                               7     
+      
+      numpars1:
+        1.  11.1 Thinking back to the last time you were here for an interview, that is since {#W1_motxt1}
+            {#W1_curryr}, how many pe
+        2.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      numpars2            Remember, everything you tell me is confidential. Think carefully since your las
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (byte)
+                       label:  numpars2, but 23 nonmissing values are not labeled
+      
+                       range:  [0,100]                      units:  1
+               unique values:  23                       missing .:  0/1242
+             unique mv codes:  1                       missing .*:  5/1242
+      
+                    examples:  2     
+                               3     
+                               4     
+                               7     
+      
+      numpars2:
+        1.  Remember, everything you tell me is confidential. Think carefully since your last interview.
+            Remember to include all par
+        2.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      numpartners         13.1 {#numpartext} you said you thought you had sex with {#NUMPARS1} {peop1} sin
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (byte)
+                       label:  numpartners, but 22 nonmissing values are not labeled
+      
+                       range:  [1,100]                      units:  1
+               unique values:  22                       missing .:  0/1242
+      
+                    examples:  2     
+                               3     
+                               4     
+                               7     
+      
+      numpartners:
+        1.  13.1 {#numpartext} you said you thought you had sex with {#NUMPARS1} {peop1} since
+            {#W1_motxt1} {#W1_curryr}. {#numparte
+        2.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      numpartnersupdate    Num Sex Partners Recorded for Network Loop (Includes Primary Partner Additions)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+      
+                       range:  [1,6]                        units:  1
+               unique values:  6                        missing .:  0/1242
+      
+                  tabulation:  Freq.  Value
+                                 156  1
+                                 246  2
+                                 237  3
+                                 148  4
+                                 425  5
+                                  30  6
+      
+      numpartnersupdate:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      spalter                                                                                  (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (byte)
+      
+                       range:  [1,6]                        units:  1
+               unique values:  6                        missing .:  0/1242
+      
+                  tabulation:  Freq.  Value
+                                 485  1
+                                 329  2
+                                 206  3
+                                 126  4
+                                  87  5
+                                   9  6
+      
+      spalter:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      sp_allcfyn                                            Has this partner been a confidant in any wave?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  sp_allcfyn
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  7/1242
+             unique mv codes:  2                       missing .*:  5/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                1003         0  No
+                                 227         1  Yes
+                                   7         .  
+                                   5        .a  DON'T KNOW
+      
+      sp_allcfyn:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      sp_allcf                                                                                 (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  sp_allcf
+      
+                       range:  [1,14]                       units:  1
+               unique values:  13                       missing .:  0/1242
+             unique mv codes:  1                       missing .*:  1015/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                  47         1  WAVE 1 FIRST
+                                  23         2  WAVE 1 SECOND
+                                  14         3  WAVE 1 THIRD
+                                   2         4  WAVE 1 FOURTH
+                                   2         5  WAVE 1 FIFTH
+                                  36         6  WAVE 2 FIRST
+                                  17         7  WAVE 2 SECOND
+                                  13         8  WAVE 2 THIRD
+                                   1         9  WAVE 2 FOURTH
+                                  29        11  CURRENT WAVE FIRST
+                                  24        12  CURRENT WAVE SECOND
+                                  15        13  CURRENT WAVE THIRD
+                                   4        14  CURRENT WAVE FOURTH
+                                1015        .c  NA
+      
+      sp_allcf:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      sp_pastcf                                                                                (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  sp_pastcf
+      
+                       range:  [1,9]                        units:  1
+               unique values:  9                        missing .:  1087/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                  47         1  WAVE 1 FIRST
+                                  23         2  WAVE 1 SECOND
+                                  14         3  WAVE 1 THIRD
+                                   2         4  WAVE 1 FOURTH
+                                   2         5  WAVE 1 FIFTH
+                                  36         6  WAVE 2 FIRST
+                                  17         7  WAVE 2 SECOND
+                                  13         8  WAVE 2 THIRD
+                                   1         9  WAVE 2 FOURTH
+                                1087         .  
+      
+      sp_pastcf:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      sp_pastcfyn                                         Was this partner a confidant in a previous wave?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  sp_pastcfyn
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  0/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                1087         0  No
+                                 155         1  Yes
+      
+      sp_pastcfyn:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      sp_pastspyn                                       Was this partner a sex partner in a previous wave?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  sp_pastspyn
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  23/1242
+             unique mv codes:  2                       missing .*:  12/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 835         0  No
+                                 372         1  Yes
+                                  23         .  
+                                  12        .a  DON'T KNOW
+      
+      sp_pastspyn:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      sp_pastsp                                                                                (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  sp_pastsp
+      
+                       range:  [1,12]                       units:  1
+               unique values:  12                       missing .:  0/1242
+             unique mv codes:  1                       missing .*:  870/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 150         1  WAVE 1 FIRST
+                                  33         2  WAVE 1 SECOND
+                                  19         3  WAVE 1 THIRD
+                                   5         4  WAVE 1 FOURTH
+                                   9         5  WAVE 1 FIFTH
+                                   1         6  WAVE 1 SIXTH
+                                  79         7  WAVE 2 FIRST
+                                  38         8  WAVE 2 SECOND
+                                  23         9  WAVE 2 THIRD
+                                  10        10  WAVE 2 FOURTH
+                                   4        11  WAVE 2 FIFTH
+                                   1        12  WAVE 2 SIXTH
+                                 870        .c  NA
+      
+      sp_pastsp:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      spmatchconfname                                                                          (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  string (str47)
+      
+               unique values:  225                      missing "":  1015/1242
+      
+                    examples:  ""
+                               ""
+                               ""
+                               ""
+      
+                     warning:  variable has embedded blanks
+      
+      spmatchconfname:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      spmatchpastspname                                                                        (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  string (str20)
+      
+               unique values:  341                      missing "":  870/1242
+      
+                    examples:  ""
+                               ""
+                               ""
+                               "Demario Crudup"
+      
+                     warning:  variable has embedded blanks
+      
+      spmatchpastspname:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      conf                                               Which current confidant matches this sex partner?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  conf
+      
+                       range:  [11,15]                      units:  1
+               unique values:  5                        missing .:  71/1242
+             unique mv codes:  2                       missing .*:  1015/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                  83        11  CURRENT WAVE FIRST
+                                  40        12  CURRENT WAVE SECOND
+                                  25        13  CURRENT WAVE THIRD
+                                   6        14  CURRENT WAVE FOURTH
+                                   2        15  CURRENT WAVE FIFTH
+                                  71         .  
+                                1015        .c  NA
+      
+      conf:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      yn                                                 Is this partner a current confidant in this wave?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  yn
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  0/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                1086         0  No
+                                 156         1  Yes
+      
+      yn:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      lastsex_month                                                                            (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  lastsex_month, but 12 nonmissing values are not labeled
+      
+                       range:  [1,12]                       units:  1
+               unique values:  12                       missing .:  0/1242
+             unique mv codes:  2                       missing .*:  22/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                  91         1  
+                                  74         2  
+                                  93         3  
+                                 109         4  
+                                 138         5  
+                                 121         6  
+                                 136         7  
+                                 124         8  
+                                 106         9  
+                                  93        10  
+                                  82        11  
+                                  53        12  
+                                  21        .a  DON'T KNOW
+                                   1        .b  REFUSED
+      
+      lastsex_month:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      lastsex_year                                                                             (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  lastsex_year, but 4 nonmissing values are not labeled
+      
+                       range:  [2013,2016]                  units:  1
+               unique values:  4                        missing .:  0/1242
+             unique mv codes:  2                       missing .*:  11/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                   1      2013  
+                                 116      2014  
+                                1086      2015  
+                                  28      2016  
+                                  10        .a  DON'T KNOW
+                                   1        .b  REFUSED
+      
+      lastsex_year:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      lastsexdt                                                                                (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric daily date (double)
+                       label:  lastsexdt, but 25 nonmissing values are not labeled
+      
+                       range:  [18444,20606]                units:  1
+             or equivalently:  [01jul2010,01jun2016]        units:  days
+               unique values:  25                       missing .:  20/1242
+      
+                    examples:  20120 
+                               20209 
+                               20270 
+                               20332 
+      
+      lastsexdt:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      lastsexlt                                                                                (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  lastsexlt
+      
+                       range:  [1,3]                        units:  1
+               unique values:  3                        missing .:  22/1242
+             unique mv codes:  2                       missing .*:  5/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 378         1  late
+                                 377         2  mid
+                                 460         3  early
+                                  22         .  
+                                   5        .a  DON'T KNOW
+      
+      lastsexlt:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      numsex                                                                                   (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  numsex, but 12 nonmissing values are not labeled
+      
+                       range:  [1,51]                       units:  1
+               unique values:  12                       missing .:  10/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 401         1  
+                                 177         2  
+                                 114         3  
+                                  82         4  
+                                  71         5  
+                                  38         6  
+                                  31         7  
+                                  30         8  
+                                  26         9  
+                                 115        10  
+                                  81        20  
+                                  66        51  
+                                  10         .  
+      
+      numsex:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      numhadsex                                                                                (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  numhadsex
+      
+                       range:  [1,12]                       units:  1
+               unique values:  12                       missing .:  0/1242
+             unique mv codes:  2                       missing .*:  10/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 401         1  1 TIME
+                                 177         2  2 TIMES
+                                 114         3  3 TIMES
+                                  82         4  4 TIMES
+                                  71         5  5 TIMES
+                                  38         6  6 TIMES
+                                  31         7  7 TIMES
+                                  30         8  8 TIMES
+                                  26         9  9 TIMES
+                                 115        10  10-20 TIMES
+                                  81        11  20-50 TIMES
+                                  66        12  MORE THAN 50 TIMES
+                                   9        .a  DON'T KNOW
+                                   1        .b  REFUSED
+      
+      numhadsex:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      firstsex_month                                                                           (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  firstsex_month, but 12 nonmissing values are not labeled
+      
+                       range:  [1,12]                       units:  1
+               unique values:  12                       missing .:  10/1242
+             unique mv codes:  3                       missing .*:  447/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                  93         1  
+                                  68         2  
+                                  69         3  
+                                  60         4  
+                                  71         5  
+                                  72         6  
+                                  65         7  
+                                  66         8  
+                                  42         9  
+                                  67        10  
+                                  57        11  
+                                  55        12  
+                                  10         .  
+                                  46        .a  DON'T KNOW
+                                 401        .c  NA
+      
+      firstsex_month:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      firstsex_year                                                                            (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  firstsex_year, but 15 nonmissing values are not labeled
+      
+                       range:  [2000,2016]                  units:  1
+               unique values:  15                       missing .:  10/1242
+             unique mv codes:  3                       missing .*:  411/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                   2      2000  
+                                   1      2003  
+                                   2      2004  
+                                   2      2005  
+                                   2      2006  
+                                   3      2007  
+                                   7      2008  
+                                   8      2009  
+                                  10      2010  
+                                  20      2011  
+                                  55      2012  
+                                  60      2013  
+                                 245      2014  
+                                 402      2015  
+                                   2      2016  
+                                  10         .  
+                                  10        .a  DON'T KNOW
+                                 401        .c  NA
+      
+      firstsex_year:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      firstsexdt                                                                               (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric daily date (double)
+                       label:  firstsexdt, but 81 nonmissing values are not labeled
+      
+                       range:  [14762,20454]                units:  1
+             or equivalently:  [01jun2000,01jan2016]        units:  days
+               unique values:  81                       missing .:  56/1242
+             unique mv codes:  2                       missing .*:  401/1242
+      
+                    examples:  19967 
+                               20120 
+                               20301 
+                               .c    NA
+      
+      firstsexdt:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      firstsexlt                                                                               (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  firstsexlt
+      
+                       range:  [1,3]                        units:  1
+               unique values:  3                        missing .:  383/1242
+             unique mv codes:  3                       missing .*:  405/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 117         1  late
+                                 130         2  mid
+                                 207         3  early
+                                 383         .  
+                                   4        .a  DON'T KNOW
+                                 401        .c  NA
+      
+      firstsexlt:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      overlap                                                                                  (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  overlap
+      
+                       range:  [1,3]                        units:  1
+               unique values:  3                        missing .:  1049/1242
+             unique mv codes:  4                       missing .*:  166/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                   9         1  before
+                                  14         2  after
+                                   4         3  IF VOLUNTEERED: SIMULTANEOUS
+                                1049         .  
+                                   9        .a  DON'T KNOW
+                                   1        .b  REFUSED
+                                 156        .c  NA
+      
+      overlap:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      haveprimary         20. Are you currently in a relationship with someone who you consider your main 
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (byte)
+                       label:  haveprimary
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  0/1242
+             unique mv codes:  1                       missing .*:  6/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 767         0  NO
+                                 469         1  YES
+                                   6        .a  DON'T KNOW
+      
+      haveprimary:
+        1.  20. Are you currently in a relationship with someone who you consider your main sexual
+            partner?
+        2.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      pickprimary                                                                  21. What is their name?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (byte)
+                       label:  pickprimary
+      
+                       range:  [1,6]                        units:  1
+               unique values:  6                        missing .:  0/1242
+             unique mv codes:  1                       missing .*:  773/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 367         1  {1name:W}
+                                  28         2  {2name:W}
+                                  15         3  {3name:W}
+                                   5         4  {4name:W}
+                                   5         5  {5name:W}
+                                  49         6  NOT LISTED
+                                 773        .c  NA
+      
+      pickprimary:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      isprimary                                            RECODE of pickprimary (21. What is their name?)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (byte)
+                       label:  isprimary
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  0/1242
+             unique mv codes:  1                       missing .*:  773/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 264         0  NO
+                                 205         1  YES
+                                 773        .c  NA
+      
+      isprimary:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      partnersex                                                                               (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  partnersex
+      
+                       range:  [1,3]                        units:  1
+               unique values:  3                        missing .:  2/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                1110         1  Male
+                                 107         2  Female
+                                  23         3  Transgender
+                                   2         .  
+      
+      partnersex:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      partnertrans                                                                             (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  partnertrans
+      
+                       range:  [1,1]                        units:  1
+               unique values:  1                        missing .:  1217/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                  25         1  Male-to-Female, or
+                                1217         .  
+      
+      partnertrans:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      sp1_sexpair                                                                              (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  sp1_sexpair
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  2/1242
+             unique mv codes:  3                       missing .*:  528/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 674         0  [0] No
+                                  38         1  [1] Yes
+                                   2         .  
+                                  43        .a  [.a] Don't Know
+                                 485        .c  NA
+      
+      sp1_sexpair:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      sp2_sexpair                                                                              (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  sp2_sexpair
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  2/1242
+             unique mv codes:  3                       missing .*:  538/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 680         0  [0] No
+                                  22         1  [1] Yes
+                                   2         .  
+                                  53        .a  [.a] Don't Know
+                                 485        .c  NA
+      
+      sp2_sexpair:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      sp3_sexpair                                                                              (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  sp3_sexpair
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  2/1242
+             unique mv codes:  3                       missing .*:  653/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 559         0  [0] No
+                                  28         1  [1] Yes
+                                   2         .  
+                                  45        .a  [.a] Don't Know
+                                 608        .c  NA
+      
+      sp3_sexpair:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      sp4_sexpair                                                                              (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  sp4_sexpair
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  2/1242
+             unique mv codes:  3                       missing .*:  800/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 425         0  [0] No
+                                  15         1  [1] Yes
+                                   2         .  
+                                  31        .a  [.a] Don't Know
+                                 769        .c  NA
+      
+      sp4_sexpair:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      sp5_sexpair                                                                              (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  sp5_sexpair
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  1/1242
+             unique mv codes:  3                       missing .*:  919/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 310         0  [0] No
+                                  12         1  [1] Yes
+                                   1         .  
+                                  30        .a  [.a] Don't Know
+                                 889        .c  NA
+      
+      sp5_sexpair:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      sp6_sexpair                                                                              (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  sp6_sexpair
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  1050/1242
+             unique mv codes:  2                       missing .*:  165/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                  25         0  [0] No
+                                   2         1  [1] Yes
+                                1050         .  
+                                 165        .c  NA
+      
+      sp6_sexpair:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      partnertype                                                                              (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  partnertype
+      
+                       range:  [1,3]                        units:  1
+               unique values:  3                        missing .:  1/1242
+             unique mv codes:  3                       missing .*:  39/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 390         1  Main Partner
+                                 760         2  Casual Partner
+                                  52         3  Exchange Partner
+                                   1         .  
+                                  35        .a  DON'T KNOW
+                                   4        .b  REFUSED
+      
+      partnertype:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      knowfamily                                                                               (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  knowfamily
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  1/1242
+             unique mv codes:  2                       missing .*:  1/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 734         0  NO
+                                 506         1  YES
+                                   1         .  
+                                   1        .a  DON'T KNOW
+      
+      knowfamily:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      knowfriends                                                                              (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  knowfriends
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  1/1242
+             unique mv codes:  2                       missing .*:  4/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 644         0  NO
+                                 593         1  YES
+                                   1         .  
+                                   4        .a  DON'T KNOW
+      
+      knowfriends:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      sex12hours                                                                               (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  sex12hours
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  3/1242
+             unique mv codes:  2                       missing .*:  6/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 820         0  NO
+                                 413         1  YES
+                                   3         .  
+                                   6        .a  DON'T KNOW
+      
+      sex12hours:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      sexexpect                                                                                (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  sexexpect
+      
+                       range:  [1,5]                        units:  1
+               unique values:  5                        missing .:  3/1242
+             unique mv codes:  2                       missing .*:  18/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 378         1  to just have sex once
+                                 196         2  to have casual sex more than
+                                                once
+                                 225         3  to become friends with benefits
+                                 385         4  to develop a relationship
+                                  37         5  IF VOLUNTEERED: NO EXPECTATIONS
+                                   3         .  
+                                  18        .a  DON'T KNOW
+      
+      sexexpect:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      howmeet                                                                                  (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  howmeet
+      
+                       range:  [1,15]                       units:  1
+               unique values:  15                       missing .:  3/1242
+             unique mv codes:  3                       missing .*:  5/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 363         1  THROUGH SOMEBODY ELSE YOU BOTH
+                                                KNEW
+                                 475         2  PHONE OR INTERNET
+                                  39         3  SOME OTHER WAY
+                                  32         4  BALL/DANCE GROUP/SOCIAL EVENT
+                                                (VOLUNTEERED)
+                                  43         5  BAR/NIGHT CLUB/DANCE CLUB
+                                                (VOLUNTEERED)
+                                   9         6  BOYSTOWN (VOLUNTEERED)
+                                   7         7  CHURCH OR HOUSE OF
+                                                WORSHIP/CHURCH OR RELIGIOUS
+                                                ACTIVITY (VOLUNTEERED)
+                                   3         8  KNEW EACH OTHER PREVIOUSLY
+                                                (VOLUNTEERED)
+                                 140         9  OUTDOORS/CRUISING/PARKS/PUBLIC/B
+                                                ATHROOMS (VOLUNTEERED)
+                                  38        10  PRIVATE (HOUSE) PARTY
+                                                (VOLUNTEERED)
+                                   1        11  SEX PARTY (VOLUNTEERED)
+                                  39        12  SCHOOL (VOLUNTEERED)
+                                   3        13  INSTITUTION (VOLUNTEERED)
+                                   2        14  PROGRAM/SUPPORT GROUP
+                                                (VOLUNTEERED)
+                                  40        15  WORK (VOLUNTEERED)
+                                   3         .  
+                                   3        .a  DON'T KNOW
+                                   2        .b  REFUSED
+      
+      howmeet:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      howmeetwho                                                                               (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  howmeetwho
+      
+                       range:  [1,12]                       units:  1
+               unique values:  10                       missing .:  8/1242
+             unique mv codes:  4                       missing .*:  878/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                  23         1  {1name}
+                                  15         2  {2name}
+                                   9         3  {3name}
+                                   3         4  {4name}
+                                   3         6  {6name}
+                                   4         7  {7name}
+                                   4         8  {8name}
+                                   4         9  {9name}
+                                   2        10  {10name}
+                                 289        12  NOT LISTED
+                                   8         .  
+                                   2        .a  DON'T KNOW
+                                   1        .b  REFUSED
+                                 875        .c  NA
+      
+      howmeetwho:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      howmeetapp                                                                               (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  howmeetapp
+      
+                       range:  [1,3]                        units:  1
+               unique values:  3                        missing .:  8/1242
+             unique mv codes:  2                       missing .*:  761/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 292         1  Mobile app
+                                 160         2  Internet site
+                                  21         3  Phone service
+                                   8         .  
+                                 761        .c  NA
+      
+      howmeetapp:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      howmeet_othspec                                                                          (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  string (str131), but longest is str0
+      
+               unique values:  0                        missing "":  1242/1242
+      
+                  tabulation:  Freq.  Value
+                                1242  ""
+      
+      howmeet_othspec:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      wheremeet                                                                                (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  wheremeet
+      
+                       range:  [1,11]                       units:  1
+               unique values:  10                       missing .:  8/1242
+             unique mv codes:  2                       missing .*:  832/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                  52         1  BAR/NIGHT CLUB/DANCE CLUB
+                                  13         2  SOCIAL SERVICE OR VOLUNTEER
+                                                EVENT
+                                   4         3  HEALTH CLUB OR GYM
+                                  38         4  PRIVATE (HOUSE) PARTY
+                                 141         5  OUTDOORS/CRUISING/PARKS/PUBLIC/B
+                                                ATHROOMS
+                                  29         6  work
+                                  39         7  school
+                                  10         8  CHURCH OR HOUSE OF
+                                                WORSHIP/CHURCH OR RELIGIOUS
+                                                ACTIVITY
+                                   1         9  JAIL OR PRISON
+                                  75        11  OTHER (SPECIFY)
+                                   8         .  
+                                 832        .c  NA
+      
+      wheremeet:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      spsexprefmen                                                                             (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  spsexprefmen, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  3/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 139         0  
+                                1100         1  
+                                   3         .  
+      
+      spsexprefmen:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      spsexpreftranswn                                                                         (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  spsexpreftranswn, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  3/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                1131         0  
+                                 108         1  
+                                   3         .  
+      
+      spsexpreftranswn:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      spsexprefwomen                                                                           (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  spsexprefwomen, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  3/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 952         0  
+                                 287         1  
+                                   3         .  
+      
+      spsexprefwomen:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      spsexprefoth                                                                             (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  spsexprefoth, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  3/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                1238         0  
+                                   1         1  
+                                   3         .  
+      
+      spsexprefoth:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      spsexprefdk                                                                              (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  spsexprefdk, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  3/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                1153         0  
+                                  86         1  
+                                   3         .  
+      
+      spsexprefdk:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      spsexprefref                                                                             (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  spsexprefref, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  3/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                1238         0  
+                                   1         1  
+                                   3         .  
+      
+      spsexprefref:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      spsexpref_othspec                                                                        (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  string (str13), but longest is str0
+      
+               unique values:  0                        missing "":  1242/1242
+      
+                  tabulation:  Freq.  Value
+                                1242  ""
+      
+      spsexpref_othspec:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      sexothers                                                                                (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  sexothers
+      
+                       range:  [1,4]                        units:  1
+               unique values:  4                        missing .:  12/1242
+             unique mv codes:  4                       missing .*:  477/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 156         1  Definitely did not
+                                 125         2  Probably did not
+                                 248         3  Probably did
+                                 224         4  Definitely did
+                                  12         .  
+                                  74        .a  DON'T KNOW
+                                   2        .b  REFUSED
+                                 401        .c  NA
+      
+      sexothers:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      sphivstatus                                                                              (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  sphivstatus
+      
+                       range:  [1,2]                        units:  1
+               unique values:  2                        missing .:  1/1242
+             unique mv codes:  3                       missing .*:  314/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 189         1  HIV+
+                                 738         2  HIV-
+                                   1         .  
+                                 312        .a  DON'T KNOW
+                                   2        .b  REFUSED
+      
+      sphivstatus:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      spdiscusshiv                                                                             (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  spdiscusshiv
+      
+                       range:  [1,3]                        units:  1
+               unique values:  3                        missing .:  1/1242
+             unique mv codes:  2                       missing .*:  11/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 688         1  BEFORE YOU HAD SEX FOR THE FIRST
+                                                TIME
+                                 171         2  AFTER YOU ALREADY HAD SEX
+                                 371         3  NEVER DISCUSSED IT
+                                   1         .  
+                                  11        .a  DON'T KNOW
+      
+      spdiscusshiv:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      rdiscusshiv                                                                              (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  rdiscusshiv
+      
+                       range:  [1,3]                        units:  1
+               unique values:  3                        missing .:  1/1242
+             unique mv codes:  2                       missing .*:  10/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 722         1  BEFORE YOU HAD SEX FOR THE FIRST
+                                                TIME
+                                 156         2  AFTER YOU ALREADY HAD SEX
+                                 353         3  NEVER DISCUSSED IT
+                                   1         .  
+                                  10        .a  DON'T KNOW
+      
+      rdiscusshiv:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      sporalsexfreq                                                                            (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  sporalsexfreq
+      
+                       range:  [1,5]                        units:  1
+               unique values:  5                        missing .:  3/1242
+             unique mv codes:  2                       missing .*:  1/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 749         1  Always
+                                 134         2  Usually
+                                 146         3  Sometimes
+                                  81         4  Rarely
+                                 128         5  Never
+                                   3         .  
+                                   1        .b  REFUSED
+      
+      sporalsexfreq:
+        1.  recode sporalsexfreq .=., g(sporalsexfull)
+        2.  replace sporalsexfull = Always if sporalsex==Yes & sporalsexfreq==. (330 replacements)
+        3.  replace sporalsexfull = Never if sporalsex==No & sporalsexfreq==. (69 replacements)
+        4.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      spvaginalsexfreq                                                                         (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  spvaginalsexfreq
+      
+                       range:  [1,5]                        units:  1
+               unique values:  5                        missing .:  0/1242
+             unique mv codes:  1                       missing .*:  1135/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                  86         1  Always
+                                  10         2  Usually
+                                   3         3  Sometimes
+                                   2         4  Rarely
+                                   6         5  Never
+                                1135        .c  NA
+      
+      spvaginalsexfreq:
+        1.  recode spvaginalsexfreq .=., g(spvaginalsexfull)
+        2.  replace spvaginalsexfull = Always if spvaginalsex==Yes & spvaginalsexfreq==. (19 replacements)
+        3.  replace spvaginalsexfull = Never if spvaginalsex==No & spvaginalsexfreq==. (2 replacements)
+        4.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      spvagcondomfreq                                                                          (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  spvagcondomfreq
+      
+                       range:  [1,5]                        units:  1
+               unique values:  5                        missing .:  1/1242
+             unique mv codes:  3                       missing .*:  1142/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                  58         1  Always
+                                   5         2  Usually
+                                  15         3  Sometimes
+                                   8         4  Rarely
+                                  13         5  Never
+                                   1         .  
+                                   1        .b  REFUSED
+                                1141        .c  NA
+      
+      spvagcondomfreq:
+        1.  recode spvagcondomfreq .=., g(spvagcondomfull)
+        2.  replace spvagcondomfull = Always if spvagcondom==Yes & spvagcondomfreq==. (15 replacements)
+        3.  replace spvagcondomfull = Never if spvagcondom==No & spvagcondomfreq==. (3 replacements)
+        4.  replace spvagcondomfreq =.c if spvaginalsexfreq=="Never":spvaginalsexfreq |
+            mi(spvaginalsexfreq) & spvagcondomfreq==.
+        5.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      spbcontrolfreq                                                                           (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  spbcontrolfreq
+      
+                       range:  [1,5]                        units:  1
+               unique values:  5                        missing .:  2/1242
+             unique mv codes:  4                       missing .*:  1153/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                  19         1  Always
+                                   3         2  Usually
+                                   2         3  Sometimes
+                                   1         4  Rarely
+                                  62         5  Never
+                                   2         .  
+                                  11        .a  DON'T KNOW
+                                   1        .b  REFUSED
+                                1141        .c  NA
+      
+      spbcontrolfreq:
+        1.  recode spbcontrolfreq .=., g(spbcontrolfull)
+        2.  replace spbcontrolfull = Always if spbcontrol==Yes & spbcontrolfreq==. (1 replacements)
+        3.  replace spbcontrolfull = Never if spbcontrol==No & spbcontrolfreq==. (16 replacements)
+        4.  replace spbcontrolfreq =.c if spvaginalsexfreq=="Never":spvaginalsexfreq |
+            mi(spvaginalsexfreq) & spbcontrolfreq==.
+        5.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      spanalsexfreq                                                                            (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  spanalsexfreq
+      
+                       range:  [1,5]                        units:  1
+               unique values:  5                        missing .:  4/1242
+             unique mv codes:  2                       missing .*:  1/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 651         1  Always
+                                  98         2  Usually
+                                 178         3  Sometimes
+                                  65         4  Rarely
+                                 245         5  Never
+                                   4         .  
+                                   1        .b  REFUSED
+      
+      spanalsexfreq:
+        1.  recode spanalsexfreq .=., g(spanalsexfull)
+        2.  replace spanalsexfull = Always if spanalsex==Yes & spanalsexfreq==. (273 replacements)
+        3.  replace spanalsexfull = Never if spanalsex==No & spanalsexfreq==. (125 replacements)
+        4.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      spanalontopfreq                                                                          (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  spanalontopfreq
+      
+                       range:  [1,5]                        units:  1
+               unique values:  5                        missing .:  6/1242
+             unique mv codes:  2                       missing .*:  283/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 264         1  Always top
+                                  45         2  Usually top
+                                 220         3  Equally top and bottom
+                                  85         4  Usually bottom
+                                 339         5  Always bottom
+                                   6         .  
+                                 283        .c  NA
+      
+      spanalontopfreq:
+        1.  recode spanalontopfreq .=., g(spanalontopfull)
+        2.  replace spanalontopfull = Always top if spanalontop==Top & spanalontopfreq==. (100
+            replacements)
+        3.  replace spanalontopfull = Always bottom if spanalontop==Bottom & spanalontopfreq==. (110
+            replacements)
+        4.  replace spanalontopfull = Equally top and bottom if spanalontop==Both & spanalontopfreq==. (52
+            replacements)
+        5.  replace spanalontopfreq =.c if spanalsexfreq=="Never":spanalsexfreq & spanalontopfreq==.
+        6.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      spnumanalsex                                                                             (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  spnumanalsex
+      
+                       range:  [1,12]                       units:  1
+               unique values:  12                       missing .:  250/1242
+             unique mv codes:  3                       missing .*:  9/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 295         1  1 TIME
+                                 150         2  2 TIMES
+                                  97         3  3 TIMES
+                                  71         4  4 TIMES
+                                  57         5  5 TIMES
+                                  31         6  6 TIMES
+                                  28         7  7 TIMES
+                                  23         8  8 TIMES
+                                  26         9  9 TIMES
+                                  94        10  10-20 TIMES
+                                  61        11  20-50 TIMES
+                                  50        12  MORE THAN 50 TIMES
+                                 250         .  
+                                   8        .a  DON'T KNOW
+                                   1        .b  REFUSED
+      
+      spnumanalsex:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      spanalcondomfreq                                                                         (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  spanalcondomfreq
+      
+                       range:  [1,5]                        units:  1
+               unique values:  5                        missing .:  6/1242
+             unique mv codes:  2                       missing .*:  245/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 627         1  Always
+                                  63         2  Usually
+                                  79         3  Sometimes
+                                  38         4  Rarely
+                                 184         5  Never
+                                   6         .  
+                                 245        .c  NA
+      
+      spanalcondomfreq:
+        1.  recode spanalcondomfreq .=., g(spanalcondomfull)
+        2.  replace spanalcondomfull = Always if spanalcondom==Yes & spanalcondomfreq==. (222
+            replacements)
+        3.  replace spanalcondomfull = Never if spanalcondom==No & spanalcondomfreq==. (50 replacements)
+        4.  replace spanalcondomfreq =.c if spanalsexfreq=="Never":spanalsexfreq & spanalcondomfreq==.
+        5.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      sexpgroupsex                                                                             (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  sexpgroupsex
+      
+                       range:  [1,9]                        units:  1
+               unique values:  9                        missing .:  373/1242
+             unique mv codes:  3                       missing .*:  354/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                   4         1  Every day
+                                  13         2  Several times a week
+                                  11         3  Once a week
+                                  21         4  Once every two weeks
+                                  31         5  Once a month
+                                  68         6  A couple of times a year
+                                  25         7  Once a year
+                                  18         8  Less than once a year
+                                 324         9  Never
+                                 373         .  
+                                 353        .a  DON'T KNOW
+                                   1        .b  REFUSED
+      
+      sexpgroupsex:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      spgroupsexfreq                                                                           (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  spgroupsexfreq
+      
+                       range:  [1,5]                        units:  1
+               unique values:  5                        missing .:  280/1242
+             unique mv codes:  3                       missing .*:  439/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                  30         1  Always
+                                   4         2  Usually
+                                   9         3  Sometimes
+                                  17         4  Rarely
+                                 463         5  Never
+                                 280         .  
+                                   1        .a  DON'T KNOW
+                                 438        .c  NA
+      
+      spgroupsexfreq:
+        1.  recode spgroupsexfreq .=., g(spgroupsexfull)
+        2.  replace spgroupsexfull = Always if spgroupsex==Yes & spgroupsexfreq==. (25 replacements)
+        3.  replace spgroupsexfull = Never if spgroupsex==No & spgroupsexfreq==. (212 replacements)
+        4.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      spsexsubstancefreq                                                                       (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  spsexsubstancefreq
+      
+                       range:  [1,5]                        units:  1
+               unique values:  5                        missing .:  3/1242
+             unique mv codes:  3                       missing .*:  3/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 168         1  Always
+                                  38         2  Usually
+                                  92         3  Sometimes
+                                  64         4  Rarely
+                                 874         5  Never
+                                   3         .  
+                                   2        .a  DON'T KNOW
+                                   1        .b  REFUSED
+      
+      spsexsubstancefreq:
+        1.  recode spsexsubstancefreq .=., g(spsexsubstancefull)
+        2.  replace spsexsubstancefull = Always if spsexsubstance==Yes & spsexsubstancefreq==. (89
+            replacements)
+        3.  replace spsexsubstancefull = Never if spsexsubstance==No & spsexsubstancefreq==. (310
+            replacements)
+        4.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      spsexdrugsalchl                                                                          (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  spsexdrugsalchl, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  6/1242
+             unique mv codes:  2                       missing .*:  874/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 149         0  
+                                 213         1  
+                                   6         .  
+                                 874        .c  NA
+      
+      spsexdrugsalchl:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      spsexdrugsmarij                                                                          (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  spsexdrugsmarij, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  6/1242
+             unique mv codes:  2                       missing .*:  874/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                  94         0  
+                                 268         1  
+                                   6         .  
+                                 874        .c  NA
+      
+      spsexdrugsmarij:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      spsexdrugse                                                                              (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  spsexdrugse, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  6/1242
+             unique mv codes:  2                       missing .*:  874/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 343         0  
+                                  19         1  
+                                   6         .  
+                                 874        .c  NA
+      
+      spsexdrugse:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      spsexdrugspoppers                                                                        (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  spsexdrugspoppers, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  6/1242
+             unique mv codes:  2                       missing .*:  874/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 334         0  
+                                  28         1  
+                                   6         .  
+                                 874        .c  NA
+      
+      spsexdrugspoppers:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      spsexdrugscoke                                                                           (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  spsexdrugscoke, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  6/1242
+             unique mv codes:  2                       missing .*:  874/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 351         0  
+                                  11         1  
+                                   6         .  
+                                 874        .c  NA
+      
+      spsexdrugscoke:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      spsexdrugsheroin                                                                         (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  spsexdrugsheroin, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  6/1242
+             unique mv codes:  2                       missing .*:  874/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 361         0  
+                                   1         1  
+                                   6         .  
+                                 874        .c  NA
+      
+      spsexdrugsheroin:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      spsexdrugspsych                                                                          (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  spsexdrugspsych, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  6/1242
+             unique mv codes:  2                       missing .*:  874/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 360         0  
+                                   2         1  
+                                   6         .  
+                                 874        .c  NA
+      
+      spsexdrugspsych:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      spsexdrugsmeth                                                                           (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  spsexdrugsmeth, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  6/1242
+             unique mv codes:  2                       missing .*:  874/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 348         0  
+                                  14         1  
+                                   6         .  
+                                 874        .c  NA
+      
+      spsexdrugsmeth:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      spsexdrugspresc                                                                          (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  spsexdrugspresc, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  6/1242
+             unique mv codes:  2                       missing .*:  874/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 361         0  
+                                   1         1  
+                                   6         .  
+                                 874        .c  NA
+      
+      spsexdrugspresc:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      spsexdrugsoth                                                                            (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  spsexdrugsoth, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  6/1242
+             unique mv codes:  2                       missing .*:  874/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 360         0  
+                                   2         1  
+                                   6         .  
+                                 874        .c  NA
+      
+      spsexdrugsoth:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      spsexdrugsdk                                                                             (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  spsexdrugsdk, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  6/1242
+             unique mv codes:  2                       missing .*:  874/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 361         0  
+                                   1         1  
+                                   6         .  
+                                 874        .c  NA
+      
+      spsexdrugsdk:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      spsexdrugsref                                                                            (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  spsexdrugsref, but 1 nonmissing value is not labeled
+      
+                       range:  [0,0]                        units:  1
+               unique values:  1                        missing .:  6/1242
+             unique mv codes:  2                       missing .*:  874/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 362         0  
+                                   6         .  
+                                 874        .c  NA
+      
+      spsexdrugsref:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      givesexpay                                                                               (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  givesexpay
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  373/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 859         0  NO
+                                  10         1  YES
+                                 373         .  
+      
+      givesexpay:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      gavepaytypedrugs                                                                         (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  gavepaytypedrugs, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  0/1242
+             unique mv codes:  1                       missing .*:  1232/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                   7         0  
+                                   3         1  
+                                1232        .c  NA
+      
+      gavepaytypedrugs:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      gavepaytypemoney                                                                         (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  gavepaytypemoney, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  0/1242
+             unique mv codes:  1                       missing .*:  1232/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                   4         0  
+                                   6         1  
+                                1232        .c  NA
+      
+      gavepaytypemoney:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      gavepaytypeshelter                                                                       (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  gavepaytypeshelter, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  0/1242
+             unique mv codes:  1                       missing .*:  1232/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                   9         0  
+                                   1         1  
+                                1232        .c  NA
+      
+      gavepaytypeshelter:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      gavepaytypeother                                                                         (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  gavepaytypeother, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  0/1242
+             unique mv codes:  1                       missing .*:  1232/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                   8         0  
+                                   2         1  
+                                1232        .c  NA
+      
+      gavepaytypeother:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      gavepaytypedk                                                                            (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  gavepaytypedk, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  0/1242
+             unique mv codes:  1                       missing .*:  1232/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                   9         0  
+                                   1         1  
+                                1232        .c  NA
+      
+      gavepaytypedk:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      gavepaytyperef                                                                           (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  gavepaytyperef, but 1 nonmissing value is not labeled
+      
+                       range:  [0,0]                        units:  1
+               unique values:  1                        missing .:  0/1242
+             unique mv codes:  1                       missing .*:  1232/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                  10         0  
+                                1232        .c  NA
+      
+      gavepaytyperef:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      gavepaytype_othspec                                                                      (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  string (str29)
+      
+               unique values:  2                        missing "":  1240/1242
+      
+                  tabulation:  Freq.  Value
+                                1240  ""
+                                   1  "SHOES, HAIR DONE, NAILS DONE,"
+                                   1  "clothing"
+      
+                     warning:  variable has embedded blanks
+      
+      gavepaytype_othspec:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      getsexpay                                                                                (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  getsexpay
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  1/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                1185         0  NO
+                                  56         1  YES
+                                   1         .  
+      
+      getsexpay:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      gotosexnet                    FOR TESTING ONLY:        WOULD YOU LIKE TO SKIP TO THE SEXUAL NETWORK?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (byte)
+                       label:  gotosexnet
+      
+                       range:  [.,.]                        units:  .
+               unique values:  0                        missing .:  1242/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                1242         .  
+      
+      gotosexnet:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      gotpaytypedrugs                                                                          (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  gotpaytypedrugs, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  0/1242
+             unique mv codes:  1                       missing .*:  1186/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                  46         0  
+                                  10         1  
+                                1186        .c  NA
+      
+      gotpaytypedrugs:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      gotpaytypemoney                                                                          (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  gotpaytypemoney, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  0/1242
+             unique mv codes:  1                       missing .*:  1186/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                  10         0  
+                                  46         1  
+                                1186        .c  NA
+      
+      gotpaytypemoney:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      gotpaytypeshelter                                                                        (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  gotpaytypeshelter, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  0/1242
+             unique mv codes:  1                       missing .*:  1186/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                  54         0  
+                                   2         1  
+                                1186        .c  NA
+      
+      gotpaytypeshelter:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      gotpaytypeother                                                                          (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  gotpaytypeother, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  0/1242
+             unique mv codes:  1                       missing .*:  1186/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                  52         0  
+                                   4         1  
+                                1186        .c  NA
+      
+      gotpaytypeother:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      gotpaytypedk                                                                             (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  gotpaytypedk, but 1 nonmissing value is not labeled
+      
+                       range:  [0,0]                        units:  1
+               unique values:  1                        missing .:  0/1242
+             unique mv codes:  1                       missing .*:  1186/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                  56         0  
+                                1186        .c  NA
+      
+      gotpaytypedk:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      gotpaytyperef                                                                            (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  gotpaytyperef, but 1 nonmissing value is not labeled
+      
+                       range:  [0,0]                        units:  1
+               unique values:  1                        missing .:  0/1242
+             unique mv codes:  1                       missing .*:  1186/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                  56         0  
+                                1186        .c  NA
+      
+      gotpaytyperef:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      gotpaytype_othspec                                                                       (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  string (str40), but longest is str8
+      
+               unique values:  4                        missing "":  1238/1242
+      
+                  tabulation:  Freq.  Value
+                                1238  ""
+                                   1  "HAIR DOO"
+                                   1  "Tattoo"
+                                   1  "a Tattoo"
+                                   1  "a tattoo"
+      
+                     warning:  variable has embedded blanks
+      
+      gotpaytype_othspec:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      gotpaytype_foodandalcohol_vltrd            Received Food or Alchol In Exchange For Sex (VOLUNTEERED)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  gotpaytype_foodandalcohol_vltrd
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  0/1242
+             unique mv codes:  1                       missing .*:  1230/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                   7         0  NO
+                                   5         1  YES
+                                1230        .c  NA
+      
+      gotpaytype_foodandalcohol_vltrd:
+        1.  Respondent is 0 on gotpaytype_foodandalcohol_vltrd if his response on gotpaytype_othspec could
+            not be categorized under gotpaytype_foodandalcohol_vltrd. Respondent is 1 on
+            gotpaytype_foodandalcohol_vltrd if his response on gotpaytype_othspec could be categorized
+            under gotpaytype_foodandalcohol_vltrd. Respondent is "NA" on gotpaytype_foodandalcohol_vltrd
+            if his response on gotpaytypeother was not 1.
+        2.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      gotpaytype_personalgoods_vltrd             Received Personal Goods In Exchange For Sex (VOLUNTEERED)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  gotpaytype_personalgoods_vltrd
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  0/1242
+             unique mv codes:  1                       missing .*:  1230/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                   8         0  NO
+                                   4         1  YES
+                                1230        .c  NA
+      
+      gotpaytype_personalgoods_vltrd:
+        1.  Respondent is 0 on gotpaytype_personalgoods_vltrd if his response on gotpaytype_othspec could
+            not be categorized under gotpaytype_personalgoods_vltrd. Respondent is 1 on
+            gotpaytype_personalgoods_vltrd if his response on gotpaytype_othspec could be categorized
+            under gotpaytype_personalgoods_vltrd. Respondent is "NA" on gotpaytype_personalgoods_vltrd if
+            his response on gotpaytypeother was not 1.
+        2.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      spothpartner6mo                                                                          (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  spothpartner6mo
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  373/1242
+             unique mv codes:  2                       missing .*:  247/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 146         0  NO
+                                 476         1  YES
+                                 373         .  
+                                 247        .a  DON'T KNOW
+      
+      spothpartner6mo:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      spothpartnersexmen                                                                       (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  spothpartnersexmen, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  0/1242
+             unique mv codes:  1                       missing .*:  766/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                  74         0  
+                                 402         1  
+                                 766        .c  NA
+      
+      spothpartnersexmen:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      spothpartnersextranswn                                                                   (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  spothpartnersextranswn, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  0/1242
+             unique mv codes:  1                       missing .*:  766/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 432         0  
+                                  44         1  
+                                 766        .c  NA
+      
+      spothpartnersextranswn:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      spothpartnersexwomen                                                                     (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  spothpartnersexwomen, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  0/1242
+             unique mv codes:  1                       missing .*:  766/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 368         0  
+                                 108         1  
+                                 766        .c  NA
+      
+      spothpartnersexwomen:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      spothpartnersexoth                                                                       (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  spothpartnersexoth, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  0/1242
+             unique mv codes:  1                       missing .*:  766/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 475         0  
+                                   1         1  
+                                 766        .c  NA
+      
+      spothpartnersexoth:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      spothpartnersexdk                                                                        (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  spothpartnersexdk, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  0/1242
+             unique mv codes:  1                       missing .*:  766/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 438         0  
+                                  38         1  
+                                 766        .c  NA
+      
+      spothpartnersexdk:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      spothpartnersexref                                                                       (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  spothpartnersexref, but 1 nonmissing value is not labeled
+      
+                       range:  [0,0]                        units:  1
+               unique values:  1                        missing .:  0/1242
+             unique mv codes:  1                       missing .*:  766/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 476         0  
+                                 766        .c  NA
+      
+      spothpartnersexref:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      partnercomm                                                                              (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  partnercomm
+      
+                       range:  [1,9]                        units:  1
+               unique values:  9                        missing .:  1/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 326         1  Every day
+                                 151         2  Several times a week
+                                 102         3  Once a week
+                                  98         4  Once every two weeks
+                                 125         5  Once a month
+                                  71         6  A couple of times a year
+                                  15         7  Once a year
+                                  13         8  Less than once a year
+                                 340         9  Never
+                                   1         .  
+      
+      partnercomm:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      partnerfb                                                                                (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  partnerfb
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  153/1242
+             unique mv codes:  2                       missing .*:  12/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 651         0  NO
+                                 426         1  YES
+                                 153         .  
+                                  12        .a  DON'T KNOW
+      
+      partnerfb:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      partnerage                                                                               (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  partnerage, but 44 nonmissing values are not labeled
+      
+                       range:  [15,60]                      units:  1
+               unique values:  44                       missing .:  3/1242
+             unique mv codes:  2                       missing .*:  58/1242
+      
+                    examples:  22    
+                               24    
+                               27    
+                               32    
+      
+      partnerage:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      sphigradesomehs                                                                          (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  sphigradesomehs, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  426/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 789         0  
+                                  27         1  
+                                 426         .  
+      
+      sphigradesomehs:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      sphigradehsgrad                                                                          (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  sphigradehsgrad, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  426/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 553         0  
+                                 263         1  
+                                 426         .  
+      
+      sphigradehsgrad:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      sphigradesomecollege                                                                     (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  sphigradesomecollege, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  426/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 708         0  
+                                 108         1  
+                                 426         .  
+      
+      sphigradesomecollege:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      sphigrade2yrdegree                                                                       (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  sphigrade2yrdegree, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  426/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 780         0  
+                                  36         1  
+                                 426         .  
+      
+      sphigrade2yrdegree:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      sphigradecollegegrad                                                                     (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  sphigradecollegegrad, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  426/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 720         0  
+                                  96         1  
+                                 426         .  
+      
+      sphigradecollegegrad:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      sphigrademasters                                                                         (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  sphigrademasters, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  426/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 814         0  
+                                   2         1  
+                                 426         .  
+      
+      sphigrademasters:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      sphigradedoctoral                                                                        (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  sphigradedoctoral, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  426/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 530         0  
+                                 286         1  
+                                 426         .  
+      
+      sphigradedoctoral:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      sphigradedk                                                                              (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  sphigradedk, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  426/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 815         0  
+                                   1         1  
+                                 426         .  
+      
+      sphigradedk:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      spemployedfull                                                                           (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  spemployedfull, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  1/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 673         0  
+                                 568         1  
+                                   1         .  
+      
+      spemployedfull:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      spemployedpart                                                                           (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  spemployedpart, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  1/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                1050         0  
+                                 191         1  
+                                   1         .  
+      
+      spemployedpart:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      spemployedstudent                                                                        (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  spemployedstudent, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  1/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                1136         0  
+                                 105         1  
+                                   1         .  
+      
+      spemployedstudent:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      spemployedunemp                                                                          (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  spemployedunemp, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  1/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                1030         0  
+                                 211         1  
+                                   1         .  
+      
+      spemployedunemp:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      spemployedretired                                                                        (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  spemployedretired, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  1/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                1239         0  
+                                   2         1  
+                                   1         .  
+      
+      spemployedretired:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      spemployeddisablty                                                                       (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  spemployeddisablty, but 1 nonmissing value is not labeled
+      
+                       range:  [0,0]                        units:  1
+               unique values:  1                        missing .:  1/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                1241         0  
+                                   1         .  
+      
+      spemployeddisablty:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      spemployeddk                                                                             (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  spemployeddk, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  1/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                1032         0  
+                                 209         1  
+                                   1         .  
+      
+      spemployeddk:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      spemployedref                                                                            (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  spemployedref, but 1 nonmissing value is not labeled
+      
+                       range:  [0,0]                        units:  1
+               unique values:  1                        missing .:  1/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                1241         0  
+                                   1         .  
+      
+      spemployedref:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      partnerhisp                                                                              (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  partnerhisp
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  3/1242
+             unique mv codes:  3                       missing .*:  5/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                1150         0  NO
+                                  84         1  YES
+                                   3         .  
+                                   4        .a  DON'T KNOW
+                                   1        .b  REFUSED
+      
+      partnerhisp:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      spraceblk                                                                                (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  spraceblk, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  3/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 105         0  
+                                1134         1  
+                                   3         .  
+      
+      spraceblk:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      spracewht                                                                                (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  spracewht, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  3/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                1183         0  
+                                  56         1  
+                                   3         .  
+      
+      spracewht:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      spraceamerindn                                                                           (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  spraceamerindn, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  3/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                1231         0  
+                                   8         1  
+                                   3         .  
+      
+      spraceamerindn:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      spraceasian                                                                              (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  spraceasian, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  3/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                1228         0  
+                                  11         1  
+                                   3         .  
+      
+      spraceasian:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      spraceoth                                                                                (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  spraceoth, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  3/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                1135         0  
+                                 104         1  
+                                   3         .  
+      
+      spraceoth:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      spracedk                                                                                 (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  spracedk, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  3/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                1236         0  
+                                   3         1  
+                                   3         .  
+      
+      spracedk:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      spraceref                                                                                (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  spraceref, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  3/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                1238         0  
+                                   1         1  
+                                   3         .  
+      
+      spraceref:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      partnerlive                                                                              (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  partnerlive
+      
+                       range:  [1,2]                        units:  1
+               unique values:  2                        missing .:  1/1242
+             unique mv codes:  3                       missing .*:  131/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 546         1  ENTER CROSS STREETS
+                                 564         2  NEIGHBORHOOD OR CITY/STATE
+                                   1         .  
+                                 125        .a  DON'T KNOW
+                                   6        .b  REFUSED
+      
+      partnerlive:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      partnerjail                                                                              (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  partnerjail
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  1/1242
+             unique mv codes:  3                       missing .*:  333/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 686         0  NO
+                                 222         1  YES
+                                   1         .  
+                                 330        .a  DON'T KNOW
+                                   3        .b  REFUSED
+      
+      partnerjail:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      sexnetsixmo                                                        Six month date for sexual network
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric daily date (long)
+      
+                       range:  [.,.]                        units:  .
+             or equivalently:  [.,.]                        units:  days
+               unique values:  0                        missing .:  1242/1242
+      
+                  tabulation:  Freq.  Value
+                                1242  .              .
+      
+      sexnetsixmo:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      sixmodat                                                                                 (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+      
+                       range:  [19510,20209]                units:  1
+               unique values:  22                       missing .:  0/1242
+      
+                        mean:   19995.5
+                    std. dev:   123.946
+      
+                 percentiles:        10%       25%       50%       75%       90%
+                                   19844     19905     19997     20089     20148
+      
+      sixmodat:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      partnercomm_mod                                                                             MODIFIED
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  partnercomm_mod, but 1 nonmissing value is not labeled
+      
+                       range:  [1,10]                       units:  1
+               unique values:  10                       missing .:  1/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 190         1  Every day
+                                 136         2  Several times a week
+                                 151         3  Once a week
+                                 102         4  Once every two weeks
+                                  98         5  Once a month
+                                 125         6  A couple of times a year
+                                  71         7  Once a year
+                                  15         8  Less than once a year
+                                  13         9  Never
+                                 340        10  
+                                   1         .  
+      
+      partnercomm_mod:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      spdata                                                               Respondent has Sex Network Data
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  spdata
+      
+                       range:  [1,1]                        units:  1
+               unique values:  1                        missing .:  0/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                1242         1  YES
+      
+      spdata:
+        1.  SEXUAL module
+      
+      ----------------------------------------------------------------------------------------------------
+      spcommseveralxday                                                   Communicates Several Times a Day
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  spcommseveralxday
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  1/1242
+      
+                  tabulation:  Freq.   Numeric  Label
+                                1051         0  NO
+                                 190         1  YES
+                                   1         .  
+      
+      spcommseveralxday:
+        1.  g spcommseveralxday = 0
+        2.  replace spcommseveralxday = 1 if partnercomm=="Several times a day":partnercomm
+        3.  replace spcommseveralxday = partnercomm if mi(partnercomm)
+        4.  SEXUAL module

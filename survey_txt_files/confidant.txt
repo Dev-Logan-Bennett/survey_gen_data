@@ -1,0 +1,2751 @@
+      
+                                             "CONFIDANT" CODEBOOK: 
+      
+      
+      
+      ----------------------------------------------------------------------------------------------------
+      su_id                                                                            ENTER SU_ID TO TEST
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  string (str8)
+      
+               unique values:  488                      missing "":  0/1206
+      
+                    examples:  "22222316"
+                               "22222990"
+                               "22223462"
+                               "22227057"
+      
+      su_id:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      numgiven                                                                     NUMBER OF NAMES ENTERED
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (byte)
+      
+                       range:  [1,8]                        units:  1
+               unique values:  8                        missing .:  0/1206
+      
+                  tabulation:  Freq.  Value
+                                  87  1
+                                 370  2
+                                 432  3
+                                 172  4
+                                 110  5
+                                  25  6
+                                   5  7
+                                   5  8
+      
+      numgiven:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      hasdata                                                             Respondent reports >=1 Confidant
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  hasdata
+      
+                       range:  [1,1]                        units:  1
+               unique values:  1                        missing .:  0/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                1206         1  ALTER
+      
+      hasdata:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfalter                                                                  CONFIDANT ALTER LINE NUMBER
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (byte)
+      
+                       range:  [1,5]                        units:  1
+               unique values:  5                        missing .:  0/1206
+      
+                  tabulation:  Freq.  Value
+                                 488  1
+                                 401  2
+                                 216  3
+                                  72  4
+                                  29  5
+      
+      cfalter:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cf_pastcfyn                                       Was this confidant a confidant in a previous wave?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cf_pastcfyn
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  18/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 405         0  NO
+                                 783         1  YES
+                                  18         .  
+      
+      cf_pastcfyn:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cf_pastspyn                                     Was this confidant a sex partner in a previous wave?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cf_pastspyn
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  76/1206
+             unique mv codes:  2                       missing .*:  7/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 991         0  NO
+                                 132         1  YES
+                                  76         .  
+                                   7        .a  DON'T KNOW
+      
+      cf_pastspyn:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cf_pastsp                                                                                (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cf_pastsp
+      
+                       range:  [1,11]                       units:  1
+               unique values:  9                        missing .:  1074/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                  71         1  WAVE 1 FIRST
+                                  14         2  WAVE 1 SECOND
+                                   6         3  WAVE 1 THIRD
+                                   2         5  WAVE 1 FIFTH
+                                  26         7  WAVE 2 FIRST
+                                   5         8  WAVE 2 SECOND
+                                   6         9  WAVE 2 THIRD
+                                   1        10  WAVE 2 FOURTH
+                                   1        11  WAVE 2 FIFTH
+                                1074         .  
+      
+      cf_pastsp:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cf_pastcf                                             On which line number does [NAME] first appear?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cf_pastcf
+      
+                       range:  [1,10]                       units:  1
+               unique values:  10                       missing .:  423/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 240         1  WAVE 1 FIRST
+                                 176         2  WAVE 1 SECOND
+                                  93         3  WAVE 1 THIRD
+                                  22         4  WAVE 1 FOURTH
+                                   9         5  WAVE 1 FIFTH
+                                  89         6  WAVE 2 FIRST
+                                  85         7  WAVE 2 SECOND
+                                  55         8  WAVE 2 THIRD
+                                   9         9  WAVE 2 FOURTH
+                                   5        10  WAVE 2 FIFTH
+                                 423         .  
+      
+      cf_pastcf:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      confknow                                                                                 (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  confknow
+      
+                       range:  [1,4]                        units:  1
+               unique values:  4                        missing .:  18/1206
+             unique mv codes:  2                       missing .*:  14/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                  52         1  Less than a year
+                                 186         2  1 to 3 years
+                                 232         3  3 to 6 years
+                                 704         4  More than 6 years
+                                  18         .  
+                                  14        .a  DON'T KNOW
+      
+      confknow:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      confrel                                                         What is your relationship to [NAME]?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  confrel
+      
+                       range:  [1,34]                       units:  1
+               unique values:  29                       missing .:  0/1206
+      
+                    examples:  6     Best Friend
+                               6     Best Friend
+                               17    Parent[Mthr/Fthr/Step]
+                               19    Sibling[Bthr/sstr/step]
+      
+      confrel:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      confrel_othsex                                            Other sex relationship to [NAME][SPECIFY]?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  string (str34)
+      
+               unique values:  1                        missing "":  1205/1206
+      
+                  tabulation:  Freq.  Value
+                                1205  ""
+                                   1  "complicated...we are probably open"
+      
+                     warning:  variable has embedded blanks
+      
+      confrel_othsex:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      confrel_othfr                                          Other friend relationship to [NAME][SPECIFY]?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  string (str1), but longest is str0
+      
+               unique values:  0                        missing "":  1206/1206
+      
+                  tabulation:  Freq.  Value
+                                1206  ""
+      
+      confrel_othfr:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      confrel_othnei                                        Other neither relationship to [NAME][SPECIFY]?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  string (str1), but longest is str0
+      
+               unique values:  0                        missing "":  1206/1206
+      
+                  tabulation:  Freq.  Value
+                                1206  ""
+      
+      confrel_othnei:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      confrel_othwork                                          Other work relationship to [NAME][SPECIFY]?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  string (str6)
+      
+               unique values:  1                        missing "":  1205/1206
+      
+                  tabulation:  Freq.  Value
+                                1205  ""
+                                   1  "Mentor"
+      
+      confrel_othwork:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      confrel_othfam                                         Other family relationship to [NAME][SPECIFY]?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  string (str18), but longest is str0
+      
+               unique values:  0                        missing "":  1206/1206
+      
+                  tabulation:  Freq.  Value
+                                1206  ""
+      
+      confrel_othfam:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      confrel_othplay                                   Other play family relationship to [NAME][SPECIFY]?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  string (str16)
+      
+               unique values:  11                       missing "":  1194/1206
+      
+                  tabulation:  Freq.  Value
+                                1194  ""
+                                   2  "AUNT"
+                                   1  "Aunt"
+                                   1  "Cousin"
+                                   1  "GOD-MOTHER"
+                                   1  "GODMOTHER"
+                                   1  "Grandfather"
+                                   1  "Grandmother"
+                                   1  "PLAY-GRANDMOTHER"
+                                   1  "UNCLE"
+                                   1  "adopted Dad"
+                                   1  "my ex"
+      
+                     warning:  variable has embedded blanks
+      
+      confrel_othplay:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      confrel_othreloth                                             OTHER relationship to [NAME][SPECIFY]?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  string (str13)
+      
+               unique values:  2                        missing "":  1204/1206
+      
+                  tabulation:  Freq.  Value
+                                1204  ""
+                                   1  "Caseworker"
+                                   1  "Social Worker"
+      
+                     warning:  variable has embedded blanks
+      
+      confrel_othreloth:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      confsex                                                       Is [NAME] male, female or transgender?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  confsex
+      
+                       range:  [1,3]                        units:  1
+               unique values:  3                        missing .:  0/1206
+             unique mv codes:  1                       missing .*:  2/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 650         1  Male
+                                 515         2  Female
+                                  39         3  Transgender
+                                   2        .a  DON'T KNOW
+      
+      confsex:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      conftrans                               [IF TRANGENDER,] Are they Male-to-Female, or Female-to-Male?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  conftrans
+      
+                       range:  [1,2]                        units:  1
+               unique values:  2                        missing .:  1165/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                  37         1  Male-to-Female, or
+                                   4         2  Female-to-Male?
+                                1165         .  
+      
+      conftrans:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfcommfreq                                                 How often do you communicate with [NAME]?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfcommfreq
+      
+                       range:  [1,9]                        units:  1
+               unique values:  8                        missing .:  0/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 696         1  Every day
+                                 325         2  Several times a week
+                                 101         3  Once a week
+                                  42         4  Once every two weeks
+                                  34         5  Once a month
+                                   6         6  A couple of times a year
+                                   1         7  Once a year
+                                   1         9  Never
+      
+      cfcommfreq:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfhowclose                                                          How close do you feel to [NAME]?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfhowclose
+      
+                       range:  [1,4]                        units:  1
+               unique values:  4                        missing .:  0/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                1019         1  Very close
+                                 171         2  Somewhat close
+                                  12         3  Not very close
+                                   4         4  Not close at all
+      
+      cfhowclose:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      talkto1_conf                                               How frequently does [NAME] talk to CONF1?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  talkto1_conf
+      
+                       range:  [1,10]                       units:  1
+               unique values:  10                       missing .:  0/1206
+             unique mv codes:  2                       missing .*:  489/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                  42         1  Several Times Day
+                                  63         2  Every Day
+                                  83         3  Several Times Week
+                                  69         4  Once Week
+                                  53         5  Once Every Two Weeks
+                                  94         6  Once Month
+                                  84         7  Couple Times Year
+                                  14         8  Once Year
+                                  22         9  Less Than Once Year
+                                 193        10  Never
+                                   1        .a  Don't Know
+                                 488        .c  NA
+      
+      talkto1_conf:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      talkto2_conf                                               How frequently does [NAME] talk to CONF2?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  talkto2_conf
+      
+                       range:  [1,10]                       units:  1
+               unique values:  10                       missing .:  0/1206
+             unique mv codes:  2                       missing .*:  491/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                  40         1  Several Times Day
+                                  55         2  Every Day
+                                  77         3  Several Times Week
+                                  69         4  Once Week
+                                  63         5  Once Every Two Weeks
+                                  75         6  Once Month
+                                  98         7  Couple Times Year
+                                  20         8  Once Year
+                                  18         9  Less Than Once Year
+                                 200        10  Never
+                                   3        .a  Don't Know
+                                 488        .c  NA
+      
+      talkto2_conf:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      talkto3_conf                                               How frequently does [NAME] talk to CONF3?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  talkto3_conf
+      
+                       range:  [1,10]                       units:  1
+               unique values:  10                       missing .:  0/1206
+             unique mv codes:  2                       missing .*:  675/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                  26         1  Several Times Day
+                                  38         2  Every Day
+                                  55         3  Several Times Week
+                                  50         4  Once Week
+                                  41         5  Once Every Two Weeks
+                                  49         6  Once Month
+                                  75         7  Couple Times Year
+                                  20         8  Once Year
+                                  14         9  Less Than Once Year
+                                 163        10  Never
+                                   2        .a  Don't Know
+                                 673        .c  NA
+      
+      talkto3_conf:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      talkto4_conf                                               How frequently does [NAME] talk to CONF4?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  talkto4_conf
+      
+                       range:  [1,10]                       units:  1
+               unique values:  10                       missing .:  0/1206
+             unique mv codes:  1                       missing .*:  961/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                  11         1  Several Times Day
+                                  19         2  Every Day
+                                  33         3  Several Times Week
+                                  21         4  Once Week
+                                  13         5  Once Every Two Weeks
+                                  20         6  Once Month
+                                  30         7  Couple Times Year
+                                   9         8  Once Year
+                                   2         9  Less Than Once Year
+                                  87        10  Never
+                                 961        .c  NA
+      
+      talkto4_conf:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      talkto5_conf                                               How frequently does [NAME] talk to CONF5?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  talkto5_conf
+      
+                       range:  [1,10]                       units:  1
+               unique values:  10                       missing .:  0/1206
+             unique mv codes:  1                       missing .*:  1090/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                   3         1  Several Times Day
+                                   5         2  Every Day
+                                  16         3  Several Times Week
+                                   7         4  Once Week
+                                  10         5  Once Every Two Weeks
+                                  10         6  Once Month
+                                  17         7  Couple Times Year
+                                   7         8  Once Year
+                                   4         9  Less Than Once Year
+                                  37        10  Never
+                                1090        .c  NA
+      
+      talkto5_conf:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      confmarstat                   Is [NAME] married, committed to one person, single, or something else?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  confmarstat
+      
+                       range:  [1,7]                        units:  1
+               unique values:  7                        missing .:  0/1206
+             unique mv codes:  2                       missing .*:  27/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 118         1  Married,
+                                 384         2  In a committed relationship with
+                                                one person,
+                                 636         3  Single/Dating
+                                  19         4  Or something else?  SPECIFY:
+                                   2         5  DIVORCED (VOLUNTEERED)
+                                   9         6  OPEN RELATIONSHIP (VOLUNTEERED)
+                                  11         7  WIDOWED (VOLUNTEERED)
+                                  26        .a  DON'T KNOW
+                                   1        .b  REFUSED
+      
+      confmarstat:
+        1.  Value 3 on the value label confmarstat was originally "Single." However, we redefined it as
+            "Single/Dating" in light of the other-specify responses that include "dating."
+        2.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      confmarstat_othmar                                          Marital status of name, OTHER [SPECIFY]?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  string (str88), but longest is str47
+      
+               unique values:  19                       missing "":  1187/1206
+      
+                  tabulation:  Freq.  Value
+                                1187  ""
+                                   1  "Casual boyfriend"
+                                   1  "Civil Union"
+                                   1  "Enjoying single life"
+                                   1  "Friends with benefits"
+                                   1  "HER PARTNER IS INCARCERATED"
+                                   1  "He is not exclusive"
+                                   1  "He's pursuing someone but still in love
+                                      with ex"
+                                   1  "IN RELATIONSHIP BUT NOT EXCLUSIVE
+                                      (ESCORT)"
+                                   1  "Promiscuous"
+                                   1  "Something else"
+                                   1  "cOURTING"
+                                   1  "celebit"
+                                   1  "companion"
+                                   1  "compicated relationship"
+                                   1  "craziness...."
+                                   1  "mulitple relationships"
+                                   1  "on and off relationship"
+                                   1  "she has a Sugar D"
+                                   1  "she has a sugar daddy"
+      
+                     warning:  variable has embedded blanks
+      
+      confmarstat_othmar:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfsexwithmen                                                          Does [NAME] have sex with MEN?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfsexwithmen, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  0/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 148         0  
+                                1058         1  
+      
+      cfsexwithmen:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfsexwithtranswn                                        Does [NAME] have sex with TRANSGENDER WOMEN?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfsexwithtranswn, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  0/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                1179         0  
+                                  27         1  
+      
+      cfsexwithtranswn:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfsexwithwomen                                                      Does [NAME] have sex with WOMEN?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfsexwithwomen, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  0/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 993         0  
+                                 213         1  
+      
+      cfsexwithwomen:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfsexwithoth                             IF VOLUNTEERED: Does [NAME] have sex with, OTHER (SPECIFY)?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfsexwithoth, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  0/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                1204         0  
+                                   2         1  
+      
+      cfsexwithoth:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfsexwithinactive                                      IF VOLUNTEERED: [NAME] NOT CURRENTLY SEXUALLY
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfsexwithinactive, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  0/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                1194         0  
+                                  12         1  
+      
+      cfsexwithinactive:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfsexwithdk                                                         Does [NAME] have sex with, DON'T
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfsexwithdk, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  0/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                1188         0  
+                                  18         1  
+      
+      cfsexwithdk:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfsexwithref                                                     Does [NAME] have sex with, REFUSED?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfsexwithref, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  0/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                1205         0  
+                                   1         1  
+      
+      cfsexwithref:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfsexwith_othspec                    IF VOLUNTEERED: Who does [NAME] have sex with, OTHER (SPECIFY)?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  string (str8)
+      
+               unique values:  2                        missing "":  1204/1206
+      
+                  tabulation:  Freq.  Value
+                                1204  ""
+                                   1  "BOTH"
+                                   1  "celibate"
+      
+      cfsexwith_othspec:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfsexprefmen                                                        Does [NAME] prefer sex with MEN?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfsexprefmen, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  0/1206
+             unique mv codes:  1                       missing .*:  1194/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                   3         0  
+                                   9         1  
+                                1194        .c  NA
+      
+      cfsexprefmen:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfsexpreftranswn                                      Does [NAME] prefer sex with TRANSGENDER WOMEN?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfsexpreftranswn, but 1 nonmissing value is not labeled
+      
+                       range:  [0,0]                        units:  1
+               unique values:  1                        missing .:  0/1206
+             unique mv codes:  1                       missing .*:  1194/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                  12         0  
+                                1194        .c  NA
+      
+      cfsexpreftranswn:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfsexprefwomen                                                    Does [NAME] prefer sex with WOMEN?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfsexprefwomen, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  0/1206
+             unique mv codes:  1                       missing .*:  1194/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                  10         0  
+                                   2         1  
+                                1194        .c  NA
+      
+      cfsexprefwomen:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfsexprefoth                           IF VOLUNTEERED: Does [NAME] prefer sex with, OTHER (SPECIFY)?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfsexprefoth, but 1 nonmissing value is not labeled
+      
+                       range:  [0,0]                        units:  1
+               unique values:  1                        missing .:  0/1206
+             unique mv codes:  1                       missing .*:  1194/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                  12         0  
+                                1194        .c  NA
+      
+      cfsexprefoth:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfsexprefdk                                                       Does [NAME] prefer sex with, DON'T
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfsexprefdk, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  0/1206
+             unique mv codes:  1                       missing .*:  1194/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                  11         0  
+                                   1         1  
+                                1194        .c  NA
+      
+      cfsexprefdk:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfsexprefref                                                   Does [NAME] prefer sex with, REFUSED?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfsexprefref, but 1 nonmissing value is not labeled
+      
+                       range:  [0,0]                        units:  1
+               unique values:  1                        missing .:  0/1206
+             unique mv codes:  1                       missing .*:  1194/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                  12         0  
+                                1194        .c  NA
+      
+      cfsexprefref:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfsexpref_othspec                  IF VOLUNTEERED: Who does [NAME] prefer sex with, OTHER (SPECIFY)?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  string (str1), but longest is str0
+      
+               unique values:  0                        missing "":  1206/1206
+      
+                  tabulation:  Freq.  Value
+                                1206  ""
+      
+      cfsexpref_othspec:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      confnumsex                            How many people [NAME] has had sex with in the last 12 months?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  confnumsex, but 27 nonmissing values are not labeled
+      
+                       range:  [0,999]                      units:  1
+               unique values:  27                       missing .:  0/1206
+             unique mv codes:  1                       missing .*:  228/1206
+      
+                    examples:  1     
+                               1     
+                               3     
+                               25    
+      
+      confnumsex:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      confgrpsex                            How often would you estimate that [NAME] engages in group sex?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  confgrpsex
+      
+                       range:  [2,9]                        units:  1
+               unique values:  8                        missing .:  228/1206
+             unique mv codes:  3                       missing .*:  134/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                   3         2  2. Several times a week
+                                   3         3  3. Once a week
+                                   9         4  4. Once every two weeks
+                                  11         5  5. Once a month
+                                  51         6  6. A couple of times a year
+                                  28         7  7. Once a year
+                                  34         8  8. Less than once a year
+                                 705         9  9. Never
+                                 228         .  
+                                  25        .a  DON'T KNOW
+                                 109        .c  NA
+      
+      confgrpsex:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      confknowrsex                                           Does [NAME] know that you have sex with men? 
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  confknowrsex
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  0/1206
+             unique mv codes:  1                       missing .*:  2/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                  47         0  NO
+                                1157         1  YES
+                                   2        .a  DON'T KNOW
+      
+      confknowrsex:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      confsupport                                 How supportive is [NAME] about your having sex with men?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  confsupport
+      
+                       range:  [1,5]                        units:  1
+               unique values:  5                        missing .:  0/1206
+             unique mv codes:  2                       missing .*:  50/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                  14         1  1. Very un supportive
+                                  24         2  2. Somewhat un supportive
+                                 122         3  3. Somewhat supportive
+                                 982         4  4. Very supportive
+                                  14         5  IF VOLUNTEERED: NEITHER
+                                                SUPPORTIVE OR UNSUPPORTIVE
+                                   1        .a  DON'T KNOW
+                                  49        .c  NA
+      
+      confsupport:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      conftalksex                                   How often do you talk with [NAME] about your sex life?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  conftalksex
+      
+                       range:  [1,9]                        units:  1
+               unique values:  9                        missing .:  0/1206
+             unique mv codes:  1                       missing .*:  3/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 244         1  1. Every day
+                                 230         2  2. Several times a week
+                                 183         3  3. Once a week
+                                  97         4  4. Once every two weeks
+                                 160         5  5. Once a month
+                                 103         6  6. A couple of times a year
+                                  18         7  7. Once a year
+                                  19         8  8. Less than once a year
+                                 149         9  9. Never
+                                   3        .a  DON'T KNOW
+      
+      conftalksex:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      conftalkhiv                     How often does [NAME] talk with you about avoiding getting infected?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  conftalkhiv
+      
+                       range:  [1,9]                        units:  1
+               unique values:  9                        missing .:  0/1206
+             unique mv codes:  1                       missing .*:  1/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 237         1  1. Every day
+                                 189         2  2. Several times a week
+                                 102         3  3. Once a week
+                                  93         4  4. Once every two weeks
+                                 167         5  5. Once a month
+                                 170         6  6. A couple of times a year
+                                  46         7  7. Once a year
+                                  24         8  8. Less than once a year
+                                 177         9  9. Never
+                                   1        .a  DON'T KNOW
+      
+      conftalkhiv:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      confunprot                                        How often do you think [NAME] has unprotected sex?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  confunprot
+      
+                       range:  [1,9]                        units:  1
+               unique values:  9                        missing .:  0/1206
+             unique mv codes:  2                       missing .*:  310/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                  70         1  1. Every day
+                                  96         2  2. Several times a week
+                                  36         3  3. Once a week
+                                  28         4  4. Once every two weeks
+                                  54         5  5. Once a month
+                                  87         6  6. A couple of times a year
+                                  18         7  7. Once a year
+                                  27         8  8. Less than once a year
+                                 480         9  9. Never
+                                 308        .a  DON'T KNOW
+                                   2        .b  REFUSED
+      
+      confunprot:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      confdrink                              How often does [NAME] drink alcohol, including wine and beer?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  confdrink
+      
+                       range:  [1,9]                        units:  1
+               unique values:  9                        missing .:  0/1206
+             unique mv codes:  1                       missing .*:  38/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                  81         1  Every day
+                                 208         2  Several times a week
+                                 216         3  Once a week
+                                 140         4  Once every two weeks
+                                 142         5  Once a month
+                                 108         6  A couple of times a year
+                                  23         7  Once a year
+                                  14         8  Less than once a year
+                                 236         9  Never
+                                  38        .a  DON'T KNOW
+      
+      confdrink:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      confinvdrink                             Has [NAME] ever invited or encouraged you to drink alcohol?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  confinvdrink
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  0/1206
+             unique mv codes:  2                       missing .*:  2/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 561         0  NO
+                                 643         1  YES
+                                   1        .a  DON'T KNOW
+                                   1        .b  REFUSED
+      
+      confinvdrink:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfdrugsuse                                                          How often does [NAME] use drugs?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfdrugsuse
+      
+                       range:  [1,9]                        units:  1
+               unique values:  9                        missing .:  0/1206
+             unique mv codes:  2                       missing .*:  25/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 231         1  Every day
+                                 112         2  Several times a week
+                                  53         3  Once a week
+                                  25         4  Once every two weeks
+                                  35         5  Once a month
+                                  34         6  A couple of times a year
+                                   5         7  Once a year
+                                   3         8  Less than once a year
+                                 683         9  Never
+                                  23        .a  DON'T KNOW
+                                   2        .b  REFUSED
+      
+      cfdrugsuse:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfdrugsmarij                        Which drugs does [NAME] use, Marijuana (weed, hash, blunt, etc)?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfdrugsmarij, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  25/1206
+             unique mv codes:  2                       missing .*:  683/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                   7         0  
+                                 491         1  
+                                  25         .  
+                                 683        .c  NA
+      
+      cfdrugsmarij:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfdrugse                                           Which drugs does [NAME] use, Ecstasy, E or Molly?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfdrugse, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  25/1206
+             unique mv codes:  2                       missing .*:  683/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 470         0  
+                                  28         1  
+                                  25         .  
+                                 683        .c  NA
+      
+      cfdrugse:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfdrugspoppers                             Which drugs does [NAME] use, Poppers (volatile nitrates)?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfdrugspoppers, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  25/1206
+             unique mv codes:  2                       missing .*:  683/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 487         0  
+                                  11         1  
+                                  25         .  
+                                 683        .c  NA
+      
+      cfdrugspoppers:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfdrugscoke                                              Which drugs does [NAME] use, Cocaine/Crack?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfdrugscoke, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  25/1206
+             unique mv codes:  2                       missing .*:  683/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 472         0  
+                                  26         1  
+                                  25         .  
+                                 683        .c  NA
+      
+      cfdrugscoke:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfdrugsheroin                                                   Which drugs does [NAME] use, Heroin?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfdrugsheroin, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  25/1206
+             unique mv codes:  2                       missing .*:  683/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 497         0  
+                                   1         1  
+                                  25         .  
+                                 683        .c  NA
+      
+      cfdrugsheroin:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfdrugspsych                                              Which drugs does [NAME] use, Psychedelics?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfdrugspsych, but 1 nonmissing value is not labeled
+      
+                       range:  [0,0]                        units:  1
+               unique values:  1                        missing .:  25/1206
+             unique mv codes:  2                       missing .*:  683/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 498         0  
+                                  25         .  
+                                 683        .c  NA
+      
+      cfdrugspsych:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfdrugsmeth             Which drugs does [NAME] use, Methamphetamine (Crystal, “tina”, meth, speed)?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfdrugsmeth, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  25/1206
+             unique mv codes:  2                       missing .*:  683/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 488         0  
+                                  10         1  
+                                  25         .  
+                                 683        .c  NA
+      
+      cfdrugsmeth:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfdrugspresc                                 Which drugs does [NAME] use, Prescription Pain Killers?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfdrugspresc, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  25/1206
+             unique mv codes:  2                       missing .*:  683/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 490         0  
+                                   8         1  
+                                  25         .  
+                                 683        .c  NA
+      
+      cfdrugspresc:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfdrugsoth                        Which drugs does [NAME] use, Any other substance (PLEASE SPECIFY)?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfdrugsoth, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  25/1206
+             unique mv codes:  2                       missing .*:  683/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 496         0  
+                                   2         1  
+                                  25         .  
+                                 683        .c  NA
+      
+      cfdrugsoth:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfdrugsdk                                                   Which drugs does [NAME] use, DON'T KNOW?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfdrugsdk, but 1 nonmissing value is not labeled
+      
+                       range:  [0,0]                        units:  1
+               unique values:  1                        missing .:  25/1206
+             unique mv codes:  2                       missing .*:  683/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 498         0  
+                                  25         .  
+                                 683        .c  NA
+      
+      cfdrugsdk:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfdrugsref                                                     Which drugs does [NAME] use, REFUSED?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfdrugsref, but 1 nonmissing value is not labeled
+      
+                       range:  [0,0]                        units:  1
+               unique values:  1                        missing .:  25/1206
+             unique mv codes:  2                       missing .*:  683/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 498         0  
+                                  25         .  
+                                 683        .c  NA
+      
+      cfdrugsref:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfdrugs_othspec                                          Which other drugs does [NAME] use, SPECIFY?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  string (str8)
+      
+               unique values:  2                        missing "":  1204/1206
+      
+                  tabulation:  Freq.  Value
+                                1204  ""
+                                   1  "Lean"
+                                   1  "Percocet"
+      
+      cfdrugs_othspec:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfoffdrugs                          Has [NAME] ever offered to share or encouraged you to use drugs?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfoffdrugs
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  708/1206
+             unique mv codes:  2                       missing .*:  1/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 123         0  NO
+                                 374         1  YES
+                                 708         .  
+                                   1        .b  REFUSED
+      
+      cfoffdrugs:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfoffdrugsmarij               Which drugs has [NAME] encouraged, Marijuana (weed, hash, blunt, etc)?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfoffdrugsmarij, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  0/1206
+             unique mv codes:  1                       missing .*:  832/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                   7         0  
+                                 367         1  
+                                 832        .c  NA
+      
+      cfoffdrugsmarij:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfoffdrugse                                  Which drugs has [NAME] encouraged, Ecstasy, E or Molly?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfoffdrugse, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  0/1206
+             unique mv codes:  1                       missing .*:  832/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 359         0  
+                                  15         1  
+                                 832        .c  NA
+      
+      cfoffdrugse:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfoffdrugspoppers                    Which drugs has [NAME] encouraged, Poppers (volatile nitrates)?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfoffdrugspoppers, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  0/1206
+             unique mv codes:  1                       missing .*:  832/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 368         0  
+                                   6         1  
+                                 832        .c  NA
+      
+      cfoffdrugspoppers:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfoffdrugscoke                                     Which drugs has [NAME] encouraged, Cocaine/Crack?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfoffdrugscoke, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  0/1206
+             unique mv codes:  1                       missing .*:  832/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 361         0  
+                                  13         1  
+                                 832        .c  NA
+      
+      cfoffdrugscoke:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfoffdrugsheroin                                          Which drugs has [NAME] encouraged, Heroin?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfoffdrugsheroin, but 1 nonmissing value is not labeled
+      
+                       range:  [0,0]                        units:  1
+               unique values:  1                        missing .:  0/1206
+             unique mv codes:  1                       missing .*:  832/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 374         0  
+                                 832        .c  NA
+      
+      cfoffdrugsheroin:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfoffdrugspsych                                     Which drugs has [NAME] encouraged, Psychedelics?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfoffdrugspsych, but 1 nonmissing value is not labeled
+      
+                       range:  [0,0]                        units:  1
+               unique values:  1                        missing .:  0/1206
+             unique mv codes:  1                       missing .*:  832/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 374         0  
+                                 832        .c  NA
+      
+      cfoffdrugspsych:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfoffdrugsmeth        Which drugs has [NAME] encouraged, Methamphetamine(Crystal,“tina”,meth,speed)?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfoffdrugsmeth, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  0/1206
+             unique mv codes:  1                       missing .*:  832/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 370         0  
+                                   4         1  
+                                 832        .c  NA
+      
+      cfoffdrugsmeth:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfoffdrugspresc                        Which drugs has [NAME] encouraged, Prescription Pain Killers?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfoffdrugspresc, but 1 nonmissing value is not labeled
+      
+                       range:  [0,0]                        units:  1
+               unique values:  1                        missing .:  0/1206
+             unique mv codes:  1                       missing .*:  832/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 374         0  
+                                 832        .c  NA
+      
+      cfoffdrugspresc:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfoffdrugsoth               Which drugs has [NAME] encouraged, Any other substance (PLEASE SPECIFY)?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfoffdrugsoth, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  0/1206
+             unique mv codes:  1                       missing .*:  832/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 372         0  
+                                   2         1  
+                                 832        .c  NA
+      
+      cfoffdrugsoth:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfoffdrugsdk                                          Which drugs has [NAME] encouraged, DON'T KNOW?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfoffdrugsdk, but 1 nonmissing value is not labeled
+      
+                       range:  [0,0]                        units:  1
+               unique values:  1                        missing .:  0/1206
+             unique mv codes:  1                       missing .*:  832/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 374         0  
+                                 832        .c  NA
+      
+      cfoffdrugsdk:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfoffdrugsref                                            Which drugs has [NAME] encouraged, REFUSED?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfoffdrugsref, but 1 nonmissing value is not labeled
+      
+                       range:  [0,0]                        units:  1
+               unique values:  1                        missing .:  0/1206
+             unique mv codes:  1                       missing .*:  832/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 374         0  
+                                 832        .c  NA
+      
+      cfoffdrugsref:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfsexdrugs              How often [NAME] uses drugs/alcohol to make sex easier, longer, feel better?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfsexdrugs
+      
+                       range:  [1,9]                        units:  1
+               unique values:  9                        missing .:  197/1206
+             unique mv codes:  3                       missing .*:  137/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                  39         1  Every day
+                                  54         2  Several times a week
+                                  39         3  Once a week
+                                  25         4  Once every two weeks
+                                  29         5  Once a month
+                                  37         6  A couple of times a year
+                                   6         7  Once a year
+                                   6         8  Less than once a year
+                                 637         9  Never
+                                 197         .  
+                                 135        .a  DON'T KNOW
+                                   2        .b  REFUSED
+      
+      cfsexdrugs:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfsexdrugsalchl                             Which drugs does [NAME] use to make sex easier, Alcohol?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfsexdrugsalchl, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  137/1206
+             unique mv codes:  2                       missing .*:  834/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                  78         0  
+                                 157         1  
+                                 137         .  
+                                 834        .c  NA
+      
+      cfsexdrugsalchl:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfsexdrugsmarij                           Which drugs does [NAME] use to make sex easier, Marijuana?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfsexdrugsmarij, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  137/1206
+             unique mv codes:  2                       missing .*:  834/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                  72         0  
+                                 163         1  
+                                 137         .  
+                                 834        .c  NA
+      
+      cfsexdrugsmarij:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfsexdrugse                     Which drugs does [NAME] use to make sex easier, Ecstasy, E or Molly?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfsexdrugse, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  137/1206
+             unique mv codes:  2                       missing .*:  834/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 219         0  
+                                  16         1  
+                                 137         .  
+                                 834        .c  NA
+      
+      cfsexdrugse:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfsexdrugspoppers       Which drugs does [NAME] use to make sex easier, Poppers (volatile nitrates)?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfsexdrugspoppers, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  137/1206
+             unique mv codes:  2                       missing .*:  834/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 225         0  
+                                  10         1  
+                                 137         .  
+                                 834        .c  NA
+      
+      cfsexdrugspoppers:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfsexdrugscoke                        Which drugs does [NAME] use to make sex easier, Cocaine/Crack?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfsexdrugscoke, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  137/1206
+             unique mv codes:  2                       missing .*:  834/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 221         0  
+                                  14         1  
+                                 137         .  
+                                 834        .c  NA
+      
+      cfsexdrugscoke:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfsexdrugsheroin                             Which drugs does [NAME] use to make sex easier, Heroin?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfsexdrugsheroin, but 1 nonmissing value is not labeled
+      
+                       range:  [0,0]                        units:  1
+               unique values:  1                        missing .:  137/1206
+             unique mv codes:  2                       missing .*:  834/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 235         0  
+                                 137         .  
+                                 834        .c  NA
+      
+      cfsexdrugsheroin:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfsexdrugspsych                        Which drugs does [NAME] use to make sex easier, Psychedelics?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfsexdrugspsych, but 1 nonmissing value is not labeled
+      
+                       range:  [0,0]                        units:  1
+               unique values:  1                        missing .:  137/1206
+             unique mv codes:  2                       missing .*:  834/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 235         0  
+                                 137         .  
+                                 834        .c  NA
+      
+      cfsexdrugspsych:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfsexdrugsmeth                      Which drugs does [NAME] use to make sex easier, Methamphetamine?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfsexdrugsmeth, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  137/1206
+             unique mv codes:  2                       missing .*:  834/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 228         0  
+                                   7         1  
+                                 137         .  
+                                 834        .c  NA
+      
+      cfsexdrugsmeth:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfsexdrugspresc           Which drugs does [NAME] use to make sex easier, Prescription Pain Killers?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfsexdrugspresc, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  137/1206
+             unique mv codes:  2                       missing .*:  834/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 232         0  
+                                   3         1  
+                                 137         .  
+                                 834        .c  NA
+      
+      cfsexdrugspresc:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfsexdrugsoth         Which drugs does [NAME] use to make sex easier, Any other substance (SPECIFY)?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfsexdrugsoth, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  137/1206
+             unique mv codes:  2                       missing .*:  834/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 234         0  
+                                   1         1  
+                                 137         .  
+                                 834        .c  NA
+      
+      cfsexdrugsoth:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfsexdrugsdk                             Which drugs does [NAME] use to make sex easier, DON'T KNOW?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfsexdrugsdk, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  137/1206
+             unique mv codes:  2                       missing .*:  834/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 233         0  
+                                   2         1  
+                                 137         .  
+                                 834        .c  NA
+      
+      cfsexdrugsdk:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfsexdrugsref                               Which drugs does [NAME] use to make sex easier, REFUSED?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfsexdrugsref, but 1 nonmissing value is not labeled
+      
+                       range:  [0,0]                        units:  1
+               unique values:  1                        missing .:  137/1206
+             unique mv codes:  2                       missing .*:  834/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 235         0  
+                                 137         .  
+                                 834        .c  NA
+      
+      cfsexdrugsref:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      confapprovsex              Would [NAME] likely (dis)approve of you having anal sex without a condom?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  confapprovsex
+      
+                       range:  [1,3]                        units:  1
+               unique values:  3                        missing .:  0/1206
+             unique mv codes:  1                       missing .*:  16/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                  84         1  Approve
+                                1069         2  Disapprove
+                                  37         3  IF VOLUNTEERED: HAVE NO OPINION
+                                  16        .a  DON'T KNOW
+      
+      confapprovsex:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      confapprovdrugs                       Would [NAME] (dis)approve of you using drugs while having sex?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  confapprovdrugs
+      
+                       range:  [1,3]                        units:  1
+               unique values:  3                        missing .:  0/1206
+             unique mv codes:  2                       missing .*:  32/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 228         1  Approve
+                                 881         2  Disapprove
+                                  65         3  IF VOLUNTEERED: HAVE NO OPINION
+                                  30        .a  DON'T KNOW
+                                   2        .b  REFUSED
+      
+      confapprovdrugs:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      confapprovgrp                         Would [NAME] likely (dis)approve of you engaging in group sex?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  confapprovgrp
+      
+                       range:  [1,3]                        units:  1
+               unique values:  3                        missing .:  0/1206
+             unique mv codes:  2                       missing .*:  37/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 143         1  Approve
+                                 970         2  Disapprove
+                                  56         3  IF VOLUNTEERED: HAVE NO OPINION
+                                  35        .a  DON'T KNOW
+                                   2        .b  REFUSED
+      
+      confapprovgrp:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      confhivstat                                                      Is [NAME] HIV-positive or negative?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  confhivstat
+      
+                       range:  [1,3]                        units:  1
+               unique values:  3                        missing .:  0/1206
+             unique mv codes:  2                       missing .*:  130/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 153         1  HIV+
+                                 922         2  HIV-
+                                   1         3  OTHER (SPECIFY)
+                                 124        .a  DON'T KNOW
+                                   6        .b  REFUSED
+      
+      confhivstat:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      confhivstat_othspec                             Is [NAME] HIV-positive or negative, OTHER [SPECIFY]?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  string (str12)
+      
+               unique values:  1                        missing "":  1205/1206
+      
+                  tabulation:  Freq.  Value
+                                1205  ""
+                                   1  "Undetectable"
+      
+      confhivstat_othspec:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      confhivpos                                             Did [NAME] actually tell you he/she was HIV+?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  confhivpos
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  0/1206
+             unique mv codes:  1                       missing .*:  1053/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                   7         0  NO
+                                 146         1  YES
+                                1053        .c  NA
+      
+      confhivpos:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      confhivneg                                             Did [NAME] actually tell you he/she was HIV-?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  confhivneg
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  0/1206
+             unique mv codes:  2                       missing .*:  285/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 166         0  NO
+                                 755         1  YES
+                                   1        .a  DON'T KNOW
+                                 284        .c  NA
+      
+      confhivneg:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      confknowrhiv                                                       Does [NAME] know your HIV status?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  confknowrhiv
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  0/1206
+             unique mv codes:  2                       missing .*:  6/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 168         0  NO
+                                1032         1  YES
+                                   5        .a  DON'T KNOW
+                                   1        .b  REFUSED
+      
+      confknowrhiv:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      confhelp                  How likely [NAME] to help you with a personal favor that for 1 to 2 hours?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  confhelp
+      
+                       range:  [1,4]                        units:  1
+               unique values:  4                        missing .:  0/1206
+             unique mv codes:  1                       missing .*:  2/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                  21         1  1. Very un likely
+                                  24         2  2. Somewhat un likely
+                                 204         3  3. Somewhat Likely
+                                 955         4  4. Very likely
+                                   2        .a  DON'T KNOW
+      
+      confhelp:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      confmoney                           How likely would you be to ask [NAME] for $25 if you needed it? 
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  confmoney
+      
+                       range:  [1,4]                        units:  1
+               unique values:  4                        missing .:  0/1206
+             unique mv codes:  1                       missing .*:  1/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                  97         1  1. Very un likely
+                                  77         2  2. Somewhat un likely
+                                 188         3  3. Somewhat Likely
+                                 843         4  4. Very likely
+                                   1        .a  DON'T KNOW
+      
+      confmoney:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      confageolder                                                                             (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  confageolder
+      
+                       range:  [1,3]                        units:  1
+               unique values:  3                        missing .:  18/1206
+             unique mv codes:  2                       missing .*:  14/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 649         1  Older than you
+                                 247         2  Younger than you
+                                 278         3  About the same age
+                                  18         .  
+                                  14        .a  DON'T KNOW
+      
+      confageolder:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      confage                                                                           How old is [NAME]?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  confage, but 63 nonmissing values are not labeled
+      
+                       range:  [15,88]                      units:  1
+               unique values:  63                       missing .:  0/1206
+             unique mv codes:  1                       missing .*:  5/1206
+      
+                    examples:  22    
+                               24    
+                               28    
+                               40    
+      
+      confage:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      confstudent                       Is [NAME] a full time student, part time student or not a student?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  confstudent
+      
+                       range:  [1,3]                        units:  1
+               unique values:  3                        missing .:  0/1206
+             unique mv codes:  2                       missing .*:  790/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                  53         1  FT student
+                                  46         2  PT student
+                                 317         3  Not a student
+                                   7        .a  DON'T KNOW
+                                 783        .c  NA
+      
+      confstudent:
+        1.  Not asked (N/A) for confidants already mentioned in baseline wave
+            (cf_pastcfyn=="YES":cf_pastcfyn).
+        2.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      confhigrade                            What is the highest level of education that [NAME] completed?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  confhigrade
+      
+                       range:  [1,7]                        units:  1
+               unique values:  7                        missing .:  0/1206
+             unique mv codes:  2                       missing .*:  895/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                  26         1  Grade 0-12, Specify:
+                                 124         2  High School Degree or GED
+                                  72         3  Some college (no degree)
+                                  29         4  Associate’s degree or
+                                                technical/vocational license
+                                                (2-yr col
+                                  47         5  Bachelor’s degree (4-yr college
+                                                degree, BA or BS)
+                                  10         6  Master’s degree
+                                   3         7  Doctoral or graduate
+                                                professional degree (MD, Law)
+                                  13        .a  DON'T KNOW
+                                 882        .c  NA
+      
+      confhigrade:
+        1.  Not asked (N/A) for confidants already mentioned in baseline wave
+            (cf_pastcfyn=="YES":cf_pastcfyn).
+        2.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      confhigrade_g0_12       What is the highest level of education [NAME] completed, SPECIFY Grade 0-12?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  string (str10)
+      
+               unique values:  8                        missing "":  1180/1206
+      
+                  tabulation:  Freq.  Value
+                                1180  ""
+                                   2  "10"
+                                   1  "10th"
+                                  13  "11"
+                                   1  "12"
+                                   2  "8"
+                                   1  "8th"
+                                   5  "9"
+                                   1  "don't know"
+      
+                     warning:  variable has embedded blanks
+      
+      confhigrade_g0_12:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfdegreegrade                                          Is [NAME] working toward Grade 0-12, Specify?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfdegreegrade, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  0/1206
+             unique mv codes:  1                       missing .*:  1107/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                  98         0  
+                                   1         1  
+                                1107        .c  NA
+      
+      cfdegreegrade:
+        1.  Not asked (N/A) for confidants already mentioned in baseline wave
+            (cf_pastcfyn=="YES":cf_pastcfyn).
+        2.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfdegreehs                                        Is [NAME] working toward High School Degree or GE?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfdegreehs, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  0/1206
+             unique mv codes:  1                       missing .*:  1107/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                  90         0  
+                                   9         1  
+                                1107        .c  NA
+      
+      cfdegreehs:
+        1.  Not asked (N/A) for confidants already mentioned in baseline wave
+            (cf_pastcfyn=="YES":cf_pastcfyn).
+        2.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfdegree2yrcoll         Is [NAME] working toward Associate’s degree or technical/vocational license?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfdegree2yrcoll, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  0/1206
+             unique mv codes:  1                       missing .*:  1107/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                  74         0  
+                                  25         1  
+                                1107        .c  NA
+      
+      cfdegree2yrcoll:
+        1.  Not asked (N/A) for confidants already mentioned in baseline wave
+            (cf_pastcfyn=="YES":cf_pastcfyn).
+        2.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfdegreeba               Is [NAME] working toward Bachelor’s degree (4-yr college degree, BA or BS)?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfdegreeba, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  0/1206
+             unique mv codes:  1                       missing .*:  1107/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                  54         0  
+                                  45         1  
+                                1107        .c  NA
+      
+      cfdegreeba:
+        1.  Not asked (N/A) for confidants already mentioned in baseline wave
+            (cf_pastcfyn=="YES":cf_pastcfyn).
+        2.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfdegreema                                                 Is [NAME] working toward Master’s degree?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfdegreema, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  0/1206
+             unique mv codes:  1                       missing .*:  1107/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                  88         0  
+                                  11         1  
+                                1107        .c  NA
+      
+      cfdegreema:
+        1.  Not asked (N/A) for confidants already mentioned in baseline wave
+            (cf_pastcfyn=="YES":cf_pastcfyn).
+        2.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfdegreedoc             Is [NAME] working toward Doctoral or graduate professional degree (MD, Law)?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfdegreedoc, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  0/1206
+             unique mv codes:  1                       missing .*:  1107/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                  95         0  
+                                   4         1  
+                                1107        .c  NA
+      
+      cfdegreedoc:
+        1.  Not asked (N/A) for confidants already mentioned in baseline wave
+            (cf_pastcfyn=="YES":cf_pastcfyn).
+        2.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfdegreedk                                                      Is [NAME] working toward DON'T KNOW?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfdegreedk, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  0/1206
+             unique mv codes:  1                       missing .*:  1107/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                  95         0  
+                                   4         1  
+                                1107        .c  NA
+      
+      cfdegreedk:
+        1.  Not asked (N/A) for confidants already mentioned in baseline wave
+            (cf_pastcfyn=="YES":cf_pastcfyn).
+        2.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfdegreeref                                                        Is [NAME] working toward REFUSED?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfdegreeref, but 1 nonmissing value is not labeled
+      
+                       range:  [0,0]                        units:  1
+               unique values:  1                        missing .:  0/1206
+             unique mv codes:  1                       missing .*:  1107/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                  99         0  
+                                1107        .c  NA
+      
+      cfdegreeref:
+        1.  Not asked (N/A) for confidants already mentioned in baseline wave
+            (cf_pastcfyn=="YES":cf_pastcfyn).
+        2.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      confemployed                               Is [NAME] employed full time, part time, or not employed?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  confemployed
+      
+                       range:  [1,5]                        units:  1
+               unique values:  5                        missing .:  0/1206
+             unique mv codes:  2                       missing .*:  13/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 657         1  Employed full time (30 hours or
+                                                more a week)
+                                 228         2  Employed part time (less than 30
+                                                hours a week)
+                                 280         3  Not employed
+                                  24         4  Retired
+                                   4         5  IF VOLUNTEERED: on disability or
+                                                workmen’s comp
+                                  12        .a  DON'T KNOW
+                                   1        .b  REFUSED
+      
+      confemployed:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      confhisp                                                                         Is [NAME] Hispanic?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  confhisp
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  0/1206
+             unique mv codes:  1                       missing .*:  4/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                1145         0  NO
+                                  57         1  YES
+                                   4        .a  DON'T KNOW
+      
+      confhisp:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfraceblk                                                                       [NAME’S] race BLACK?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfraceblk, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  0/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                  56         0  
+                                1150         1  
+      
+      cfraceblk:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfracewht                                                                       [NAME’S] race WHITE?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfracewht, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  0/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                1166         0  
+                                  40         1  
+      
+      cfracewht:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfraceamerindn                                                        [NAME’S] race AMERICAN INDIAN?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfraceamerindn, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  0/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                1185         0  
+                                  21         1  
+      
+      cfraceamerindn:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfraceasian                                                 [NAME’S] race ASIAN OR PACIFIC ISLANDER?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfraceasian, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  0/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                1199         0  
+                                   7         1  
+      
+      cfraceasian:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfraceoth                                                       [NAME’S] race OTHER(PLEASE SPECIFY)?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfraceoth, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  0/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                1126         0  
+                                  80         1  
+      
+      cfraceoth:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfracedk                                                                   [NAME’S] race DON'T KNOW?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfracedk, but 2 nonmissing values are not labeled
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  0/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                1205         0  
+                                   1         1  
+      
+      cfracedk:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfraceref                                                                     [NAME’S] race REFUSED?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfraceref, but 1 nonmissing value is not labeled
+      
+                       range:  [0,0]                        units:  1
+               unique values:  1                        missing .:  0/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                1206         0  
+      
+      cfraceref:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfrace_othspec                                                        [NAME’S] other race [SPECIFY]?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  string (str28), but longest is str22
+      
+               unique values:  14                       missing "":  1192/1206
+      
+                  tabulation:  Freq.  Value
+                                1192  ""
+                                   1  "BELIEZIAN"
+                                   1  "Brazillian,Haitian"
+                                   1  "Egyptian"
+                                   1  "HATIAN"
+                                   1  "Iranian or Pakistani"
+                                   1  "Italian"
+                                   1  "JAMAICAN"
+                                   1  "Jamaican"
+                                   1  "NIGERIAN/DUTCH"
+                                   1  "Philippine"
+                                   1  "SOUTH AFRICAN/INDIAN"
+                                   1  "creole"
+                                   1  "from Ghana"
+                                   1  "light skinned not sure"
+      
+                     warning:  variable has embedded blanks
+      
+      cfrace_othspec:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      conflive                                                                     Where does [NAME] live?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  conflive
+      
+                       range:  [1,2]                        units:  1
+               unique values:  2                        missing .:  0/1206
+             unique mv codes:  2                       missing .*:  10/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 777         1  ENTER CROSS STREETS
+                                 419         2  NEIGHBORHOOD OR CITY/STATE
+                                   9        .a  DON'T KNOW
+                                   1        .b  REFUSED
+      
+      conflive:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      confjail                   Has [NAME] ever been detained, arrested, or spent time in jail or prison?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  confjail
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  0/1206
+             unique mv codes:  1                       missing .*:  27/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                1054         0  NO
+                                 125         1  YES
+                                  27        .a  DON'T KNOW
+      
+      confjail:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      fbconf                                                      Is [NAME] on your Facebook Friends List?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  fbconf
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  166/1206
+             unique mv codes:  3                       missing .*:  6/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 179         0  NO
+                                 855         1  YES
+                                 166         .  
+                                   5        .a  DON'T KNOW
+                                   1        .b  REFUSED
+      
+      fbconf:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfcommfreq_mod                                                                              MODIFIED
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfcommfreq_mod, but 1 nonmissing value is not labeled
+      
+                       range:  [1,10]                       units:  1
+               unique values:  9                        missing .:  0/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 376         1  Every day
+                                 320         2  Several times a week
+                                 325         3  Once a week
+                                 101         4  Once every two weeks
+                                  42         5  Once a month
+                                  34         6  A couple of times a year
+                                   6         7  Once a year
+                                   1         8  Less than once a year
+                                   1        10  
+      
+      cfcommfreq_mod:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfdata                                                         Respondent has Confidant Network Data
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfdata
+      
+                       range:  [1,1]                        units:  1
+               unique values:  1                        missing .:  0/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                1206         1  ALTER
+      
+      cfdata:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      confdad_conf                                                    Is [NAME] most like a Father to you?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  confdad_conf
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  0/1206
+             unique mv codes:  1                       missing .*:  1114/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                  63         0  NO
+                                  29         1  YES
+                                1114        .c  NA
+      
+      confdad_conf:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      confmom_conf                                                    Is [NAME] most like a Mother to you?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  confmom_conf
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  0/1206
+             unique mv codes:  1                       missing .*:  746/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 295         0  NO
+                                 165         1  YES
+                                 746        .c  NA
+      
+      confmom_conf:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      whomom_conf                                                             Mother/Mother Figure to you?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  whomom_conf
+      
+                       range:  [1,9]                        units:  1
+               unique values:  8                        missing .:  0/1206
+             unique mv codes:  1                       missing .*:  1041/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 135         1  Mother
+                                   1         2  Stepmother
+                                  14         3  Grandmother
+                                   1         4  Aunt
+                                   1         5  Foster mother
+                                   2         7  Older sister
+                                   1         8  House mother or play mother
+                                  10         9  Some other person (SPECIFY)
+                                1041        .c  NA
+      
+      whomom_conf:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      momsupport_conf                                How much emotional support from Mother/Mother Figure?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  momsupport_conf
+      
+                       range:  [1,4]                        units:  1
+               unique values:  4                        missing .:  0/1206
+             unique mv codes:  1                       missing .*:  1041/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                   3         1  1. Very un supportive
+                                   2         2  2. Somewhat un supportive
+                                  26         3  3. Somewhat supportive
+                                 134         4  4. Very supportive
+                                1041        .c  NA
+      
+      momsupport_conf:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      whodad_conf                                                             Father/Father Figure to you?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  whodad_conf
+      
+                       range:  [1,9]                        units:  1
+               unique values:  4                        missing .:  0/1206
+             unique mv codes:  1                       missing .*:  1177/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                  13         1  Father
+                                   2         2  Stepfather
+                                   7         8  House father or play father
+                                   7         9  Some other person (SPECIFY)
+                                1177        .c  NA
+      
+      whodad_conf:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      dadsupport_conf                                How much emotional support from Father/Father Figure?
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  dadsupport_conf
+      
+                       range:  [3,4]                        units:  1
+               unique values:  2                        missing .:  0/1206
+             unique mv codes:  1                       missing .*:  1177/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                   5         3  3. Somewhat supportive
+                                  24         4  4. Very supportive
+                                1177        .c  NA
+      
+      dadsupport_conf:
+        1.  CONFIDANT module
+      
+      ----------------------------------------------------------------------------------------------------
+      cfcommseveralxday                                                   Communicates Several Times a Day
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  cfcommseveralxday
+      
+                       range:  [0,0]                        units:  1
+               unique values:  1                        missing .:  0/1206
+      
+                  tabulation:  Freq.   Numeric  Label
+                                1206         0  NO
+      
+      cfcommseveralxday:
+        1.  g cfcommseveralxday = 0
+        2.  replace cfcommseveralxday = 1 if cfcommfreq=="Several times a day":cfcommfreq
+        3.  replace cfcommseveralxday = cfcommfreq if mi(cfcommfreq)
+        4.  CONFIDANT module

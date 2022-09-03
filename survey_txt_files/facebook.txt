@@ -1,0 +1,361 @@
+      
+                                             "FACEBOOK" CODEBOOK: 
+      
+      
+      
+      ----------------------------------------------------------------------------------------------------
+      su_id                                                                            ENTER SU_ID TO TEST
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  string (str8)
+      
+               unique values:  26                       missing "":  0/260
+      
+                    examples:  "11111256"
+                               "22222822"
+                               "22223000"
+                               "22223280"
+      
+      su_id:
+        1.  FACEBOOK module
+      
+      ----------------------------------------------------------------------------------------------------
+      fbalter                                                                                  (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (byte)
+      
+                       range:  [1,10]                       units:  1
+               unique values:  10                       missing .:  0/260
+      
+                  tabulation:  Freq.  Value
+                                  26  1
+                                  26  2
+                                  26  3
+                                  26  4
+                                  26  5
+                                  26  6
+                                  26  7
+                                  26  8
+                                  26  9
+                                  26  10
+      
+      fbalter:
+        1.  FACEBOOK module
+      
+      ----------------------------------------------------------------------------------------------------
+      fbaddwhen                                                                                (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (byte)
+                       label:  fbaddwhen
+      
+                       range:  [1,5]                        units:  1
+               unique values:  5                        missing .:  0/260
+             unique mv codes:  1                       missing .*:  42/260
+      
+                  tabulation:  Freq.   Numeric  Label
+                                  43         1  In the last month
+                                  58         2  In the past 6 months
+                                  46         3  In the past year
+                                  59         4  Over a year ago
+                                  12         5  Don’t remember
+                                  42        .a  DON'T KNOW
+      
+      fbaddwhen:
+        1.  Think back to when you became friends with {#name}. Approximately, how long ago did you become
+            friends with {#name}?
+        2.  FACEBOOK module
+      
+      ----------------------------------------------------------------------------------------------------
+      fbsex                                                                                    (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  string (str1)
+      
+               unique values:  2                        missing "":  2/260
+      
+                  tabulation:  Freq.  Value
+                                   2  ""
+                                  43  "f"
+                                 215  "m"
+      
+      fbsex:
+        1.  FACEBOOK module
+      
+      ----------------------------------------------------------------------------------------------------
+      fbage                                                                                    (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  string (str3)
+      
+               unique values:  33                       missing "":  69/260
+      
+                    examples:  ""
+                               "21"
+                               "24"
+                               "28"
+      
+      fbage:
+        1.  FACEBOOK module
+      
+      ----------------------------------------------------------------------------------------------------
+      fbcity                                                                                   (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  string (str15)
+      
+               unique values:  64                       missing "":  22/260
+      
+                    examples:  "chicago"
+                               "chicago"
+                               "chicago"
+                               "evergreen park"
+      
+                     warning:  variable has embedded blanks
+      
+      fbcity:
+        1.  FACEBOOK module
+      
+      ----------------------------------------------------------------------------------------------------
+      fbtpid                                                                                   (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  string (str27)
+      
+               unique values:  254                      missing "":  0/260
+      
+                    examples:  "9pMAGTcwKt78y58Zg19rudU3If4"
+                               "OEQuhsEhSRXPLdR7uJOVSKudhrY"
+                               "aVfEi1wpsB5aLbYpSQMe2gqTFRg"
+                               "lUaL6Z2cihYrGLl_NUQUVM7bb9M"
+      
+      fbtpid:
+        1.  FACEBOOK module
+      
+      ----------------------------------------------------------------------------------------------------
+      fbdropstillfriend                                                                        (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (byte)
+                       label:  fbdropstillfriend
+      
+                       range:  [.,.]                        units:  .
+               unique values:  0                        missing .:  260/260
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 260         .  
+      
+      fbdropstillfriend:
+        1.  FACEBOOK module
+      
+      ----------------------------------------------------------------------------------------------------
+      fbdroppriv                                                                               (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (byte)
+                       label:  fbdroppriv
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  109/260
+             unique mv codes:  2                       missing .*:  100/260
+      
+                  tabulation:  Freq.   Numeric  Label
+                                  15         0  NO
+                                  36         1  YES
+                                 109         .  
+                                 100        .a  DON'T KNOW
+      
+      fbdroppriv:
+        1.  [ IF NECESSARY, FI CAN SAY: It is possible that this person does not appear because of their
+            privacy settings.]
+        2.  FACEBOOK module
+      
+      ----------------------------------------------------------------------------------------------------
+      fb2sex                                                                                   (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  string (str1)
+      
+               unique values:  2                        missing "":  2/260
+      
+                  tabulation:  Freq.  Value
+                                   2  ""
+                                  51  "f"
+                                 207  "m"
+      
+      fb2sex:
+        1.  FACEBOOK module
+      
+      ----------------------------------------------------------------------------------------------------
+      fb2age                                                                                   (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  string (str2)
+      
+               unique values:  24                       missing "":  87/260
+      
+                    examples:  ""
+                               "20"
+                               "23"
+                               "26"
+      
+      fb2age:
+        1.  FACEBOOK module
+      
+      ----------------------------------------------------------------------------------------------------
+      fb2city                                                                                  (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  string (str21)
+      
+               unique values:  70                       missing "":  25/260
+      
+                    examples:  "chicago"
+                               "chicago"
+                               "chicago"
+                               "houston"
+      
+                     warning:  variable has embedded blanks
+      
+      fb2city:
+        1.  FACEBOOK module
+      
+      ----------------------------------------------------------------------------------------------------
+      fb2tpid                                                                                  (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  string (str27)
+      
+               unique values:  228                      missing "":  0/260
+      
+                    examples:  "CXJRn1Hf_wXufHt7wQg0yZ-togU"
+                               "QmvbMKlfQhKRXP72KNi5E9asmZY"
+                               "chODggD1VhH9HhObHrty41QtgnQ"
+                               "nAyvjXwnEYmdHbyXbAPrCebYDT0"
+      
+      fb2tpid:
+        1.  FACEBOOK module
+      
+      ----------------------------------------------------------------------------------------------------
+      fbyoudefriended                                                                          (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (byte)
+                       label:  fbyoudefriended
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  0/260
+             unique mv codes:  1                       missing .*:  66/260
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 130         0  NO
+                                  64         1  YES
+                                  66        .a  DON'T KNOW
+      
+      fbyoudefriended:
+        1.  {intro} We noticed that {#name} was on your Facebook friend list the last time we talked, but
+            they are not on your frien
+        2.  FACEBOOK module
+      
+      ----------------------------------------------------------------------------------------------------
+      fbyoudefriendedbc                                                                        (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  string (str244), but longest is str83
+      
+               unique values:  60                       missing "":  196/260
+      
+                    examples:  ""
+                               ""
+                               ""
+                               "Didn't know him"
+      
+                     warning:  variable has embedded blanks
+      
+      fbyoudefriendedbc:
+        1.  FACEBOOK module
+      
+      ----------------------------------------------------------------------------------------------------
+      fbdefriendedyou                                                                          (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (byte)
+                       label:  fbdefriendedyou
+      
+                       range:  [0,1]                        units:  1
+               unique values:  2                        missing .:  64/260
+             unique mv codes:  2                       missing .*:  115/260
+      
+                  tabulation:  Freq.   Numeric  Label
+                                  36         0  NO
+                                  45         1  YES
+                                  64         .  
+                                 115        .a  DON'T KNOW
+      
+      fbdefriendedyou:
+        1.  FACEBOOK module
+      
+      ----------------------------------------------------------------------------------------------------
+      fbdefriendedyoubc                                                                        (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  string (str244), but longest is str111
+      
+               unique values:  26                       missing "":  215/260
+      
+                    examples:  ""
+                               ""
+                               ""
+                               ""
+      
+                     warning:  variable has embedded blanks
+      
+      fbdefriendedyoubc:
+        1.  FACEBOOK module
+      
+      ----------------------------------------------------------------------------------------------------
+      fbchicago                                                                                (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (byte)
+      
+                       range:  [.,.]                        units:  .
+               unique values:  0                        missing .:  260/260
+      
+                  tabulation:  Freq.  Value
+                                 260  .
+      
+      fbchicago:
+        1.  FACEBOOK module
+      
+      ----------------------------------------------------------------------------------------------------
+      fbclose                                                                                  (unlabeled)
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (byte)
+      
+                       range:  [.,.]                        units:  .
+               unique values:  0                        missing .:  260/260
+      
+                  tabulation:  Freq.  Value
+                                 260  .
+      
+      fbclose:
+        1.  FACEBOOK module
+      
+      ----------------------------------------------------------------------------------------------------
+      fbdata                                                          Respondent has Facebook Network Data
+      ----------------------------------------------------------------------------------------------------
+      
+                        type:  numeric (double)
+                       label:  fbdata
+      
+                       range:  [1,1]                        units:  1
+               unique values:  1                        missing .:  0/260
+      
+                  tabulation:  Freq.   Numeric  Label
+                                 260         1  YES
+      
+      fbdata:
+        1.  FACEBOOK module
